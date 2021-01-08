@@ -1,0 +1,51 @@
+{
+  "id": "2304311",
+  "name": "知音漫客项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "2385600",
+      "name": "向左返回",
+      "font_class": "xiangzuofanhui",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "1279777",
+      "name": "留言",
+      "font_class": "liuyan",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "8139097",
+      "name": "心 爱心",
+      "font_class": "xinaixin",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16077331",
+      "name": "分 享",
+      "font_class": "fenxiang",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "89064",
+      "name": "搜索",
+      "font_class": "sousuo",
+      "unicode": "e60c",
+      "unicode_decimal": 58892
+    },
+    {
+      "icon_id": "5512500",
+      "name": "蒸包子",
+      "font_class": "zhengbaozi",
+      "unicode": "eab8",
+      "unicode_decimal": 60088
+    }
+  ]
+}
