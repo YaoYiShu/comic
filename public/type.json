@@ -1,0 +1,628 @@
+{
+  "status": 0,
+  "msg": "ok",
+  "data": {
+    "fix_dns_down_url": "https://a.app.qq.com/o/simple.jsp?pkgname=cn.zymk.comic",
+    "newest_version": "1707201677",
+    "pakege_url_rule": "http://down.zymk.cn/zymk_app/zymk_v1707201677_v4.2.5_$$.apk",
+    "update_title": "更新提醒",
+    "update_desc": "亲爱的馒头花卷们~<br>夏日炎炎，MK娘天天在家里吹着空调看最新《知音漫客》电子刊全本啦！<br>本次更新:<br>1.2.在看到最后一话的时候，MK娘会提示大人已经拉到最下面啦~还有更多精彩的漫画推荐哦！<br>3.专门为怠惰星人准备的新功能：自动阅读~解放你的双手！速度快慢由你决定~<br>4.看了新漫画手速太快了忘记订阅怎么办！在退出的时候现在有温馨提示是否订阅啦~超方便！<br>5.修复MK娘的小毛病~",
+    "auto_update": null,
+    "ip": {
+      "url": "http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js&ip={0}",
+      "region": "province\":\"([^\"]+)\"",
+      "city": "city\":\"([^\"]+)\""
+    },
+    "desktop_share": "http://api.zymk.cn/save_desktop/?title={0}&comicid={1}",
+    "iospublic": 0,
+    "comicdomain": "zymkcdn.com",
+    "coverpath": "https://image.zymkcdn.com/file/cover/{0}.jpg-300x400",
+    "newspath": "https://image.zymkcdn.com/file/news/{0}.jpg",
+    "bookpath": "https://image.zymkcdn.com/file/book/{0}.jpg",
+    "bookiconpath": "https://image.zymkcdn.com/file/bookicon/{0}.jpg",
+    "headpath": "https://image.zymkcdn.com/file/head/{0}.jpg",
+    "uploadpath": "https://image.zymkcdn.com/file/upload/{0}/{1}.jpg",
+    "dynamicimg": "https://image.zymkcdn.com/file/dynamicimg/{0}.jpg",
+    "comicpath": "https://mhpic.xiaomingtaiji.net/comic/",
+    "comic_definition": {
+      "low": "-zymk.low",
+      "middle": "-zymk.middle",
+      "high": "-zymk.high"
+    },
+    "comic_definition_webp": {
+      "low": "-zymk.low.webp",
+      "middle": "-zymk.middle.webp",
+      "high": "-zymk.high.webp"
+    },
+    "coverpath_webp": "https://image.zymkcdn.com/file/cover/{0}.jpg-300x400.webp",
+    "bannerpath": "https://image.zymkcdn.com/file/news/{0}.jpg-1920x560",
+    "sortpath": "https://image.zymkcdn.com/file/sort/{0}.png",
+    "openadpath": "https://image.zymkcdn.com/file/news/{0}.jpg-noresize",
+    "comic_cover_path": "https://image.zymkcdn.com/file/cover/{0}{1}",
+    "comic_cover_size": {
+      "m4x3": "_4_3.jpg-400x300.jpg",
+      "m3x4": "_3_4.jpg-300x400.jpg",
+      "l3x4": "_3_4.jpg-600x800.jpg",
+      "m2x1": "_2_1.jpg-720x360.jpg"
+    },
+    "comic_cover_size_webp": {
+      "m4x3": "_4_3.jpg-400x300.jpg.webp",
+      "m3x4": "_3_4.jpg-300x400.jpg.webp",
+      "l3x4": "_3_4.jpg-600x800.jpg.webp",
+      "m2x1": "_2_1.jpg-720x360.jpg.webp"
+    },
+    "comic_chapter_size": {
+      "l4x3": ".jpg-160x120.jpg",
+      "m2x1": ".jpg-300x150.jpg"
+    },
+    "image_size_suffix": {
+      "l4x3": ".jpg-160x120.jpg.webp",
+      "m2x1": ".jpg-300x150.jpg.webp",
+      "head": "-100x100.jpg.webp",
+      "default_webp": "-noresize.webp",
+      "low": "-vague.webp"
+    },
+    "mkxquser": "http://mkxq.zymk.cn/user/v1/",
+    "emoji": "http://emoji.yyhao.com/api/pkgs",
+    "discoverypath": "http://image.zymk.cn/file/discovery/{0}.png",
+    "giftpath": "http://image.zymk.cn/file/gift/{0}.png",
+    "rechargeprotocol": "http://m.zymk.cn/about/284.html?t=1",
+    "defaultueserheadimg": "http://image.zymkcdn.com/file/head/nologinheadimg.png",
+    "cnzz_siteid": "1261814609",
+    "cnzz_siteid_search": "1257506198",
+    "site_domain": "zymk.cn",
+    "account_threshold": 50,
+    "discoverypage": [
+      {
+        "id": 11,
+        "title": "Ta的动态",
+        "content": "我就静静看着ta",
+        "tips": "",
+        "url": "otherdynamic",
+        "type": 2
+      },
+      {
+        "id": 12,
+        "title": "书单",
+        "content": "大人快来宠幸“书妃”啦",
+        "tips": "",
+        "url": "book",
+        "type": 2
+      },
+      {
+        "id": 13,
+        "title": "漫画更新",
+        "content": "每日漫画大放送",
+        "tips": "",
+        "url": "updatetoday",
+        "type": 2
+      },
+      {
+        "id": 15,
+        "title": "任务",
+        "content": "任务提供大量成长值和金币哟",
+        "tips": "",
+        "url": "task",
+        "type": 2
+      },
+      {
+        "id": 17,
+        "title": "AR实景体验",
+        "content": "让虚拟和现实结合",
+        "tips": "",
+        "url": "ar",
+        "type": 2
+      },
+      {
+        "id": 18,
+        "title": "漫客商城",
+        "content": "",
+        "tips": "",
+        "url": "https://zymk.m.tmall.com/",
+        "type": 1
+      }
+    ],
+    "limitlevel": 3,
+    "comic_chapter_type": {
+      "1": "连载",
+      "2": "番外",
+      "3": "单行本",
+      "4": "定时"
+    },
+    "arpath": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/config/android/unity.json",
+    "arlib": [
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/armeabi-v7a/libmain.so",
+        "hash": "5c5bce9e980c259720da5393667ae713"
+      },
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/armeabi-v7a/libmono.so",
+        "hash": "784b62cfa593cb0fd448716a7c3fa45f"
+      },
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/armeabi-v7a/libunity.so",
+        "hash": "8b0bc3f4442481b116a7662592ef59b4"
+      },
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/x86/libmain.so",
+        "hash": "4c1dddbddaf57aab4278fd506081f2c1"
+      },
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/x86/libmono.so",
+        "hash": "5df4b57de9abe0ca1ec23f049d712f43"
+      },
+      {
+        "url": "http://mkz.oss-cn-hangzhou.aliyuncs.com/unity/abi/x86/libunity.so",
+        "hash": "0c97727adb5f201a7673426085f2e391"
+      }
+    ],
+    "share": {
+      "sina": "在知音漫客GET《{0}》，全程高能哟~{1} #知音漫客# @知音漫客app"
+    },
+    "log_type": {
+      "1": "登陆",
+      "2": "关注",
+      "3": "粉丝",
+      "4": "评分",
+      "5": "打赏",
+      "6": "评论",
+      "7": "收藏",
+      "8": "阅读",
+      "9": "推荐",
+      "10": "月票",
+      "11": "喜欢",
+      "12": "厌恶",
+      "13": "充值",
+      "14": "购买",
+      "15": "分享",
+      "16": "创建书单",
+      "17": "收藏书单",
+      "18": "分享书单",
+      "19": "书单被收藏",
+      "34": "星球",
+      "35": "星子"
+    },
+    "danmu_appid": "zW!z4sdm(f9",
+    "danmu_addr": "http://danmuapi.zymk.cn/barrage/v1/",
+    "openwindow": "redirect.htm",
+    "comic_type": [
+      {
+        "sort_group": "题材",
+        "data": [
+          {
+            "id": 5,
+            "name": "热血"
+          },
+          {
+            "id": 6,
+            "name": "搞笑"
+          },
+          {
+            "id": 7,
+            "name": "玄幻"
+          },
+          {
+            "id": 8,
+            "name": "生活"
+          },
+          {
+            "id": 9,
+            "name": "恋爱"
+          },
+          {
+            "id": 10,
+            "name": "动作"
+          },
+          {
+            "id": 11,
+            "name": "科幻"
+          },
+          {
+            "id": 12,
+            "name": "战争"
+          },
+          {
+            "id": 13,
+            "name": "悬疑"
+          },
+          {
+            "id": 14,
+            "name": "恐怖"
+          },
+          {
+            "id": 15,
+            "name": "校园"
+          },
+          {
+            "id": 16,
+            "name": "历史"
+          },
+          {
+            "id": 17,
+            "name": "穿越"
+          },
+          {
+            "id": 19,
+            "name": "体育"
+          },
+          {
+            "id": 20,
+            "name": "都市"
+          },
+          {
+            "id": 22,
+            "name": "漫改"
+          },
+          {
+            "id": 53,
+            "name": "修真"
+          },
+          {
+            "id": 62,
+            "name": "霸总"
+          },
+          {
+            "id": 63,
+            "name": "古风"
+          },
+          {
+            "id": 64,
+            "name": "游戏"
+          },
+          {
+            "id": 65,
+            "name": "真人"
+          },
+          {
+            "id": 66,
+            "name": "武侠"
+          }
+        ]
+      },
+      {
+        "sort_group": "进度",
+        "data": [
+          {
+            "id": 23,
+            "name": "连载"
+          },
+          {
+            "id": 24,
+            "name": "完结"
+          },
+          {
+            "id": 57,
+            "name": "短篇"
+          }
+        ]
+      },
+      {
+        "sort_group": "受众",
+        "data": [
+          {
+            "id": 25,
+            "name": "少男"
+          },
+          {
+            "id": 26,
+            "name": "少女"
+          },
+          {
+            "id": 27,
+            "name": "青年"
+          }
+        ]
+      },
+      {
+        "sort_group": "媒体",
+        "data": [
+          {
+            "id": 28,
+            "name": "知音漫客"
+          },
+          {
+            "id": 51,
+            "name": "漫客栈"
+          },
+          {
+            "id": 29,
+            "name": "神漫"
+          },
+          {
+            "id": 30,
+            "name": "飒漫画"
+          },
+          {
+            "id": 52,
+            "name": "飒漫乐画"
+          },
+          {
+            "id": 58,
+            "name": "其他"
+          }
+        ]
+      }
+    ],
+    "cache_time": 1800,
+    "temp_time": "20210111191609",
+    "noticetime": 60,
+    "coinrate": 1,
+    "ip_addr": "http://200019.ip138.com/",
+    "ossservice": "https://user-api.zymk.cn/",
+    "interfaceapi": {
+      "getconfig": "https://getconfig-globalapi.zymk.cn/app_api/v5/getconfig/",
+      "getrecommend": "https://getconfig-globalapi.zymk.cn/app_api/v5/getrecommend/",
+      "gethotsearch": "https://getconfig-globalapi.zymk.cn/app_api/v5/gethotsearch/",
+      "getsortlist_top": "https://getconfig-globalapi.zymk.cn/app_api/v5/getsortlist_top/",
+      "getsortlist_new": "https://getconfig-globalapi.zymk.cn/app_api/v5/getsortlist_new/",
+      "getsortlist": "https://getconfig-globalapi.zymk.cn/app_api/v5/getsortlist/",
+      "getappaddr": "https://getconfig-globalapi.zymk.cn/app_api/v5/getappaddr/",
+      "getadv": "https://getconfig-globalapi.zymk.cn/app_api/v5/getadv/",
+      "weixin_aes": "https://getconfig-globalapi.zymk.cn/app_api/v5/weixin_aes/",
+      "gethelplist": "https://getconfig-globalapi.zymk.cn/app_api/v5/gethelplist/",
+      "gethelpcontent": "https://getconfig-globalapi.zymk.cn/app_api/v5/gethelpcontent/",
+      "gettoken_danmu": "https://getconfig-globalapi.zymk.cn/app_api/v5/gettoken_danmu/",
+      "rankinglist": "https://getconfig-globalapi.zymk.cn/app_api/v5/rankinglist/",
+      "ios_idfa_insert": "https://getconfig-globalapi.zymk.cn/app_api/v5/ios_idfa_insert/",
+      "ios_idfa_search": "https://getconfig-globalapi.zymk.cn/app_api/v5/ios_idfa_search/",
+      "ios_yunju_click": "https://getconfig-globalapi.zymk.cn/app_api/v5/ios_yunju_click/",
+      "bwtrade": "https://api.zymk.cn/app_api/v5/bwtrade/",
+      "get_charge_result": "https://payorder.zymk.cn/app_api/v5/get_charge_result/",
+      "payerrors": "http://payorder.zymk.cn/v1/orders/payerrors",
+      "verify_order": "https://api.zymk.cn/app_api/v5/verify_order/",
+      "verify_order1": "https://api.zymk.cn/app_api/v5/verify_order1/",
+      "verify_order2": "https://api.zymk.cn/app_api/v5/verify_order2/",
+      "verify_order3": "https://api.zymk.cn/app_api/v5/verify_order3/",
+      "verify_order4": "https://api.zymk.cn/app_api/v5/verify_order4/",
+      "verify_order5": "https://api.zymk.cn/app_api/v5/verify_order5/",
+      "verify_order6": "https://api.zymk.cn/app_api/v5/verify_order6/",
+      "verify_order7": "https://api.zymk.cn/app_api/v5/verify_order7/",
+      "verify_order8": "https://api.zymk.cn/app_api/v5/verify_order8/",
+      "verify_order9": "https://api.zymk.cn/app_api/v5/verify_order9/",
+      "closeorder": "https://api.zymk.cn/app_api/v5/closeorder/",
+      "purchase_chapters": "https://userpurchased.zymk.cn/v1/userpurchased/paychapters/",
+      "purchase_chapters_coin": "https://userpurchased.zymk.cn/v1/userpurchased/paychapters/",
+      "get_purchased_chapters": "https://getconfig-globalapi.zymk.cn/app_api/v5/get_purchased_chapters/",
+      "advertise_free": "https://getconfig-globalapi.zymk.cn/app_api/v5/advertise_free/",
+      "get_purchase_records": "https://getconfig-globalapi.zymk.cn/app_api/v5/get_purchase_records/",
+      "getupdatecomic": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getupdatecomic/",
+      "getupdatecomic_list": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getupdatecomic_list/",
+      "getcomicinfo": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo/",
+      "getcomic": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomic/",
+      "getallcomic": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getallcomic/",
+      "addmonthticket": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/addmonthticket/",
+      "addgold": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/addgold/",
+      "addscore": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/addscore/",
+      "share": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/share/",
+      "updateview": "https://update-globalapi.zymk.cn/app_api/v5/updateview/",
+      "addrecommend": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/addrecommend/",
+      "getcomicinfo_simple": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo_simple/",
+      "getbookinfo": "https://switch.zymk.cn/redirect/more/",
+      "getbookpiazza_banner": "https://getconfig-globalapi.zymk.cn/app_api/v5/getbookpiazza_banner/",
+      "getbookpiazza_list": "https://getconfig-globalapi.zymk.cn/app_api/v5/getbookpiazza_list/",
+      "getuserinfo_book": "https://getconfig-globalapi.zymk.cn/app_api/v5/getuserinfo_book/",
+      "bookcover_tempfile": "https://getconfig-globalapi.zymk.cn/app_api/v5/bookcover_tempfile/",
+      "book_create": "https://getconfig-globalapi.zymk.cn/app_api/v5/book_create/",
+      "getbookinfo_user_center_head": "https://getconfig-globalapi.zymk.cn/app_api/v5/getbookinfo_user_center_head/",
+      "setbookheadinfo": "https://getconfig-globalapi.zymk.cn/app_api/v5/setbookheadinfo/",
+      "setbookinfo": "https://getconfig-globalapi.zymk.cn/app_api/v5/setbookinfo/",
+      "getbookinfo_user_center_body": "https://getconfig-globalapi.zymk.cn/app_api/v5/getbookinfo_user_center_body/",
+      "sharebook": "https://getconfig-globalapi.zymk.cn/app_api/v5/sharebook/",
+      "bookmark_create": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/bookmark_create/",
+      "bookmark_exsits": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/bookmark_exsits/",
+      "bookmark_maxnum": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/bookmark_maxnum/",
+      "bookmark_listbycomic": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/bookmark_listbycomic/",
+      "bookmark_remove": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/bookmark_remove/",
+      "horn_tenlistbycomic": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/horn_tenlistbycomic/",
+      "gift_giftslist": "https://getconfig-globalapi.zymk.cn/app_api/v5/gift_giftslist/",
+      "gift_givegifts": "https://getconfig-globalapi.zymk.cn/app_api/v5/gift_givegifts/",
+      "gift_effectslist": "https://getconfig-globalapi.zymk.cn/app_api/v5/gift_effectslist/",
+      "gift_givegiftslist": "https://getconfig-globalapi.zymk.cn/app_api/v5/gift_givegiftslist/",
+      "sign_signinfo": "https://getconfig-globalapi.zymk.cn/app_api/v5/sign_signinfo/",
+      "sign_signaction": "https://getconfig-globalapi.zymk.cn/app_api/v5/sign_signaction/",
+      "getlevelinfo": "https://getconfig-globalapi.zymk.cn/app_api/v5/getlevelinfo/",
+      "gettasktype": "https://getconfig-globalapi.zymk.cn/app_api/v5/gettasktype/",
+      "gettaskbytype": "https://getconfig-globalapi.zymk.cn/app_api/v5/gettaskbytype/",
+      "gettasklist": "https://getconfig-globalapi.zymk.cn/app_api/v5/gettasklist/",
+      "finish": "https://getconfig-globalapi.zymk.cn/app_api/v5/finish/",
+      "gettaskbytid": "https://getconfig-globalapi.zymk.cn/app_api/v5/gettaskbytid/",
+      "taskprize": "https://getconfig-globalapi.zymk.cn/app_api/v5/taskprize/",
+      "getuserinfo_gold": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_gold/",
+      "getauthorproduction": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getauthorproduction/",
+      "getuserattentionuserdynamic": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserattentionuserdynamic/",
+      "getuserattentions": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserattentions/",
+      "alluserlog": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/alluserlog/",
+      "allauthorlog": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/allauthorlog/",
+      "getuserbindinfo": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserbindinfo/",
+      "getuserinfo_usercenter_log": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_usercenter_log/",
+      "getuserinfo_fans_focus": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_fans_focus/",
+      "getuserinfo_ticket": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_ticket/",
+      "getuserinfo_id": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_id/",
+      "getuser": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuser/",
+      "binduser": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/binduser/",
+      "outlogin": "https://getconfig-globalapi.zymk.cn/app_api/v5/outlogin/",
+      "getuserinfo": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo/",
+      "logoffuser": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/logoffuser/",
+      "setuserinfo": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/setuserinfo/",
+      "getuserrecord": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserrecord/",
+      "adduserread": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/adduserread/",
+      "setusercollect": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/setusercollect/",
+      "deluserread": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/deluserread/",
+      "userfans": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/userfans/",
+      "unbinduser": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/unbinduser/",
+      "dynamicimageup": "https://getconfig-globalapi.zymk.cn/app_api/v5/dynamicimageup/",
+      "coin_account": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_account/",
+      "coin_mkcb": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_mkcb/",
+      "coin_details": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_details/",
+      "coin_buylogs": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_buylogs/",
+      "coin_goldandcoin": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/coin_goldandcoin/",
+      "getusermsg": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getusermsg/",
+      "getunreadnoticecount": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getunreadnoticecount/",
+      "getuserinfo_bookcenter": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getuserinfo_bookcenter/",
+      "getqrcodelgoin": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getqrcodelgoin/",
+      "getqrcodelgoin_notify": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getqrcodelgoin_notify/",
+      "GetIsUpgrade": "http://updateos.321mh.com/api/IsUpgrade/GetIsUpgrade/",
+      "getopensystem": "http://adserver.321mh.com/api/v1/advert/service/",
+      "getbookbytype": "https://switch.zymk.cn/redirect/",
+      "commentuser": "http://zy-service.zymk.cn/user/commentuser/",
+      "commentcount": "http://community-new.321mh.com/comment/count/",
+      "newcommentgets": "http://community-hots.321mh.com/comment/newgets/",
+      "newcommentgetcontent": "http://community-new.321mh.com/comment/getcontent/",
+      "newcommentcount": "http://community-new.321mh.com/comment/count/",
+      "newcommentadd": "http://community-new.321mh.com/v1/comment/add/",
+      "newcommentsupport": "http://community-new.321mh.com/comment/support/",
+      "newsensitive": "http://community-hots.321mh.com/sensitive/gets/",
+      "newcommentossauth": "http://community-new.321mh.com/oss/commentimage/",
+      "gethotscomment": "http://community-hots.321mh.com/v1/comment/gethotscomment/",
+      "newcommenthots": "http://community-hots.321mh.com/comment/hots/",
+      "newcommenthotlist": "http://community-hots.321mh.com/comment/hotlist/",
+      "newcommentnewgets": "http://community-hots.321mh.com/comment/newgets/",
+      "newcommentuser": "http://community-hots.321mh.com/user/commentuser/",
+      "universegetuniversenames": "http://community-new.321mh.com/universe/getuniversenames/",
+      "stargets": "http://community-new.321mh.com/star/gets/",
+      "stargetcontent": "http://community-new.321mh.com/star/getcontent/",
+      "starusercenter": "http://community-new.321mh.com/star/usercenter/",
+      "starstarnum": "http://community-new.321mh.com/star/starnum/",
+      "starhotsearchs": "http://community-new.321mh.com/star/hotsearchs/",
+      "starjoin": "http://community-new.321mh.com/star/join/",
+      "sensitivegets": "http://community-hots.321mh.com/sensitive/gets/",
+      "satelliteupdate": "http://community-hots.321mh.com/satellite/update/",
+      "satellitegets": "http://community-new.321mh.com/satellite/gets/",
+      "satelliteusercenter": "http://community-new.321mh.com/satellite/usercenter/",
+      "satellitesatellitenum": "http://community-new.321mh.com/satellite/satellitenum/",
+      "osscommunityimage": "http://community-new.321mh.com/oss/communityimage/",
+      "newcommentdel": "http://community-new.321mh.com/v1/comment/setzycommentstatus/",
+      "satelliteadd": "http://community-new.321mh.com/v1/satellite/addsatellite",
+      "satellitedel": "http://community-new.321mh.com/v1/satellite/deletezysatellite/",
+      "satellitesupport": "http://community-new.321mh.com/v1/satellite/zysupportsatellite/",
+      "newgettasksflag": "http://task-globalapi.321mh.com/task/newgettasksflag/",
+      "newfinishtask": "http://task-globalapi.321mh.com/task/newfinishtask/",
+      "gettasksflag": "http://task-globalapi.321mh.com/task/gettasksflag/",
+      "finishtask": "http://task-globalapi.321mh.com/task/finishtask/",
+      "verificationget": "http://community-new.321mh.com/verification/get/",
+      "verificationverify": "http://community-new.321mh.com/verification/verify/",
+      "accusationByType": "http://community-new.321mh.com/v1/accusation/accusationbytype",
+      "getAccusationImage": "http://community-new.321mh.com/v1/oss/accusationimage",
+      "getvipdetail": "https://getconfig-globalapi.zymk.cn/app_api/v5/getvipdetail/",
+      "getcomicinfo_charge_status": "https://getcomicinfo-globalapi.zymk.cn/app_api/v5/getcomicinfo_charge_status/",
+      "getreportconfig": "http://config.xndm.tech/zymk/",
+      "newadvertise": "https://adserver-ad.321mh.com/app/advertise/getappadvertise/",
+      "send_danmu": "http://barrage.321mh.com/barrage/v1/barrage/",
+      "receive_danmu": "http://barrage.321mh.com/barrage/v1/retrievebarragebychapter/",
+      "userpurchased_comics": "http://userpurchased.zymk.cn/v1/userpurchased/comics/",
+      "userpurchased_chapters": "http://userpurchased.zymk.cn/v1/userpurchased/chapters/",
+      "getadvertisemedia": "https://adserver-ad.321mh.com/app/advertise/getadvertisemedia/",
+      "get_union_products": "http://payorder.zymk.cn/app_api/v5/get_union_products",
+      "union_charge": "http://payorder.zymk.cn/app_api/v5/union_charge",
+      "get_vip_products": "https://payorder.zymk.cn/app_api/v5/get_vip_products/",
+      "get_charge_products": "https://payorder.zymk.cn/app_api/v5/get_charge_products/",
+      "vip_charge": "https://payorder.zymk.cn/app_api/v5/vip_charge/",
+      "vip_charge_ecy": "https://payorder.zymk.cn/app_api/v5/vip_charge_ecy/",
+      "user_charge": "https://payorder.zymk.cn/app_api/v5/user_charge/",
+      "user_charge_ecy": "https://payorder.zymk.cn/app_api/v5/user_charge_ecy/",
+      "apple_pay_return": "https://payorder.zymk.cn/app_api/v5/apple_pay_return/",
+      "apple_pay_app_return": "https://getconfig-globalapi.zymk.cn/app_api/v5/apple_pay_app_return_123/",
+      "mobilevclogin": "http://mkxq.zymk.cn/user/v1/mobilebind/",
+      "getusermobile": "https://getuserinfo-globalapi.zymk.cn/app_api/v5/getusermobile/",
+      "etracking_readtime": "http://logger.zymk.cn/v1/etracking/readtime",
+      "etracking_page": "http://logger.zymk.cn/v1/etracking/page",
+      "common_etracking": "http://logger.zymk.cn/v1/etracking/common",
+      "v2_logger_common": "http://logger.zymk.cn/v2/logger/common",
+      "v2_logger_page": "http://logger.zymk.cn/v2/logger/page",
+      "v2_logger_read": "http://logger.zymk.cn/v2/logger/read",
+      "doublereward": "http://task-globalapi.321mh.com/task/doublereward",
+      "directreward": "http://task-globalapi.321mh.com/task/directreward",
+      "auto_subscribe_charge": "https://payorder.zymk.cn/v1/orders/auto_subscribe_charge/",
+      "unsign_subscribe": "https://payorder.zymk.cn/v1/orders/unsign_subscribe/",
+      "getsubscribedetail": "https://payorder.zymk.cn/v1/orders/getsubscribedetail/",
+      "apple_app_subscribe": "https://payorder.zymk.cn/v2/notify/apple/app_subscribe/",
+      "sendsms": "https://sms.321mh.com/user/v1/sendsms",
+      "alipay_direct_notify": "https://payorder.zymk.cn/app_api/v5/alipay_direct_notify/",
+      "alipay_direct_return": "https://payorder.zymk.cn/app_api/v5/alipay_direct_return/",
+      "alipay_app_notify": "https://payorder.zymk.cn/app_api/v5/alipay_app_notify/",
+      "alipay_app_return": "https://payorder.zymk.cn/app_api/v5/alipay_app_return/",
+      "alipay_app_return_ecy": "https://payorder.zymk.cn/app_api/v5/alipay_app_return_ecy/",
+      "alipay_wap_notify": "https://payorder.zymk.cn/app_api/v5/alipay_wap_notify/",
+      "alipay_wap_return": "https://payorder.zymk.cn/app_api/v5/alipay_wap_return/",
+      "wxpay_app_notify": "https://payorder.zymk.cn/app_api/v5/wxpay_app_notify/",
+      "wxpay_native_notify": "https://payorder.zymk.cn/app_api/v5/wxpay_native_notify/",
+      "qqpay_app_notify": "https://payorder.zymk.cn/app_api/v5/qqpay_app_notify/"
+    },
+    "urlRewrite": [
+      {
+        "from": "zymk.cn/(\\d+)/$",
+        "to": "zymkapp://goto?page=dir&comic_id=$1",
+        "type": "regex"
+      },
+      {
+        "from": "zymk.cn/sort/all.html#(\\w+)",
+        "to": "zymkapp://goto?page=sortlist&comic_sort=$1",
+        "type": "regex"
+      },
+      {
+        "from": "m.zymk.cn/sort/all.html?key=(\\w+)",
+        "to": "zymkapp://goto?page=sortlist&comic_sort=$1",
+        "type": "regex"
+      },
+      {
+        "from": ".apk",
+        "to": "zymkapp://downLoad",
+        "type": "regex"
+      },
+      {
+        "from": "zymk.cn/(\\d+)/(\\d+).html",
+        "to": "zymkapp://goto?page=dir&comic_id=$1&chapter_id=$2",
+        "type": "regex"
+      }
+    ],
+    "tabindex": 0,
+    "wakeup_time": 3600,
+    "booktypes": [
+      {
+        "id": 68,
+        "name": "男版"
+      },
+      {
+        "id": 69,
+        "name": "女版"
+      }
+    ],
+    "bookimgurl": "http://image.zymkcdn.com/file/zymk_images/book/{0}.jpg",
+    "bookcomicurl": "http://image.zymkcdn.com/{0}",
+    "ios_pay_bind": "http://static.321mh.com/html/boundToPay/index.html?type=kmh",
+    "contactus": "http://static.321mh.com/html/contact/contact.html?type=kmh",
+    "contactQQ": 4006161961,
+    "task_desc": {
+      "guest": "",
+      "register": ""
+    },
+    "newcomments": 0,
+    "opencomments": 1,
+    "is_send_uid": 1,
+    "recommend_pagesize": 10,
+    "product_appkey": "UqmbVYYnOmWWyDcxsHHVooNXuHmoYWvrpVgtAv0jgVSKBkE9DQQGQRi8sNIBFjByaX7kK0e/lTK8ozs63EcXEw==",
+    "comment_appid": 11,
+    "app_share_url": "https://activity.zymk.cn/app/",
+    "adv_appid": {
+      "tt_adv_appid": "5094071",
+      "gdt_adv_appid": "1107854881",
+      "ks_adv_appid": "528000001"
+    },
+    "user_agreement": "https://static.321mh.com/html/h5/index.html?id=3",
+    "ysxy": "https://static.321mh.com/html/h5/index.html?id=6",
+    "userbook_turn": 0,
+    "close_one_login": 0,
+    "union_vip": {
+      "title": "月卡",
+      "desc": "知音漫客VIP+爱奇艺FUN会员",
+      "price": 32,
+      "old_price": 39.8,
+      "url": "http://shareact.womanhua.com/2020/zymk_aqiyi/?pName=zymk"
+    },
+    "union_vip_desc": "https://shareact.womanhua.com/2020/zymk_aqiyi/rule",
+    "subscribe_rule": "https://static.321mh.com/html/h5/index.html?id=97",
+    "subscribe_desc": "https://static.321mh.com/html/h5/index.html?id=98"
+  },
+  "user_agreement": "https://static.321mh.com/html/h5/index.html?id=3",
+  "ysxy": "https://static.321mh.com/html/h5/index.html?id=6"
+}

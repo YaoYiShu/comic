@@ -1,7 +1,11 @@
 <template>
   <div class="nav">
     <!-- 返回 -->
-    <van-button square color="#fc6454" to="/">返回</van-button>
+    <slot name="left">
+      <van-button square color="#fc6454" @click.stop="toWhere(path)">
+        <span class="iconfont icon-xiangzuofanhui"></span>
+      </van-button>
+    </slot>
 
     <slot name="center"></slot>
 
@@ -22,11 +26,31 @@
     </van-tabs> -->
 
     <!-- 点击搜索 -->
-    <van-button square color="#fc6454">搜索</van-button>
+    <slot name="right">
+      <van-button square color="#fc6454" to="/search">
+        <span class="iconfont icon-sousuo"></span>
+      </van-button>
+    </slot>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  props: ['path'],
+  methods: {
+    toWhere(res) {
+      console.log(res);
+      if (res == -1) {
+        this.$router.go(-1);
+      }
+      if (res == '/') {
+        this.$router.push(res);
+      }
+      if (res == '/type') {
+        this.$router.push(res);
+      }
+    }
+  }
+};
 </script>
 
 <style lang="less">

@@ -2,6 +2,6 @@
   width: 115px !important;
 }
 .van-grid {
-  width: 115px;
+  min-width: 98px;
   padding-left: 10px;
 }

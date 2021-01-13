@@ -6,6 +6,69 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "10566055",
+      "name": "暂停",
+      "font_class": "pause",
+      "unicode": "e68e",
+      "unicode_decimal": 59022
+    },
+    {
+      "icon_id": "1730174",
+      "name": "播放",
+      "font_class": "play",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "12079318",
+      "name": "目录",
+      "font_class": "mulu",
+      "unicode": "e779",
+      "unicode_decimal": 59257
+    },
+    {
+      "icon_id": "18503792",
+      "name": "设 置",
+      "font_class": "shezhi",
+      "unicode": "e616",
+      "unicode_decimal": 58902
+    },
+    {
+      "icon_id": "897216",
+      "name": "直播_标清框",
+      "font_class": "low",
+      "unicode": "e67c",
+      "unicode_decimal": 59004
+    },
+    {
+      "icon_id": "897219",
+      "name": "直播_高清框",
+      "font_class": "middle",
+      "unicode": "e67f",
+      "unicode_decimal": 59007
+    },
+    {
+      "icon_id": "934150",
+      "name": "直播_超清框",
+      "font_class": "high",
+      "unicode": "e68c",
+      "unicode_decimal": 59020
+    },
+    {
+      "icon_id": "11821640",
+      "name": "亮度-",
+      "font_class": "light",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    },
+    {
+      "icon_id": "5230118",
+      "name": "new",
+      "font_class": "new",
+      "unicode": "e612",
+      "unicode_decimal": 58898
+    },
+    {
       "icon_id": "2385600",
       "name": "向左返回",
       "font_class": "xiangzuofanhui",

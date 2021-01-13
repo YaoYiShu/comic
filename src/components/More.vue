@@ -17,18 +17,17 @@
       <div class="content">介绍</div>
     </div>
     <ul class="list">
-      <li class="item" v-for="(item, index) in book.comic_info" :key="index">
-        <!-- <van-image
-          :src="
-            'https://image.zymkcdn.com/file/cover/000/00' +
-              formatId(item.comic_id) +
-              '.jpg'
-          "
-        >
-          <span class="icon-xing">{{
-            book.comic_info[index].pingfen | pingfen
-          }}</span>
-        </van-image> -->
+      <li
+        class="item"
+        v-for="(item, index) in book.comic_info"
+        :key="index"
+        @click="
+          $router.push({
+            path: '/comicDetails',
+            query: { id: item.comic_id }
+          })
+        "
+      >
         <VanImage
           :item="item"
           :book="book"

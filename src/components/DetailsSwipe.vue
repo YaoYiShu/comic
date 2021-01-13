@@ -42,6 +42,9 @@ export default {
 .van-grid {
   padding-right: 10px;
 }
+.van-swipe-item {
+  width: 115px !important;
+}
 img {
   width: 100%;
   height: 100%;

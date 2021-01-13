@@ -1,7 +1,7 @@
 <template>
+  <!-- :width="115" -->
   <van-swipe
     class="my-swipe reset-swipe"
-    :width="115"
     :loop="false"
     :show-indicators="false"
   >
@@ -40,12 +40,11 @@ export default {
   display: flex;
   justify-content: space-between;
   flex-flow: wrap;
-  .van-swipe-item {
-    .van-grid {
-      width: 115px !important;
-      // margin: 0 10px;
-    }
-  }
+  // .van-swipe-item {
+  //   .van-grid {
+  //     width: 115px !important;
+  //   }
+  // }
   .comic_name {
     font-size: 14px;
     display: -webkit-box;

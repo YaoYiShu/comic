@@ -1,16 +1,10 @@
 <template>
   <div id="app">
     <div id="nav"></div>
-    <keep-alive>
-      <router-view></router-view>
-    </keep-alive>
+    <!-- <keep-alive> -->
+    <router-view></router-view>
+    <!-- </keep-alive> -->
     <!-- 底部标签栏 -->
-    <!-- <van-tabbar v-model="active">
-      <van-tabbar-item icon="home-o">标签</van-tabbar-item>
-      <van-tabbar-item icon="search">标签</van-tabbar-item>
-      <van-tabbar-item icon="friends-o">标签</van-tabbar-item>
-      <van-tabbar-item icon="setting-o">标签</van-tabbar-item>
-    </van-tabbar> -->
   </div>
 </template>
 <script>
@@ -23,11 +17,26 @@ export default {
 };
 </script>
 
-<style>
+<style lang="less">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  // overflow-x: scroll;
+  overflow: scroll;
+  /* overflow-y: hidden; */
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+// html::-webkit-scrollbar,
+// body::-webkit-scrollbar {
+// }
 </style>

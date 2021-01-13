@@ -1,6 +1,6 @@
 <template>
   <div class="search">
-    <Nav>
+    <Nav :path="-1">
       <!-- 中间的搜索框 -->
       <van-search
         v-model.trim="message"
@@ -180,7 +180,7 @@ export default {
         this.hotTitle = res.data.list;
       });
     },
-    
+
     // 保存记录为缓存
     saveRecord() {
       localStorage.zymkRecord = JSON.stringify(this.recordMsg);
