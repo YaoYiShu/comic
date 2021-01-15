@@ -1,3 +1,6 @@
+// 20210113154501
+// http://47.96.230.56/json/suggest/comic_json_v8_69_1
+
 {
   "status": 0,
   "msg": "ok",
@@ -36,8 +39,8 @@
     ],
     "book": [
       {
-        "book_id": 6000006,
-        "title": "「创意不停」漫画天天更新",
+        "book_id": 7000036,
+        "title": "【流行精品】",
         "config": {
           "isshowtitle": 1,
           "order_type": 1,
@@ -51,207 +54,207 @@
         },
         "comic_info": [
           {
-            "content": "乡村少年离开村子寻找真正的强者",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 4541,
-            "comic_name": "伏天圣主",
-            "total_view_num": 6624527,
+            "content": "女法医穿越遇中药王爷",
+            "comic_type": ["恋爱", "穿越", "连载"],
+            "comic_id": 2563,
+            "comic_name": "法医狂妃",
+            "total_view_num": 16492045,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "242话 左右为男！"
+          },
+          {
+            "content": "招惹了我你还想逃？",
+            "comic_type": ["恋爱", "霸总", "穿越"],
+            "comic_id": 2504,
+            "comic_name": "盛世宠婚：老婆你别跑",
+            "total_view_num": 14789800,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "78话 "
+          },
+          {
+            "content": "大唐第一女神探",
+            "comic_type": ["恋爱", "悬疑", "古风"],
+            "comic_id": 2446,
+            "comic_name": "簪中录",
+            "total_view_num": 16421408,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "停更公告"
+          },
+          {
+            "content": "帝少被丫头当了解药",
+            "comic_type": ["生活", "恋爱", "都市"],
+            "comic_id": 2552,
+            "comic_name": "只对你臣服",
+            "total_view_num": 23475143,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "灰姑娘的逆袭之路",
+            "comic_type": ["恋爱", "生活", "霸总"],
+            "comic_id": 2564,
+            "comic_name": "狂拽小妻",
+            "total_view_num": 10153374,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "2季43话 我们也合体吧~"
+            "last_comic_chapter_name": "最终话 我们的婚礼"
           },
           {
-            "content": "点蜡烛，挖鸡肉，见人就开干",
-            "comic_type": ["热血", "都市", "游戏"],
-            "comic_id": 4578,
-            "comic_name": "法师传奇",
-            "total_view_num": 652056,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "45话 围攻"
-          },
-          {
-            "content": "四个男大学生的沙雕同居日常",
-            "comic_type": ["生活", "搞笑", "校园"],
-            "comic_id": 4557,
-            "comic_name": "男生宿舍303",
-            "total_view_num": 1161488,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "100话 好孩子不要打架（2）"
-          },
-          {
-            "content": "修无上传承，凝最强武魂，傲视九霄",
-            "comic_type": ["玄幻", "热血", "修真"],
-            "comic_id": 4581,
-            "comic_name": "绝世武魂",
-            "total_view_num": 2671272,
+            "content": "被劈腿坑入婚姻的坟墓",
+            "comic_type": ["生活", "恋爱", "都市"],
+            "comic_id": 2503,
+            "comic_name": "狼性总裁的魅惑新娘",
+            "total_view_num": 6472367,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "41话 血祭"
+            "last_comic_chapter_name": "1月2日请假条 "
           },
           {
-            "content": "铸剑平凡少年裴烈的刀神传奇",
-            "comic_type": ["古风", "武侠", "热血"],
-            "comic_id": 3418,
-            "comic_name": "藏锋行",
-            "total_view_num": 2326561,
+            "content": "说着负责又消失无踪",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 2553,
+            "comic_name": "恶魔总统请放手",
+            "total_view_num": 8217280,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 大结局-我们都会幸福的"
+          },
+          {
+            "content": "当你情人，我没兴趣",
+            "comic_type": ["恋爱", "都市", "完结"],
+            "comic_id": 2557,
+            "comic_name": "甜心宝贝休想逃",
+            "total_view_num": 16123047,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "172话 最美的结局"
+          },
+          {
+            "content": "是暧昧还是爱？",
+            "comic_type": ["恋爱", "科幻", "都市"],
+            "comic_id": 2525,
+            "comic_name": "完美恋人之末世少将求放过",
+            "total_view_num": 6638402,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "108话 仇人见面"
+            "last_comic_chapter_name": "1季最终话"
           },
           {
-            "content": "互坑兄妹的相爱相杀日常",
-            "comic_type": ["生活", "校园", "搞笑"],
-            "comic_id": 4577,
-            "comic_name": "快把我哥带走",
-            "total_view_num": 2831204,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "175话 "
-          },
-          {
-            "content": "觉醒祖神之火，为了部落的荣耀！",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 4380,
-            "comic_name": "最强原始人",
-            "total_view_num": 1897948,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "62话 炎族的火焰决不熄灭！"
-          },
-          {
-            "content": "这个世界靠做饭就能无敌？",
-            "comic_type": ["热血", "玄幻", "穿越"],
-            "comic_id": 4518,
-            "comic_name": "无主之灵",
-            "total_view_num": 2462684,
+            "content": "受虐女的反击",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 2513,
+            "comic_name": "这个总裁有点残",
+            "total_view_num": 12645762,
             "pingfen": 94,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "95话 格局"
+            "last_comic_chapter_name": "143话"
           },
           {
-            "content": "与叶罗丽战士一起并肩作战吧！",
-            "comic_type": ["玄幻", "恋爱", "漫改"],
-            "comic_id": 4254,
-            "comic_name": "精灵梦叶罗丽",
-            "total_view_num": 1000677,
-            "pingfen": 90,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "68话 一起打怪兽"
-          },
-          {
-            "content": "佤族少年的秘境冒险传奇即将拉开帷幕",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 4192,
-            "comic_name": "三木落",
-            "total_view_num": 178384,
-            "pingfen": 89,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "17话1"
-          },
-          {
-            "content": "斩神屠仙，少年不败热血！",
-            "comic_type": ["玄幻", "热血", "动作"],
-            "comic_id": 4531,
-            "comic_name": "青帝传",
-            "total_view_num": 2170357,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "68话 血月将起"
-          },
-          {
-            "content": "拯救人类文明的福音，还是灭世的挽歌",
-            "comic_type": ["热血", "科幻", "战争"],
-            "comic_id": 3835,
-            "comic_name": "千穹",
-            "total_view_num": 216483,
-            "pingfen": 92,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "88话 斩金截玉"
-          },
-          {
-            "content": "神仙妖怪，来到当代",
-            "comic_type": ["搞笑", "生活", "连载"],
-            "comic_id": 1388,
-            "comic_name": "非人哉",
-            "total_view_num": 29200301,
+            "content": "真相迷失在阴谋旋涡",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 2491,
+            "comic_name": "深海危情",
+            "total_view_num": 21459421,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "648话 来都来了，放下点东西再走吧"
+            "last_comic_chapter_name": "五一新作来袭"
           },
           {
-            "content": "娱乐圈倒霉男明星，我的女友是聚宝盆",
-            "comic_type": ["恋爱", "都市", "玄幻"],
-            "comic_id": 4448,
-            "comic_name": "盆然星动",
-            "total_view_num": 1777556,
+            "content": "订婚前夜，被害入狱",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 2506,
+            "comic_name": "权少的隐婚小甜妻",
+            "total_view_num": 7131981,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "76话 "
+          },
+          {
+            "content": "回归霸总势要夺爱",
+            "comic_type": ["生活", "恋爱", "都市"],
+            "comic_id": 2618,
+            "comic_name": "隐婚蜜爱：偏执老公宠上瘾",
+            "total_view_num": 5880105,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "95话 自己的想法"
+            "last_comic_chapter_name": "最终话 "
           },
           {
-            "content": "这一世，她要手刃仇人，拥有锦绣人生！",
-            "comic_type": ["恋爱", "漫改", "古风"],
-            "comic_id": 4356,
-            "comic_name": "九阙风华",
-            "total_view_num": 5425526,
-            "pingfen": 97,
+            "content": "暗恋花心男神大作战",
+            "comic_type": ["恋爱", "都市", "生活"],
+            "comic_id": 2530,
+            "comic_name": "追夫36计：老公，来战！",
+            "total_view_num": 11230449,
+            "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "116话 投名状"
+            "last_comic_chapter_name": "277话 午餐愉快"
           },
           {
-            "content": "当渣男猎人遇上渣男总裁之后",
+            "content": "霸道总裁的嫩模娇妻",
             "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 2742,
-            "comic_name": "渣男总裁别想逃",
-            "total_view_num": 17736289,
+            "comic_id": 2529,
+            "comic_name": "顾少的超模新妻",
+            "total_view_num": 9448152,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "263话 这是一个真正可怕的女人！"
+            "last_comic_chapter_name": "157话 "
           },
           {
-            "content": "大学生青年成为了花仙传人？",
-            "comic_type": ["热血", "玄幻", "都市"],
-            "comic_id": 4165,
-            "comic_name": "最强桃花运",
-            "total_view_num": 11920682,
-            "pingfen": 96,
+            "content": "御姐当上总裁保镖",
+            "comic_type": ["生活", "恋爱", "完结"],
+            "comic_id": 2545,
+            "comic_name": "总裁保镖很御姐",
+            "total_view_num": 3450482,
+            "pingfen": 94,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "153话 高端绿茶的操作？？？"
+            "last_comic_chapter_name": "80话"
           },
           {
-            "content": "我的男神竟然会变成小婴儿！",
-            "comic_type": ["搞笑", "玄幻", "校园"],
-            "comic_id": 4162,
-            "comic_name": "变身诅咒",
-            "total_view_num": 1745822,
-            "pingfen": 96,
+            "content": "灰姑娘逆袭成男神？",
+            "comic_type": ["恋爱", "生活", "都市"],
+            "comic_id": 2617,
+            "comic_name": "今天开始做男神",
+            "total_view_num": 4342505,
+            "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "284话 下雪祸首"
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "血族人类的搞笑三角恋",
+            "comic_type": ["恋爱", "搞笑", "玄幻"],
+            "comic_id": 2540,
+            "comic_name": "蔷薇恋人",
+            "total_view_num": 3011380,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
           }
         ]
       },
       {
-        "book_id": 2000107,
+        "book_id": 2017213,
         "title": "「精品」独家精品私人定制",
         "config": {
           "isshowtitle": 1,
@@ -285,7 +288,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "124话 狂龙天怒！"
+            "last_comic_chapter_name": "125话 初炼二纹灵丹！"
           },
           {
             "content": "看斗罗演绎血雨腥风儿女情更长",
@@ -296,18 +299,7 @@
             "pingfen": 98,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "732话 繁星点点2"
-          },
-          {
-            "content": "少年执笔，龙蛇舞动！",
-            "comic_type": ["玄幻", "热血", "武侠"],
-            "comic_id": 1966,
-            "comic_name": "元尊",
-            "total_view_num": 162857303,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "283话下 秦陵"
+            "last_comic_chapter_name": "733话 勇敢向前1"
           },
           {
             "content": "她穿越而来，回眸一笑，天下风云乱！",
@@ -317,8 +309,8 @@
             "total_view_num": 1675209162,
             "pingfen": 97,
             "url": "",
-            "img_url": "file/zymk_images/book/000/000/107/3116322.jpg",
-            "last_comic_chapter_name": "419话 背道而驰4(1)"
+            "img_url": "",
+            "last_comic_chapter_name": "420话 背道而驰4(2)"
           },
           {
             "content": "废材少年因祸得福得逆天功法",
@@ -329,18 +321,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "146话 这就是你的绝招？"
-          },
-          {
-            "content": "妖神一出，谁与争锋",
-            "comic_type": ["热血", "玄幻", "搞笑"],
-            "comic_id": 857,
-            "comic_name": "妖神记",
-            "total_view_num": 484885756,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "309话1 金蛋的灵魂烙印"
+            "last_comic_chapter_name": "149话 你怕不是一个傻子吧！"
           },
           {
             "content": "穿越成小萝莉成为王的女儿   ",
@@ -351,7 +332,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "250话 是谁下的毒"
+            "last_comic_chapter_name": "251话 哄弟弟"
           },
           {
             "content": "萌萌哒小公主励志要做女王大人",
@@ -373,18 +354,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "2季64话 尘埃落定1"
-          },
-          {
-            "content": "万道争锋，吾为大主宰",
-            "comic_type": ["热血", "玄幻", "修真"],
-            "comic_id": 2392,
-            "comic_name": "斗破苍穹之大主宰",
-            "total_view_num": 117598168,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "416话 人质"
+            "last_comic_chapter_name": "2季65话 尘埃落定2"
           },
           {
             "content": "你与暴富只差一个做梦的距离~",
@@ -406,7 +376,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "118话 就算你后悔我也不会停"
+            "last_comic_chapter_name": "周末开奖·第一期 "
           },
           {
             "content": "妈咪，这个男人可以当我爹地吗",
@@ -417,24 +387,57 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "241话 “温馨”的一家"
+            "last_comic_chapter_name": "243话 棘手的问题"
           },
           {
-            "content": "",
-            "comic_type": ["热血", "玄幻", "修真"],
-            "comic_id": 584,
-            "comic_name": "神印王座",
-            "total_view_num": 370438625,
+            "content": "现代与未来的羁绊，穿越时空的缱绻爱恋",
+            "comic_type": ["穿越", "恋爱", "战争"],
+            "comic_id": 100,
+            "comic_name": "穿越西元3000后",
+            "total_view_num": 1960568500,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "735话 黑色舞蹈1"
+          },
+          {
+            "content": "他，成为了地球最强的男人！",
+            "comic_type": ["玄幻", "都市", "修真"],
+            "comic_id": 3782,
+            "comic_name": "我是大仙尊",
+            "total_view_num": 34228950,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "517话 十大君王（上）"
+            "last_comic_chapter_name": "264话 王家请求，拳赛在即"
+          },
+          {
+            "content": "看赤霄君古天狼如何报仇雪恨！",
+            "comic_type": ["热血", "玄幻", "古风"],
+            "comic_id": 4013,
+            "comic_name": "尊上",
+            "total_view_num": 20721087,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "170话 都给我动手！"
+          },
+          {
+            "content": "“焚天煮酒修罗道，杀尽天下猪狗辈！”",
+            "comic_type": ["玄幻", "修真", "古风"],
+            "comic_id": 3693,
+            "comic_name": "逆天剑神",
+            "total_view_num": 38241843,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "337话 不哭重伤，束手无策"
           }
         ]
       },
       {
-        "book_id": 2130726,
-        "title": "「玄幻」傲视天下谁与争锋",
+        "book_id": 7000006,
+        "title": "「创意不停」漫画天天更新",
         "config": {
           "isshowtitle": 1,
           "order_type": 1,
@@ -448,37 +451,70 @@
         },
         "comic_info": [
           {
-            "content": "天才少年逆天崛起，成就一代丹武至尊",
-            "comic_type": ["玄幻", "热血", "修真"],
-            "comic_id": 4587,
-            "comic_name": "丹武至尊",
-            "total_view_num": 3546092,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 身世真相"
-          },
-          {
-            "content": "踏上一剑通天的强者之路！",
-            "comic_type": ["修真", "玄幻", "热血"],
-            "comic_id": 4536,
-            "comic_name": "剑道凌天",
-            "total_view_num": 9118670,
+            "content": "乡村少年离开村子寻找真正的强者",
+            "comic_type": ["热血", "玄幻", "动作"],
+            "comic_id": 4541,
+            "comic_name": "伏天圣主",
+            "total_view_num": 6624527,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "107话 我才不担心他"
+            "last_comic_chapter_name": "2季45话 这位副堂主看着眼熟！"
           },
           {
-            "content": "看狐族少女修炼成精，站上顶端！",
-            "comic_type": ["玄幻", "恋爱", "穿越"],
-            "comic_id": 4411,
-            "comic_name": "狐妃,别惹我",
-            "total_view_num": 7855293,
+            "content": "花钱败家做纨绔子弟走上人生巅峰！",
+            "comic_type": ["穿越", "历史", "后宫"],
+            "comic_id": 3761,
+            "comic_name": "极品败家子",
+            "total_view_num": 16906009,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "191话 有容乃大"
+          },
+          {
+            "content": "狼群孤女变身特工，独步宫廷！",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 2732,
+            "comic_name": "狼少女养成记",
+            "total_view_num": 10276296,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "后记2 后续之事（中）"
+            "last_comic_chapter_name": "267话 本王不会放过你"
+          },
+          {
+            "content": "神豪系统带你体验被逼花钱的‘痛苦’",
+            "comic_type": ["搞笑", "恋爱", "都市"],
+            "comic_id": 4093,
+            "comic_name": "今天开始当首富",
+            "total_view_num": 11853194,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "175话 你懂了，你又懂了？！"
+          },
+          {
+            "content": "金牌女特工重生为修仙小师妹",
+            "comic_type": ["恋爱", "穿越", "连载"],
+            "comic_id": 4549,
+            "comic_name": "王妃的修仙指南",
+            "total_view_num": 4031800,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "81话 合谋干坏事儿"
+          },
+          {
+            "content": "生逢民国乱世，却被少帅宠上天！",
+            "comic_type": ["恋爱", "生活", "都市"],
+            "comic_id": 4440,
+            "comic_name": "少帅,你老婆要翻天!",
+            "total_view_num": 5247034,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "106话 我永远是你的后盾"
           },
           {
             "content": "揽美人收萌宠，开启最强妖皇之路",
@@ -489,29 +525,189 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "57话 大势初成，再遇危机"
+            "last_comic_chapter_name": "小乐家输入法皮肤上线 "
           },
           {
-            "content": "一少年，一血剑，几多红颜",
-            "comic_type": ["玄幻", "修真", "热血"],
-            "comic_id": 4569,
-            "comic_name": "极武玄帝",
-            "total_view_num": 7802061,
-            "pingfen": 94,
+            "content": "少年执笔，龙蛇舞动！",
+            "comic_type": ["玄幻", "热血", "武侠"],
+            "comic_id": 1966,
+            "comic_name": "元尊",
+            "total_view_num": 162857303,
+            "pingfen": 98,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "105话"
+            "last_comic_chapter_name": "285话上 周元碾压"
           },
           {
-            "content": "手机微信发生变异，升级开挂任意选！",
-            "comic_type": ["玄幻", "都市", "修真"],
-            "comic_id": 4562,
-            "comic_name": "超级微信",
-            "total_view_num": 12967980,
+            "content": "女人，江山是你的，你是我的",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4564,
+            "comic_name": "痴傻毒妃不好惹",
+            "total_view_num": 6124589,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "118话 参加婚礼"
+            "last_comic_chapter_name": "130话"
+          },
+          {
+            "content": "我想要你的幸运值，所以我可以亲你吗？",
+            "comic_type": ["恋爱", "都市", "生活"],
+            "comic_id": 4553,
+            "comic_name": "假戏真做",
+            "total_view_num": 5147261,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "83话 你该不会还喜欢我吧？"
+          },
+          {
+            "content": "女友变成丧尸了怎么办？",
+            "comic_type": ["热血", "动作", "都市"],
+            "comic_id": 4155,
+            "comic_name": "我的守护女友",
+            "total_view_num": 22815918,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "184话 "
+          },
+          {
+            "content": "当我好好欺负？看我携萌娃回归再逆袭",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4297,
+            "comic_name": "拐个妈咪带回家",
+            "total_view_num": 17041269,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "316话 亲姐妹"
+          },
+          {
+            "content": "修无上传承，凝最强武魂，傲视九霄",
+            "comic_type": ["玄幻", "热血", "修真"],
+            "comic_id": 4581,
+            "comic_name": "绝世武魂",
+            "total_view_num": 2671272,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "42话 及时赶到"
+          },
+          {
+            "content": "被霸道总裁狠狠宠爱的威武辣妈",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4268,
+            "comic_name": "天才酷宝",
+            "total_view_num": 4616887,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "127话 追查身世"
+          },
+          {
+            "content": "三年时间让我破茧成蝶，华丽归来！",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4525,
+            "comic_name": "总裁爹地追上门",
+            "total_view_num": 5048270,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "91话 被宫泽强吻"
+          },
+          {
+            "content": "神藤在手，天下我有",
+            "comic_type": ["恋爱", "穿越", "玄幻"],
+            "comic_id": 4540,
+            "comic_name": "本王妃神藤在手",
+            "total_view_num": 3923764,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "102话 这宝物…满大街都是"
+          },
+          {
+            "content": "万古盛世开启，证道之路漫漫",
+            "comic_type": ["玄幻", "热血", "穿越"],
+            "comic_id": 4439,
+            "comic_name": "道印",
+            "total_view_num": 7225375,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "136话 照样灭你"
+          },
+          {
+            "content": "",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 584,
+            "comic_name": "神印王座",
+            "total_view_num": 370438625,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "518话"
+          }
+        ]
+      },
+      {
+        "book_id": 2123726,
+        "title": "「萌」少女 爱情 萌化",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "23",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "1:1"
+        },
+        "comic_info": [
+          {
+            "content": "看狐族少女修炼成精，站上顶端！",
+            "comic_type": ["玄幻", "恋爱", "穿越"],
+            "comic_id": 4411,
+            "comic_name": "狐妃,别惹我",
+            "total_view_num": 7855293,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "后记3 后续之事（下）"
+          },
+          {
+            "content": "重生归来力挽狂澜，虐渣男打渣女！",
+            "comic_type": ["恋爱", "生活", "霸总"],
+            "comic_id": 4515,
+            "comic_name": "霸道总裁轻轻爱",
+            "total_view_num": 10378322,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "109话 饥饿的野兽"
+          },
+          {
+            "content": "浑身恶臭嫡小姐，医毒双绝不好惹",
+            "comic_type": ["恋爱", "古风", "穿越"],
+            "comic_id": 4539,
+            "comic_name": "嗜血医妃",
+            "total_view_num": 3964269,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "102话 拼厨艺，赢美人"
+          },
+          {
+            "content": "这一世她是否能顺利度过危机？",
+            "comic_type": ["恋爱", "古风", "漫改"],
+            "comic_id": 4396,
+            "comic_name": "嫡女有毒",
+            "total_view_num": 7675602,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "2季第21话 "
           },
           {
             "content": "我的血都属于你。但你，要属于我。",
@@ -525,26 +721,15 @@
             "last_comic_chapter_name": "30话"
           },
           {
-            "content": "这一世我定要让你们悉数偿还！",
-            "comic_type": ["热血", "玄幻", "都市"],
-            "comic_id": 4400,
-            "comic_name": "都市护花仙尊",
-            "total_view_num": 2213745,
-            "pingfen": 93,
+            "content": "来带平行后的自己，开启了挂逼模式",
+            "comic_type": ["生活", "都市", "恋爱"],
+            "comic_id": 3623,
+            "comic_name": "最强枭雄系统",
+            "total_view_num": 39095468,
+            "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "一季最终话"
-          },
-          {
-            "content": "还有谁敢藐视哥的？",
-            "comic_type": ["玄幻", "热血", "都市"],
-            "comic_id": 4207,
-            "comic_name": "至尊神魔",
-            "total_view_num": 21893745,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "182话"
+            "last_comic_chapter_name": "362话 和叶倾国同行"
           },
           {
             "content": "帝女重生，且看冷艳师父，如何套路女主",
@@ -558,97 +743,130 @@
             "last_comic_chapter_name": "最终话 "
           },
           {
-            "content": "万古盛世开启，证道之路漫漫",
-            "comic_type": ["玄幻", "热血", "穿越"],
-            "comic_id": 4439,
-            "comic_name": "道印",
-            "total_view_num": 7225375,
+            "content": "曾欺她负她辱她的人，她一个也不放过！",
+            "comic_type": ["恋爱", "穿越", "完结"],
+            "comic_id": 4535,
+            "comic_name": "医后唳天：神医嫡女狠角色",
+            "total_view_num": 5341546,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "87话 夜路遇袭"
+          },
+          {
+            "content": "各界大佬纷纷追求，偏偏要做养成系？",
+            "comic_type": ["恋爱", "穿越", "都市"],
+            "comic_id": 4574,
+            "comic_name": "异世盛宠：某天成为王爵的元气少女",
+            "total_view_num": 1305649,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "19话"
+          },
+          {
+            "content": "女扮男装，她不论男女都能撩。",
+            "comic_type": ["搞笑", "恋爱", "都市"],
+            "comic_id": 4175,
+            "comic_name": "纯情陆少",
+            "total_view_num": 15862026,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "226话 还生气么？"
+          },
+          {
+            "content": "穿越成傻白甜女主如何宅斗？",
+            "comic_type": ["恋爱", "古风", "穿越"],
+            "comic_id": 4538,
+            "comic_name": "嫡女娇妃",
+            "total_view_num": 3484460,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 醉的是我"
+          },
+          {
+            "content": "穿越落到土匪窝，异世军医来自救",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4388,
+            "comic_name": "帝凰之神医弃妃",
+            "total_view_num": 3953409,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "停更通知2"
+          },
+          {
+            "content": "惊天女贼逆命穿越成为侯府嫡女",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4560,
+            "comic_name": "这个王妃有点皮",
+            "total_view_num": 2457340,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "133话 尔敢！"
+            "last_comic_chapter_name": "最终话"
           },
           {
-            "content": "神藤在手，天下我有",
-            "comic_type": ["恋爱", "穿越", "玄幻"],
-            "comic_id": 4540,
-            "comic_name": "本王妃神藤在手",
-            "total_view_num": 3923764,
+            "content": "我是奥格利的唯一皇女",
+            "comic_type": ["搞笑", "穿越", "生活"],
+            "comic_id": 2247,
+            "comic_name": "皇帝的独生女",
+            "total_view_num": 41255125,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "99话 她是我的人"
+            "last_comic_chapter_name": "409话 莲娜日常生活恢复"
           },
           {
-            "content": "他，成为了地球最强的男人！",
-            "comic_type": ["玄幻", "都市", "修真"],
-            "comic_id": 3782,
-            "comic_name": "我是大仙尊",
-            "total_view_num": 34228950,
+            "content": "少帅的女人很聪明",
+            "comic_type": ["霸总", "恋爱", "都市"],
+            "comic_id": 2124,
+            "comic_name": "司少你老婆又跑了",
+            "total_view_num": 34326794,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "263话 拳赛门前，小小风波"
+            "last_comic_chapter_name": "334话 你该叫我弟妹！"
           },
           {
-            "content": "看赤霄君古天狼如何报仇雪恨！",
-            "comic_type": ["热血", "玄幻", "古风"],
-            "comic_id": 4013,
-            "comic_name": "尊上",
-            "total_view_num": 20721087,
+            "content": "穿越到异世界和日天日地男主恋爱",
+            "comic_type": ["恋爱", "古风", "修真"],
+            "comic_id": 4095,
+            "comic_name": "快穿之炮灰女配自救指南",
+            "total_view_num": 6542535,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "女杀手穿越古代调教失宠皇子",
+            "comic_type": ["古风", "穿越", "漫改"],
+            "comic_id": 3464,
+            "comic_name": "帝王怕怕·妃要坐拥天下",
+            "total_view_num": 9825240,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "1季最终话 "
+          },
+          {
+            "content": "一朝穿越为废材嫡女",
+            "comic_type": ["穿越", "古风", "恋爱"],
+            "comic_id": 2629,
+            "comic_name": "王妃的婚后指南",
+            "total_view_num": 33204028,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "169话 统统过来受死"
-          },
-          {
-            "content": "“焚天煮酒修罗道，杀尽天下猪狗辈！”",
-            "comic_type": ["玄幻", "修真", "古风"],
-            "comic_id": 3693,
-            "comic_name": "逆天剑神",
-            "total_view_num": 38241843,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "336话 实力悬殊，各自苦战"
-          },
-          {
-            "content": "和神仙聊天是什么感觉",
-            "comic_type": ["生活", "搞笑", "玄幻"],
-            "comic_id": 2565,
-            "comic_name": "我的微信连三界",
-            "total_view_num": 51057636,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "318话 是谁指使你这么干的"
-          },
-          {
-            "content": "一代邪神出世，君临天下！",
-            "comic_type": ["热血", "玄幻", "后宫"],
-            "comic_id": 2895,
-            "comic_name": "逆天邪神",
-            "total_view_num": 49752038,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "266话 王座姐妹花"
-          },
-          {
-            "content": "重生一世，我誓要逆天改命！",
-            "comic_type": ["玄幻", "热血", "都市"],
-            "comic_id": 4174,
-            "comic_name": "都市仙王",
-            "total_view_num": 18959976,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "210话 "
+            "last_comic_chapter_name": "公告2 王妃喊你来看第二部啦！"
           }
         ]
       },
       {
-        "book_id": 6000037,
+        "book_id": 7000037,
         "title": "【温故而知新】同名小说漫画",
         "config": {
           "isshowtitle": 1,
@@ -663,6 +881,17 @@
         },
         "comic_info": [
           {
+            "content": "妖神一出，谁与争锋",
+            "comic_type": ["热血", "玄幻", "搞笑"],
+            "comic_id": 857,
+            "comic_name": "妖神记",
+            "total_view_num": 484885756,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "309话2 金蛋的灵魂烙印"
+          },
+          {
             "content": "能力被封逆袭成神",
             "comic_type": ["玄幻", "修真", "漫改"],
             "comic_id": 2463,
@@ -671,7 +900,7 @@
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "二季第31话 免死金兔"
+            "last_comic_chapter_name": "二季第32话 引星入命"
           },
           {
             "content": "轮回的爱恋，在今世能否圆满？",
@@ -682,7 +911,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "505话 宿命的开始3"
+            "last_comic_chapter_name": "番外篇2 晴明之香雪海1"
           },
           {
             "content": "大女主强势回归，高甜，高萌~",
@@ -704,7 +933,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "368话 王器神通"
+            "last_comic_chapter_name": "369话 想收回实权？做梦"
           },
           {
             "content": "胜者为王败者暖床",
@@ -729,17 +958,6 @@
             "last_comic_chapter_name": "一季最终话 "
           },
           {
-            "content": "大唐第一女神探",
-            "comic_type": ["恋爱", "悬疑", "古风"],
-            "comic_id": 2446,
-            "comic_name": "簪中录",
-            "total_view_num": 16421408,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更公告"
-          },
-          {
             "content": "这位姑娘你是哪里不舒服呢？",
             "comic_type": ["热血", "搞笑", "后宫"],
             "comic_id": 846,
@@ -748,7 +966,7 @@
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "448话 合力救人！"
+            "last_comic_chapter_name": "449话 出生证明？"
           },
           {
             "content": "游戏世界的骑士誓约",
@@ -817,17 +1035,6 @@
             "last_comic_chapter_name": "最终话 "
           },
           {
-            "content": "征服校草的霸王花",
-            "comic_type": ["校园", "霸总", "恋爱"],
-            "comic_id": 1479,
-            "comic_name": "霸道校草的拽丫头",
-            "total_view_num": 54756730,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季最终话 "
-          },
-          {
             "content": "花千骨白子画师徒间爱恨纠葛",
             "comic_type": ["玄幻", "恋爱", "古风"],
             "comic_id": 112,
@@ -837,6 +1044,17 @@
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "166话 无以为报(8)"
+          },
+          {
+            "content": "征服校草的霸王花",
+            "comic_type": ["校园", "霸总", "恋爱"],
+            "comic_id": 1479,
+            "comic_name": "霸道校草的拽丫头",
+            "total_view_num": 54756730,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话 "
           },
           {
             "content": "和妖怪姐姐们的同居生活",
@@ -858,339 +1076,25 @@
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "688话 "
+            "last_comic_chapter_name": "690话 "
           }
         ]
       },
       {
-        "book_id": 6000024,
-        "title": "精选漫画",
+        "book_id": 2139677,
+        "title": "「霸总」女人 你在玩火",
         "config": {
           "isshowtitle": 1,
           "order_type": 1,
           "outerwidth": "2",
-          "display_type": "11",
+          "display_type": "4",
           "isshowchange": 1,
           "interwidth": "0",
           "isautoslide": 0,
           "isshowdetail": "3",
-          "horizonratio": "16:8"
+          "horizonratio": "3:4"
         },
         "comic_info": [
-          {
-            "content": "金牌女特工重生为修仙小师妹",
-            "comic_type": ["恋爱", "穿越", "连载"],
-            "comic_id": 4549,
-            "comic_name": "王妃的修仙指南",
-            "total_view_num": 4031800,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "79话 两败俱伤"
-          },
-          {
-            "content": "通天医术！华夏武魂！任我“肖遥”",
-            "comic_type": ["热血", "都市", "动作"],
-            "comic_id": 4526,
-            "comic_name": "绝品强少",
-            "total_view_num": 2111769,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "16话"
-          },
-          {
-            "content": "生逢民国乱世，却被少帅宠上天！",
-            "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 4440,
-            "comic_name": "少帅,你老婆要翻天!",
-            "total_view_num": 5247034,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "105话 赠人玫瑰，手有余香！"
-          },
-          {
-            "content": "重生归来力挽狂澜，虐渣男打渣女！",
-            "comic_type": ["恋爱", "生活", "霸总"],
-            "comic_id": 4515,
-            "comic_name": "霸道总裁轻轻爱",
-            "total_view_num": 10378322,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "109话 饥饿的野兽"
-          },
-          {
-            "content": "这一世她是否能顺利度过危机？",
-            "comic_type": ["恋爱", "古风", "漫改"],
-            "comic_id": 4396,
-            "comic_name": "嫡女有毒",
-            "total_view_num": 7675602,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "2季第21话"
-          },
-          {
-            "content": "女人，江山是你的，你是我的",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 4564,
-            "comic_name": "痴傻毒妃不好惹",
-            "total_view_num": 6124589,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "129话"
-          },
-          {
-            "content": "我想要你的幸运值，所以我可以亲你吗？",
-            "comic_type": ["恋爱", "都市", "生活"],
-            "comic_id": 4553,
-            "comic_name": "假戏真做",
-            "total_view_num": 5147261,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "82话 你们玩不过我！"
-          },
-          {
-            "content": "身残志不残，废材也修仙",
-            "comic_type": ["热血", "修真", "都市"],
-            "comic_id": 4543,
-            "comic_name": "修真传人在都市",
-            "total_view_num": 1422554,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "1季最终话 借用身体"
-          },
-          {
-            "content": "来带平行后的自己，开启了挂逼模式",
-            "comic_type": ["生活", "都市", "恋爱"],
-            "comic_id": 3623,
-            "comic_name": "最强枭雄系统",
-            "total_view_num": 39095468,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "362话 和叶倾国同行"
-          },
-          {
-            "content": "女友变成丧尸了怎么办？",
-            "comic_type": ["热血", "动作", "都市"],
-            "comic_id": 4155,
-            "comic_name": "我的守护女友",
-            "total_view_num": 22815918,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "182话 "
-          },
-          {
-            "content": "当我好好欺负？看我携萌娃回归再逆袭",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 4297,
-            "comic_name": "拐个妈咪带回家",
-            "total_view_num": 17041269,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "315话 “闺蜜”"
-          },
-          {
-            "content": "被霸道总裁狠狠宠爱的威武辣妈",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 4268,
-            "comic_name": "天才酷宝",
-            "total_view_num": 4616887,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "126话 另有隐情"
-          },
-          {
-            "content": "三年时间让我破茧成蝶，华丽归来！",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 4525,
-            "comic_name": "总裁爹地追上门",
-            "total_view_num": 5048270,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "89话 助力能手Zoe"
-          },
-          {
-            "content": "现代与未来的羁绊，穿越时空的缱绻爱恋",
-            "comic_type": ["穿越", "恋爱", "战争"],
-            "comic_id": 100,
-            "comic_name": "穿越西元3000后",
-            "total_view_num": 1960568500,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "734话 拥抱3"
-          },
-          {
-            "content": "各界大佬纷纷追求，偏偏要做养成系？",
-            "comic_type": ["恋爱", "穿越", "都市"],
-            "comic_id": 4574,
-            "comic_name": "异世盛宠：某天成为王爵的元气少女",
-            "total_view_num": 1305649,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "19话"
-          },
-          {
-            "content": "特种兵重回校园泡校花",
-            "comic_type": ["都市", "热血", "动作"],
-            "comic_id": 3439,
-            "comic_name": "捡个校花做老婆",
-            "total_view_num": 12899713,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "176话 古医门召开英雄会"
-          },
-          {
-            "content": "倒霉女穿越，专攻打脸神技",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 3066,
-            "comic_name": "穿越王妃要升级",
-            "total_view_num": 12166598,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "210话 我的妻子像另一个我"
-          },
-          {
-            "content": "一代传奇，转世重来",
-            "comic_type": ["热血", "古风", "穿越"],
-            "comic_id": 1615,
-            "comic_name": "武神主宰",
-            "total_view_num": 87193579,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "457话 "
-          }
-        ]
-      },
-      {
-        "book_id": 6000025,
-        "title": "爱情来得太突然",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "浑身恶臭嫡小姐，医毒双绝不好惹",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 4539,
-            "comic_name": "嗜血医妃",
-            "total_view_num": 3964269,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "100话 进宫面圣"
-          },
-          {
-            "content": "曾欺她负她辱她的人，她一个也不放过！",
-            "comic_type": ["恋爱", "穿越", "完结"],
-            "comic_id": 4535,
-            "comic_name": "医后唳天：神医嫡女狠角色",
-            "total_view_num": 5341546,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "87话 夜路遇袭"
-          },
-          {
-            "content": "女扮男装，她不论男女都能撩。",
-            "comic_type": ["搞笑", "恋爱", "都市"],
-            "comic_id": 4175,
-            "comic_name": "纯情陆少",
-            "total_view_num": 15862026,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "225话 她竟然抱别的男人"
-          },
-          {
-            "content": "穿越成傻白甜女主如何宅斗？",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 4538,
-            "comic_name": "嫡女娇妃",
-            "total_view_num": 3484460,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 醉的是我"
-          },
-          {
-            "content": "穿越落到土匪窝，异世军医来自救",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 4388,
-            "comic_name": "帝凰之神医弃妃",
-            "total_view_num": 3953409,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更通知2"
-          },
-          {
-            "content": "惊天女贼逆命穿越成为侯府嫡女",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 4560,
-            "comic_name": "这个王妃有点皮",
-            "total_view_num": 2457340,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "少帅的女人很聪明",
-            "comic_type": ["霸总", "恋爱", "都市"],
-            "comic_id": 2124,
-            "comic_name": "司少你老婆又跑了",
-            "total_view_num": 34326794,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "333话 我一定会杀了你！"
-          },
-          {
-            "content": "一朝穿越为废材嫡女",
-            "comic_type": ["穿越", "古风", "恋爱"],
-            "comic_id": 2629,
-            "comic_name": "王妃的婚后指南",
-            "total_view_num": 33204028,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "公告2 王妃喊你来看第二部啦！"
-          },
-          {
-            "content": "穿越到异世界和日天日地男主恋爱",
-            "comic_type": ["恋爱", "古风", "修真"],
-            "comic_id": 4095,
-            "comic_name": "快穿之炮灰女配自救指南",
-            "total_view_num": 6542535,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
           {
             "content": "呆萌小女仆少夫人炼成记",
             "comic_type": ["恋爱", "都市", "霸总"],
@@ -1203,17 +1107,6 @@
             "last_comic_chapter_name": "最终话"
           },
           {
-            "content": "女法医穿越遇中药王爷",
-            "comic_type": ["恋爱", "穿越", "连载"],
-            "comic_id": 2563,
-            "comic_name": "法医狂妃",
-            "total_view_num": 16492045,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "241话 我来照顾你儿子"
-          },
-          {
             "content": "说好的不允许爱上我呢",
             "comic_type": ["恋爱", "都市", "霸总"],
             "comic_id": 4205,
@@ -1224,635 +1117,6 @@
             "img_url": "",
             "last_comic_chapter_name": "最终话"
           },
-          {
-            "content": "勇敢的叶罗丽战士，守卫我们的家园",
-            "comic_type": ["恋爱", "生活", "玄幻"],
-            "comic_id": 4441,
-            "comic_name": "精灵梦叶罗丽第八季",
-            "total_view_num": 2369663,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "52话 "
-          },
-          {
-            "content": "神医穿越古代收获绝美爱情，王爷你还装",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 1853,
-            "comic_name": "神医嫡女",
-            "total_view_num": 60790865,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "359话 淳王殿下"
-          },
-          {
-            "content": "这是什么神奇的世界？竟然遇到了恶魔？",
-            "comic_type": ["生活", "恋爱", "都市"],
-            "comic_id": 4575,
-            "comic_name": "盛世华宠：我被俘虏了",
-            "total_view_num": 998787,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "36话"
-          },
-          {
-            "content": "COCOON",
-            "comic_type": ["热血", "武侠", "恋爱"],
-            "comic_id": 859,
-            "comic_name": "星武神诀",
-            "total_view_num": 87670998,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "413话 "
-          },
-          {
-            "content": "与命运抗争的三姐妹",
-            "comic_type": ["玄幻", "热血", "恋爱"],
-            "comic_id": 144,
-            "comic_name": "血族禁域",
-            "total_view_num": 1145447385,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "城堡少主和失忆少女的非日常生活",
-            "comic_type": ["恋爱", "搞笑", "完结"],
-            "comic_id": 4547,
-            "comic_name": "美梦成真的恋金术",
-            "total_view_num": 173557,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "13话 如果她真的失忆了"
-          }
-        ]
-      },
-      {
-        "book_id": 2105922,
-        "title": "江湖行走 义字当头",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "一代强者星尘大帝的复仇之路",
-            "comic_type": ["搞笑", "古风", "武侠"],
-            "comic_id": 4038,
-            "comic_name": "重生八万年",
-            "total_view_num": 18911496,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "165话 神柳"
-          },
-          {
-            "content": "漫天神魔，亦无所畏惧，我命在我！",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 3554,
-            "comic_name": "武道独尊",
-            "total_view_num": 29640947,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "225话 玄天白帝剑"
-          },
-          {
-            "content": "与性感魔王一起寻找身世之谜",
-            "comic_type": ["热血", "修真", "动作"],
-            "comic_id": 2762,
-            "comic_name": "解离妖圣",
-            "total_view_num": 17636882,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "247话 作战会议2"
-          },
-          {
-            "content": "兵王重返都市，美女纷至沓来",
-            "comic_type": ["热血", "动作", "都市"],
-            "comic_id": 4338,
-            "comic_name": "绝品医圣",
-            "total_view_num": 9611720,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "153话 夏侯家"
-          },
-          {
-            "content": "五位强者抚养的孤儿，携绝技踏入都市",
-            "comic_type": ["热血", "都市", "动作"],
-            "comic_id": 4176,
-            "comic_name": "全能高手",
-            "total_view_num": 17637481,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "199话 罪有应得"
-          },
-          {
-            "content": "掌牧天下，圣灵崛起",
-            "comic_type": ["玄幻", "热血", "武侠"],
-            "comic_id": 2296,
-            "comic_name": "苍穹榜之圣灵纪",
-            "total_view_num": 25829240,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "108话下 连番苦战"
-          },
-          {
-            "content": "怒而提剑，斩出一个浩瀚宇宙",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 4053,
-            "comic_name": "独步逍遥",
-            "total_view_num": 21206566,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "239话 回地球的希望"
-          },
-          {
-            "content": "系统在手，我是史上最强老师",
-            "comic_type": ["校园", "动作", "玄幻"],
-            "comic_id": 4126,
-            "comic_name": "校园狂师",
-            "total_view_num": 10863294,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "159话 老熟熊了"
-          },
-          {
-            "content": "被上流社会恨之入骨，在民众中有无上地",
-            "comic_type": ["热血", "都市", "动作"],
-            "comic_id": 4395,
-            "comic_name": "都市邪王",
-            "total_view_num": 6201768,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "149话 最快速度"
-          },
-          {
-            "content": "少年锻造绝世武魂，苍岚大陆再掀波澜！",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 3764,
-            "comic_name": "绝世战魂",
-            "total_view_num": 24969961,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "253话 三黑印"
-          },
-          {
-            "content": "一朝蒙冤被害，从此浴血重生",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 4001,
-            "comic_name": "毒医嫡女",
-            "total_view_num": 12736785,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "168话 别乱来"
-          },
-          {
-            "content": "神医救人阎王不收，兵王伤人神仙难治",
-            "comic_type": ["热血", "都市", "动作"],
-            "comic_id": 4251,
-            "comic_name": "医等狂兵",
-            "total_view_num": 7564048,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "145话 两败俱伤"
-          },
-          {
-            "content": "武功能杀天下人，医术可救世间命",
-            "comic_type": ["恋爱", "都市", "动作"],
-            "comic_id": 3795,
-            "comic_name": "医武至尊",
-            "total_view_num": 20523016,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "296话 医院中的剑拔弩张"
-          },
-          {
-            "content": "近战法师千里一醉，踏上游戏之路",
-            "comic_type": ["热血", "游戏", "战争"],
-            "comic_id": 118,
-            "comic_name": "网游之近战法师",
-            "total_view_num": 180214556,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "323话 相信公子2"
-          },
-          {
-            "content": "穿越异世界的唯一目的是搞事！",
-            "comic_type": ["游戏", "搞笑", "动作"],
-            "comic_id": 3608,
-            "comic_name": "从今天开始当城主",
-            "total_view_num": 15725369,
-            "pingfen": 98,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "232话 "
-          },
-          {
-            "content": "强者生存，弱者淘汰",
-            "comic_type": ["热血", "武侠", "连载"],
-            "comic_id": 1766,
-            "comic_name": "绝世武神",
-            "total_view_num": 49815373,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "129话2 落霞宗"
-          },
-          {
-            "content": "实力至上的世界",
-            "comic_type": ["科幻", "动作", "热血"],
-            "comic_id": 2823,
-            "comic_name": "染色体47号",
-            "total_view_num": 13401525,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "406话 "
-          },
-          {
-            "content": "天要压我，我就破了这个天",
-            "comic_type": ["热血", "玄幻", "动作"],
-            "comic_id": 3001,
-            "comic_name": "妖者为王",
-            "total_view_num": 14631009,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "184话 你们说红豆怎么了！？"
-          }
-        ]
-      },
-      {
-        "book_id": 2140132,
-        "title": "「经典」永不褪色的记忆",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "6",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "和死敌亲密上了",
-            "comic_type": ["恋爱", "古风", "战争"],
-            "comic_id": 136,
-            "comic_name": "倾国妖宠",
-            "total_view_num": 152239046,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 故人2"
-          },
-          {
-            "content": "天界战神，神魔混战中拯救众生！",
-            "comic_type": ["热血", "玄幻", "恋爱"],
-            "comic_id": 103,
-            "comic_name": "三眼哮天录",
-            "total_view_num": 539996855,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "2季76话 思之如狂2"
-          },
-          {
-            "content": "两魂一体，自体CP",
-            "comic_type": ["恋爱", "玄幻", "完结"],
-            "comic_id": 104,
-            "comic_name": "奇怪的苏夕",
-            "total_view_num": 585248910,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "三个女人和皇帝的纠葛",
-            "comic_type": ["恋爱", "古风", "后宫"],
-            "comic_id": 146,
-            "comic_name": "妃夕妍雪",
-            "total_view_num": 957822885,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话2 岁月静好"
-          },
-          {
-            "content": "想变成卖萌就行的熊猫，竟成真？",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 3794,
-            "comic_name": "穿回古代做国宝",
-            "total_view_num": 5789062,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "162话 离谱"
-          },
-          {
-            "content": "家门口捡到浑身是血的帅哥",
-            "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 2984,
-            "comic_name": "人质恋人",
-            "total_view_num": 7052449,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "55话2 surprise！"
-          },
-          {
-            "content": "穿越到手游的世界，何时能够回归？",
-            "comic_type": ["热血", "恋爱", "游戏"],
-            "comic_id": 115,
-            "comic_name": "璇玑辞",
-            "total_view_num": 302955810,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "203话 你真的没有死2"
-          },
-          {
-            "content": "我怎么就管不住这张破嘴？！",
-            "comic_type": ["搞笑", "都市", "科幻"],
-            "comic_id": 4027,
-            "comic_name": "给我闭嘴！",
-            "total_view_num": 3689246,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季最终话 修行开始"
-          },
-          {
-            "content": "变成妹子也要称霸校园",
-            "comic_type": ["恋爱", "校园", "萝莉"],
-            "comic_id": 116,
-            "comic_name": "王者名昭",
-            "total_view_num": 159964031,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话3 未来可期！"
-          },
-          {
-            "content": "少女与星座少年的故事",
-            "comic_type": ["热血", "恋爱", "玄幻"],
-            "comic_id": 427,
-            "comic_name": "星空club",
-            "total_view_num": 310939961,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "149话 向前"
-          },
-          {
-            "content": "贤者与魔王也能在一起",
-            "comic_type": ["热血", "玄幻", "完结"],
-            "comic_id": 105,
-            "comic_name": "加油大魔王！",
-            "total_view_num": 377131740,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 与你终将再会"
-          },
-          {
-            "content": "漫画里描绘的事，竟然变成了现实？！",
-            "comic_type": ["玄幻", "恋爱", "穿越"],
-            "comic_id": 4008,
-            "comic_name": "我的命运之书",
-            "total_view_num": 3138044,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季最终话"
-          },
-          {
-            "content": "新婚之夜表面夫妻，他却对她动了心",
-            "comic_type": ["恋爱", "搞笑", "玄幻"],
-            "comic_id": 3721,
-            "comic_name": "摩耶·人间玉",
-            "total_view_num": 4605111,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "45话1 约会"
-          },
-          {
-            "content": "石头板中有美男啊",
-            "comic_type": ["搞笑", "动作", "科幻"],
-            "comic_id": 125,
-            "comic_name": "苍炎燃月",
-            "total_view_num": 197433409,
-            "pingfen": 91,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 出发"
-          },
-          {
-            "content": "用草奴之身，收服君临天下的他",
-            "comic_type": ["恋爱", "古风", "生活"],
-            "comic_id": 3620,
-            "comic_name": "上国赋之千堆雪",
-            "total_view_num": 4126499,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "185话 自欺欺人1"
-          }
-        ]
-      },
-      {
-        "book_id": 6000036,
-        "title": "【流行精品】",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "美人在怀，兄弟在侧，神兵在手！",
-            "comic_type": ["热血", "玄幻", "修真"],
-            "comic_id": 2499,
-            "comic_name": "妖道至尊",
-            "total_view_num": 26276777,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "二季第57话 大势初成，再遇危机"
-          },
-          {
-            "content": "兵王洛羽激战各方英豪",
-            "comic_type": ["恋爱", "都市", "完结"],
-            "comic_id": 2495,
-            "comic_name": "极品战兵在都市",
-            "total_view_num": 18622865,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季最终话"
-          },
-          {
-            "content": "医术当然是用来撩妹啦",
-            "comic_type": ["搞笑", "都市", "恋爱"],
-            "comic_id": 2490,
-            "comic_name": "绝品小神医",
-            "total_view_num": 35972328,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "279话 "
-          },
-          {
-            "content": "是暧昧还是爱？",
-            "comic_type": ["恋爱", "科幻", "都市"],
-            "comic_id": 2525,
-            "comic_name": "完美恋人之末世少将求放过",
-            "total_view_num": 6638402,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "1季最终话"
-          },
-          {
-            "content": "废柴重生，修真撩妹",
-            "comic_type": ["都市", "恋爱", "玄幻"],
-            "comic_id": 2476,
-            "comic_name": "圣医重生计划",
-            "total_view_num": 10754282,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "联动宣传活动 "
-          },
-          {
-            "content": "异族侵入荒神仙境",
-            "comic_type": ["玄幻", "热血", "完结"],
-            "comic_id": 2507,
-            "comic_name": "妖神学院",
-            "total_view_num": 6490091,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "番外3"
-          },
-          {
-            "content": "药植系男帮乡亲致富",
-            "comic_type": ["玄幻", "恋爱", "都市"],
-            "comic_id": 2531,
-            "comic_name": "桃运小神农",
-            "total_view_num": 13993307,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "222话 示威"
-          },
-          {
-            "content": "孙朗誓破注孤生的诅咒",
-            "comic_type": ["搞笑", "玄幻", "后宫"],
-            "comic_id": 2493,
-            "comic_name": "我的大宝剑",
-            "total_view_num": 6225466,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 这该死的大宝剑之力"
-          },
-          {
-            "content": "灰姑娘逆袭成男神？",
-            "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 2617,
-            "comic_name": "今天开始做男神",
-            "total_view_num": 4342505,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "与四位美女一起生活",
-            "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 2464,
-            "comic_name": "让我陷入恋爱的她们",
-            "total_view_num": 6402328,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "更疯狂更爆笑的人生",
-            "comic_type": ["热血", "搞笑", "体育"],
-            "comic_id": 2455,
-            "comic_name": "哥就是踢的远",
-            "total_view_num": 4329760,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 我的未来不是梦"
-          },
-          {
-            "content": "末日危机，丧尸蔓延",
-            "comic_type": ["都市", "悬疑", "动作"],
-            "comic_id": 2569,
-            "comic_name": "末日狂途",
-            "total_view_num": 973633,
-            "pingfen": 92,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 被出卖了"
-          }
-        ]
-      },
-      {
-        "book_id": 6000017,
-        "title": "BOSS大人别乱来",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
           {
             "content": "妹妹让她身败名裂未婚夫被抢",
             "comic_type": ["恋爱", "霸总", "都市"],
@@ -1876,6 +1140,17 @@
             "last_comic_chapter_name": "最终话"
           },
           {
+            "content": "当女王？把世间一切都踩到脚下！",
+            "comic_type": ["玄幻", "霸总", "漫改"],
+            "comic_id": 4385,
+            "comic_name": "冰山总裁强宠婚",
+            "total_view_num": 6598359,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "112话 奶奶也是不得了的人物啊！"
+          },
+          {
             "content": "蜜糖甜蜜出幻象，摸头求安慰！",
             "comic_type": ["恋爱", "霸总", "都市"],
             "comic_id": 3455,
@@ -1895,7 +1170,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "163话 抓捕沈均瑶"
+            "last_comic_chapter_name": "165话 怀孕了"
           },
           {
             "content": "小叔的老婆是我前女友怎么办！",
@@ -1918,149 +1193,17 @@
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "141话 简先生出差"
-          },
-          {
-            "content": "抓小三，小三竟然是高富帅美男！？",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 3493,
-            "comic_name": "恶魔，别吻我",
-            "total_view_num": 10152103,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 一切仿若初见"
-          },
-          {
-            "content": "为了哥哥！只能勉为其难的嫁给他",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 4288,
-            "comic_name": "陆少的暖婚新妻",
-            "total_view_num": 2905418,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "122话 "
-          },
-          {
-            "content": "本小姐重生后只想赚钱！",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 3670,
-            "comic_name": "重生暖婚轻轻宠",
-            "total_view_num": 8295675,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "201话 美人计失败？！"
-          },
-          {
-            "content": "两个宠她爱她的男人，怎么选",
-            "comic_type": ["恋爱", "霸总", "都市"],
-            "comic_id": 3781,
-            "comic_name": "乱世帅府：听说司佑良爱我很多年",
-            "total_view_num": 6057988,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更通知"
-          },
-          {
-            "content": "在床单上“挑战”你",
-            "comic_type": ["霸总", "都市", "恋爱"],
-            "comic_id": 2052,
-            "comic_name": "惹上首席总裁",
-            "total_view_num": 32871330,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "2季219话 "
-          },
-          {
-            "content": "看弱娇漫画家小念如何驯服霸道老宫",
-            "comic_type": ["恋爱", "霸总", "都市"],
-            "comic_id": 2130,
-            "comic_name": "我的男人是个偏执狂",
-            "total_view_num": 39438015,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "343话 小念，妈妈求求你了"
-          },
-          {
-            "content": "这个总裁不太帅",
-            "comic_type": ["恋爱", "霸总", "都市"],
-            "comic_id": 2066,
-            "comic_name": "天价豪门:夫人又跑了",
-            "total_view_num": 27530118,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "306话 承诺呀"
-          },
-          {
-            "content": "亲情变成枷锁，失去一切后的爆发",
-            "comic_type": ["恋爱", "霸总", "都市"],
-            "comic_id": 3423,
-            "comic_name": "落难千金的逆袭",
-            "total_view_num": 14193063,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "289话 真是搞不懂她"
-          },
-          {
-            "content": "霸道总裁强势追妻，甜蜜恋情由此开启",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 4281,
-            "comic_name": "陆少的心尖宠",
-            "total_view_num": 3536450,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季最终话2"
-          },
-          {
-            "content": "总裁，你得不到我就黑我？？？",
-            "comic_type": ["霸总", "恋爱", "都市"],
-            "comic_id": 1441,
-            "comic_name": "我被总裁黑上了！",
-            "total_view_num": 81059653,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "350话 "
-          },
-          {
-            "content": "为爱坐牢惨遭背叛却被他宠上了天",
-            "comic_type": ["恋爱", "都市", "霸总"],
-            "comic_id": 2175,
-            "comic_name": "万丈光芒不及你",
-            "total_view_num": 29248922,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "257话"
-          },
-          {
-            "content": "以哥哥的名义占有嫂子",
-            "comic_type": ["霸总", "都市", "恋爱"],
-            "comic_id": 2127,
-            "comic_name": "入骨暖婚（漫画版）",
-            "total_view_num": 17345995,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "331话 你真是令人恶心！"
           }
         ]
       },
       {
-        "book_id": 6000007,
-        "title": "后宫那些事儿",
+        "book_id": 2117566,
+        "title": "「锐」青春 梦想 勇气",
         "config": {
           "isshowtitle": 1,
           "order_type": 1,
           "outerwidth": "2",
-          "display_type": "11",
+          "display_type": "8",
           "isshowchange": 1,
           "interwidth": "0",
           "isautoslide": 0,
@@ -2069,241 +1212,147 @@
         },
         "comic_info": [
           {
-            "content": "你让我不爽了，我让你更不爽！",
-            "comic_type": ["古风", "后宫", "完结"],
-            "comic_id": 3627,
-            "comic_name": "冷宫废后要逆天",
-            "total_view_num": 14383544,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "159话"
-          },
-          {
-            "content": "花钱败家做纨绔子弟走上人生巅峰！",
-            "comic_type": ["穿越", "历史", "后宫"],
-            "comic_id": 3761,
-            "comic_name": "极品败家子",
-            "total_view_num": 16906009,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "190话 跪下唱征服"
-          },
-          {
-            "content": "复仇王妃碰上城府颇深的瘸腿王爷！",
-            "comic_type": ["古风", "恋爱", "后宫"],
-            "comic_id": 3459,
-            "comic_name": "坏心王爷别惹我",
-            "total_view_num": 11232210,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "215话 真假陌溶月！"
-          },
-          {
-            "content": "霸道女总的逆后宫攻略",
-            "comic_type": ["恋爱", "穿越", "后宫"],
-            "comic_id": 4047,
-            "comic_name": "女帝的后宫",
-            "total_view_num": 12671136,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "191话 让我来解放你"
-          },
-          {
-            "content": "前世恩怨今生偿，力压各大佬逆袭归来！",
-            "comic_type": ["玄幻", "都市", "后宫"],
-            "comic_id": 3841,
-            "comic_name": "都市之修真归来",
-            "total_view_num": 9131432,
+            "content": "天才少年逆天崛起，成就一代丹武至尊",
+            "comic_type": ["玄幻", "热血", "修真"],
+            "comic_id": 4587,
+            "comic_name": "丹武至尊",
+            "total_view_num": 3546092,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "121话 幌子"
+            "last_comic_chapter_name": "最终话 身世真相"
           },
           {
-            "content": "神医的都市传说，看他如何妙手回春！",
-            "comic_type": ["热血", "后宫", "都市"],
-            "comic_id": 3992,
-            "comic_name": "妙手狂医",
-            "total_view_num": 13347765,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "162话 凶手找到了！"
-          },
-          {
-            "content": "神奇的透视能力，让人生变得丰富多彩",
-            "comic_type": ["热血", "恋爱", "后宫"],
-            "comic_id": 4012,
-            "comic_name": "天才狂医",
-            "total_view_num": 8162261,
+            "content": "踏上一剑通天的强者之路！",
+            "comic_type": ["修真", "玄幻", "热血"],
+            "comic_id": 4536,
+            "comic_name": "剑道凌天",
+            "total_view_num": 9118670,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "149话 合作"
+            "last_comic_chapter_name": "107话 我才不担心他"
           },
           {
-            "content": "至尊道医纵横都市",
-            "comic_type": ["玄幻", "都市", "后宫"],
-            "comic_id": 3777,
-            "comic_name": "都市至尊",
-            "total_view_num": 8545521,
-            "pingfen": 96,
+            "content": "通天医术！华夏武魂！任我“肖遥”",
+            "comic_type": ["热血", "都市", "动作"],
+            "comic_id": 4526,
+            "comic_name": "绝品强少",
+            "total_view_num": 2111769,
+            "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "127话 假扮大师兄"
+            "last_comic_chapter_name": "16话"
           },
           {
-            "content": "教父之子入读高中血雨腥风之中撩美女！",
-            "comic_type": ["热血", "都市", "后宫"],
-            "comic_id": 3754,
-            "comic_name": "绝品邪少",
-            "total_view_num": 7160099,
+            "content": "一少年，一血剑，几多红颜",
+            "comic_type": ["玄幻", "修真", "热血"],
+            "comic_id": 4569,
+            "comic_name": "极武玄帝",
+            "total_view_num": 7802061,
             "pingfen": 94,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "1季最终话 生化狂人"
+            "last_comic_chapter_name": "105话"
           },
           {
-            "content": "宝典在手，妹子我有",
-            "comic_type": ["都市", "后宫", "恋爱"],
-            "comic_id": 2051,
-            "comic_name": "姻缘宝典",
-            "total_view_num": 49678783,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "371话 "
-          },
-          {
-            "content": "美女，需要什么服务？",
-            "comic_type": ["搞笑", "都市", "后宫"],
-            "comic_id": 3976,
-            "comic_name": "超级共享男友系统",
-            "total_view_num": 4812297,
+            "content": "手机微信发生变异，升级开挂任意选！",
+            "comic_type": ["玄幻", "都市", "修真"],
+            "comic_id": 4562,
+            "comic_name": "超级微信",
+            "total_view_num": 12967980,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "一季最终话 桃花太多扛不住！"
+            "last_comic_chapter_name": "118话 参加婚礼"
           },
           {
-            "content": "小小妃子险象环生的宫斗之路",
-            "comic_type": ["古风", "后宫", "恋爱"],
-            "comic_id": 2459,
-            "comic_name": "读档皇后",
-            "total_view_num": 16428215,
-            "pingfen": 95,
+            "content": "这一世我定要让你们悉数偿还！",
+            "comic_type": ["热血", "玄幻", "都市"],
+            "comic_id": 4400,
+            "comic_name": "都市护花仙尊",
+            "total_view_num": 2213745,
+            "pingfen": 93,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "231话"
+            "last_comic_chapter_name": "一季最终话"
           },
           {
-            "content": "带你打怪追美女",
-            "comic_type": ["恋爱", "后宫", "热血"],
-            "comic_id": 1347,
-            "comic_name": "诸天至尊",
-            "total_view_num": 177360812,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 完结篇"
-          },
-          {
-            "content": "V信能访问未来的朋友圈",
-            "comic_type": ["搞笑", "后宫", "漫改"],
-            "comic_id": 2802,
-            "comic_name": "我的V信是外挂",
-            "total_view_num": 10304731,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "1季最终话 "
-          },
-          {
-            "content": "夜店歌手穿越到兽界做女皇",
-            "comic_type": ["玄幻", "后宫", "穿越"],
-            "comic_id": 3654,
-            "comic_name": "兽宠女皇",
-            "total_view_num": 7594560,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 只能说再见"
-          },
-          {
-            "content": "刮刮乐刮出女神，还穿越到了天庭？",
-            "comic_type": ["修真", "后宫", "玄幻"],
-            "comic_id": 4063,
-            "comic_name": "我是玉皇大帝",
-            "total_view_num": 5309110,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 该去接妲己回家了"
-          },
-          {
-            "content": "外科医生穿越成为一代帝后",
-            "comic_type": ["恋爱", "后宫", "穿越"],
-            "comic_id": 2289,
-            "comic_name": "盛世帝后",
-            "total_view_num": 9377109,
+            "content": "身残志不残，废材也修仙",
+            "comic_type": ["热血", "修真", "都市"],
+            "comic_id": 4543,
+            "comic_name": "修真传人在都市",
+            "total_view_num": 1422554,
             "pingfen": 94,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "停更通知 "
+            "last_comic_chapter_name": "1季最终话 借用身体"
           },
           {
-            "content": "觊觎皇后之位？呵，我来一个灭一个！",
-            "comic_type": ["恋爱", "后宫", "古风"],
-            "comic_id": 3501,
-            "comic_name": "盛世无垢：冷傲皇后请自重",
-            "total_view_num": 3005717,
-            "pingfen": 95,
+            "content": "万道争锋，吾为大主宰",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 2392,
+            "comic_name": "斗破苍穹之大主宰",
+            "total_view_num": 117598168,
+            "pingfen": 98,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "70话"
-          }
-        ]
-      },
-      {
-        "book_id": 2113758,
-        "title": "「完结」我们永远爱你",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "32",
-          "isshowchange": 1,
-          "interwidth": "1",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "3:4"
-        },
-        "comic_info": [
+            "last_comic_chapter_name": "416话 人质"
+          },
           {
-            "content": "我是奥格利的唯一皇女",
-            "comic_type": ["搞笑", "穿越", "生活"],
-            "comic_id": 2247,
-            "comic_name": "皇帝的独生女",
-            "total_view_num": 41255125,
+            "content": "还有谁敢藐视哥的？",
+            "comic_type": ["玄幻", "热血", "都市"],
+            "comic_id": 4207,
+            "comic_name": "至尊神魔",
+            "total_view_num": 21893745,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "182话"
+          },
+          {
+            "content": "特种兵重回校园泡校花",
+            "comic_type": ["都市", "热血", "动作"],
+            "comic_id": 3439,
+            "comic_name": "捡个校花做老婆",
+            "total_view_num": 12899713,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "409话 莲娜日常生活恢复"
+            "last_comic_chapter_name": "177话 今晚我们登岛探查"
           },
           {
-            "content": "女杀手穿越古代调教失宠皇子",
-            "comic_type": ["古风", "穿越", "漫改"],
-            "comic_id": 3464,
-            "comic_name": "帝王怕怕·妃要坐拥天下",
-            "total_view_num": 9825240,
-            "pingfen": 96,
+            "content": "一代邪神出世，君临天下！",
+            "comic_type": ["热血", "玄幻", "后宫"],
+            "comic_id": 2895,
+            "comic_name": "逆天邪神",
+            "total_view_num": 49752038,
+            "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "1季最终话 "
+            "last_comic_chapter_name": "270话 云哥哥，你好坏！"
+          },
+          {
+            "content": "重生一世，我誓要逆天改命！",
+            "comic_type": ["玄幻", "热血", "都市"],
+            "comic_id": 4174,
+            "comic_name": "都市仙王",
+            "total_view_num": 18959976,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "211话 "
+          },
+          {
+            "content": "坠入仙界三千年，破空回归守护你！",
+            "comic_type": ["热血", "玄幻", "都市"],
+            "comic_id": 3790,
+            "comic_name": "仙帝归来",
+            "total_view_num": 18814015,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "166话 杀人工具"
           },
           {
             "content": "天下美女十斗，我就要占十斗",
@@ -2317,15 +1366,214 @@
             "last_comic_chapter_name": "239话"
           },
           {
-            "content": "挨最毒的打，修最强的功法",
-            "comic_type": ["搞笑", "玄幻", "修真"],
-            "comic_id": 4185,
-            "comic_name": "不死邪王",
-            "total_view_num": 4088718,
+            "content": "漫天神魔，亦无所畏惧，我命在我！",
+            "comic_type": ["热血", "玄幻", "动作"],
+            "comic_id": 3554,
+            "comic_name": "武道独尊",
+            "total_view_num": 29640947,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "227话"
+          }
+        ]
+      },
+      {
+        "book_id": 2106016,
+        "title": "穿越新世界",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "4",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "3:4"
+        },
+        "comic_info": [
+          {
+            "content": "倒霉女穿越，专攻打脸神技",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 3066,
+            "comic_name": "穿越王妃要升级",
+            "total_view_num": 12166598,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "211话 我想娶的本来就不是你"
+          },
+          {
+            "content": "一代传奇，转世重来",
+            "comic_type": ["热血", "古风", "穿越"],
+            "comic_id": 1615,
+            "comic_name": "武神主宰",
+            "total_view_num": 87193579,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "458话 "
+          },
+          {
+            "content": "神医穿越古代收获绝美爱情，王爷你还装",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 1853,
+            "comic_name": "神医嫡女",
+            "total_view_num": 60790865,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "360话 饭桌之战"
+          },
+          {
+            "content": "穿越后我当家丁的那些日子",
+            "comic_type": ["热血", "穿越", "修真"],
+            "comic_id": 4283,
+            "comic_name": "一等家丁",
+            "total_view_num": 9346979,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "183话 交锋"
+          },
+          {
+            "content": "穿越就遇到这么萌萌哒大脑斧！",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4193,
+            "comic_name": "王爷是只大脑斧",
+            "total_view_num": 3974030,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "115话 听鸟说"
+          },
+          {
+            "content": "穿越成饱受排挤的公主，该何去何从",
+            "comic_type": ["古风", "恋爱", "穿越"],
+            "comic_id": 3789,
+            "comic_name": "绝色医妃",
+            "total_view_num": 12400940,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "208话"
+          },
+          {
+            "content": "少年拿肾做外挂，靠肾成为最强人！",
+            "comic_type": ["热血", "玄幻", "穿越"],
+            "comic_id": 4182,
+            "comic_name": "地表最强黄金肾",
+            "total_view_num": 9731233,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "113话 努力解开穿越之谜"
+          },
+          {
+            "content": "我要做那无与伦比的至高无上！",
+            "comic_type": ["玄幻", "穿越", "搞笑"],
+            "comic_id": 3716,
+            "comic_name": "最强升级",
+            "total_view_num": 14157224,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "184话 打回原形"
+          },
+          {
+            "content": "娇女重生，以血侍主，天子娇宠。",
+            "comic_type": ["恋爱", "漫改", "穿越"],
+            "comic_id": 4552,
+            "comic_name": "娇女谋略：甜宠血后",
+            "total_view_num": 3059062,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话"
+          }
+        ]
+      },
+      {
+        "book_id": 2107254,
+        "title": "恋爱小九九",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "0",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "娱乐圈倒霉男明星，我的女友是聚宝盆",
+            "comic_type": ["恋爱", "都市", "玄幻"],
+            "comic_id": 4448,
+            "comic_name": "盆然星动",
+            "total_view_num": 1777556,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "63话"
+            "last_comic_chapter_name": "96话 我想学化妆"
+          },
+          {
+            "content": "勇敢的叶罗丽战士，守卫我们的家园",
+            "comic_type": ["恋爱", "生活", "玄幻"],
+            "comic_id": 4441,
+            "comic_name": "精灵梦叶罗丽第八季",
+            "total_view_num": 2369663,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "52话 "
+          },
+          {
+            "content": "这是什么神奇的世界？竟然遇到了恶魔？",
+            "comic_type": ["生活", "恋爱", "都市"],
+            "comic_id": 4575,
+            "comic_name": "盛世华宠：我被俘虏了",
+            "total_view_num": 998787,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "36话"
+          },
+          {
+            "content": "COCOON",
+            "comic_type": ["热血", "武侠", "恋爱"],
+            "comic_id": 859,
+            "comic_name": "星武神诀",
+            "total_view_num": 87670998,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "414话 "
+          },
+          {
+            "content": "与命运抗争的三姐妹",
+            "comic_type": ["玄幻", "热血", "恋爱"],
+            "comic_id": 144,
+            "comic_name": "血族禁域",
+            "total_view_num": 1145447385,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "城堡少主和失忆少女的非日常生活",
+            "comic_type": ["恋爱", "搞笑", "完结"],
+            "comic_id": 4547,
+            "comic_name": "美梦成真的恋金术",
+            "total_view_num": 173557,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "13话 如果她真的失忆了"
           },
           {
             "content": "撩美男治白莲，看一代毒医如何称霸古代",
@@ -2361,26 +1609,26 @@
             "last_comic_chapter_name": "212话"
           },
           {
-            "content": "穿越成饱受排挤的公主，该何去何从",
-            "comic_type": ["古风", "恋爱", "穿越"],
-            "comic_id": 3789,
-            "comic_name": "绝色医妃",
-            "total_view_num": 12400940,
+            "content": "复仇王妃碰上城府颇深的瘸腿王爷！",
+            "comic_type": ["古风", "恋爱", "后宫"],
+            "comic_id": 3459,
+            "comic_name": "坏心王爷别惹我",
+            "total_view_num": 11232210,
             "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "208话"
+            "last_comic_chapter_name": "215话 真假陌溶月！"
           },
           {
-            "content": "少年拿肾做外挂，靠肾成为最强人！",
-            "comic_type": ["热血", "玄幻", "穿越"],
-            "comic_id": 4182,
-            "comic_name": "地表最强黄金肾",
-            "total_view_num": 9731233,
-            "pingfen": 96,
+            "content": "傲娇醋王总裁遇上白领精英妻子",
+            "comic_type": ["恋爱", "都市", "修真"],
+            "comic_id": 4436,
+            "comic_name": "契约冷妻不好惹",
+            "total_view_num": 7801256,
+            "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "113话 努力解开穿越之谜"
+            "last_comic_chapter_name": "107话 远走高飞独自美丽"
           },
           {
             "content": "《三眼哮天录》第二部，延续最热血浪漫的异色神话！",
@@ -2392,28 +1640,271 @@
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "14话2 盘根错节"
+          }
+        ]
+      },
+      {
+        "book_id": 2112496,
+        "title": "放纵不羁笑点低",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "6",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "和神仙聊天是什么感觉",
+            "comic_type": ["生活", "搞笑", "玄幻"],
+            "comic_id": 2565,
+            "comic_name": "我的微信连三界",
+            "total_view_num": 51057636,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "320话 欢迎找我报仇"
           },
           {
-            "content": "娇女重生，以血侍主，天子娇宠。",
-            "comic_type": ["恋爱", "漫改", "穿越"],
-            "comic_id": 4552,
-            "comic_name": "娇女谋略：甜宠血后",
-            "total_view_num": 3059062,
+            "content": "一代强者星尘大帝的复仇之路",
+            "comic_type": ["搞笑", "古风", "武侠"],
+            "comic_id": 4038,
+            "comic_name": "重生八万年",
+            "total_view_num": 18911496,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "166话 打回原形"
+          },
+          {
+            "content": "挨最毒的打，修最强的功法",
+            "comic_type": ["搞笑", "玄幻", "修真"],
+            "comic_id": 4185,
+            "comic_name": "不死邪王",
+            "total_view_num": 4088718,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "63话"
+          },
+          {
+            "content": "剽悍奇女子收服腹黑冰美男",
+            "comic_type": ["搞笑", "恋爱", "穿越"],
+            "comic_id": 4496,
+            "comic_name": "傲娇邪王宠入骨",
+            "total_view_num": 4543803,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "113话 气出内伤"
+          },
+          {
+            "content": "穿越异世界的唯一目的是搞事！",
+            "comic_type": ["游戏", "搞笑", "动作"],
+            "comic_id": 3608,
+            "comic_name": "从今天开始当城主",
+            "total_view_num": 15725369,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "232话 "
+          },
+          {
+            "content": "重生到游戏里的我变成了XX",
+            "comic_type": ["热血", "游戏", "搞笑"],
+            "comic_id": 4058,
+            "comic_name": "剑舞",
+            "total_view_num": 8021340,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "156话 谋划"
+          },
+          {
+            "content": "傲娇完美王子X心机腹黑学霸",
+            "comic_type": ["恋爱", "搞笑", "校园"],
+            "comic_id": 3748,
+            "comic_name": "恋爱令人头秃",
+            "total_view_num": 481442,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "15话 你的腰好细啊"
+          },
+          {
+            "content": "手残穿越被逼成为一代帝后",
+            "comic_type": ["搞笑", "古风", "游戏"],
+            "comic_id": 3380,
+            "comic_name": "系统逼我做皇后",
+            "total_view_num": 10859515,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "248话 太后登场"
+          },
+          {
+            "content": "去往失落的国度寻找身世",
+            "comic_type": ["热血", "搞笑", "都市"],
+            "comic_id": 4407,
+            "comic_name": "明日神都",
+            "total_view_num": 1282500,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季完结公告 "
+          },
+          {
+            "content": "异界修仙打怪，凡间赚钱收小弟",
+            "comic_type": ["玄幻", "搞笑", "漫改"],
+            "comic_id": 4123,
+            "comic_name": "异界土豪供应商",
+            "total_view_num": 5430187,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "131话"
+          },
+          {
+            "content": "医术当然是用来撩妹啦",
+            "comic_type": ["搞笑", "都市", "恋爱"],
+            "comic_id": 2490,
+            "comic_name": "绝品小神医",
+            "total_view_num": 35972328,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "279话 "
+          },
+          {
+            "content": "美女，需要什么服务？",
+            "comic_type": ["搞笑", "都市", "后宫"],
+            "comic_id": 3976,
+            "comic_name": "超级共享男友系统",
+            "total_view_num": 4812297,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话 桃花太多扛不住！"
+          },
+          {
+            "content": "穿越成了大胖子是认真的吗？",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4173,
+            "comic_name": "王爷，奴家减个肥",
+            "total_view_num": 5468419,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "点满365种姿势还撩不动个小丫头？",
+            "comic_type": ["恋爱", "古风", "搞笑"],
+            "comic_id": 3690,
+            "comic_name": "从此王爷不早朝",
+            "total_view_num": 6534080,
             "pingfen": 96,
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "一季最终话"
           },
           {
-            "content": "情爱只是为了利益而存在的",
-            "comic_type": ["古风", "穿越", "恋爱"],
-            "comic_id": 4394,
-            "comic_name": "步步毒谋:血凰归来",
-            "total_view_num": 4836118,
+            "content": "机缘巧合成为阎王，守护天下苍生",
+            "comic_type": ["搞笑", "热血", "都市"],
+            "comic_id": 2184,
+            "comic_name": "地府我开的",
+            "total_view_num": 23333187,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "611话 神力回归"
+          }
+        ]
+      },
+      {
+        "book_id": 2118681,
+        "title": "「幻」幻想 奇妙 时尚",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "大学生青年成为了花仙传人？",
+            "comic_type": ["热血", "玄幻", "都市"],
+            "comic_id": 4165,
+            "comic_name": "最强桃花运",
+            "total_view_num": 11920682,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "155话 她居然是美女？？？"
+          },
+          {
+            "content": "三百年修真渡劫失败，强势重生都市少年",
+            "comic_type": ["热血", "玄幻", "都市"],
+            "comic_id": 4037,
+            "comic_name": "重生弃少归来",
+            "total_view_num": 14243981,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "一季最终话 你跑不掉了"
+            "last_comic_chapter_name": "152话 三位供奉"
+          },
+          {
+            "content": "系统在手，我是史上最强老师",
+            "comic_type": ["校园", "动作", "玄幻"],
+            "comic_id": 4126,
+            "comic_name": "校园狂师",
+            "total_view_num": 10863294,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "160话 美食博主"
+          },
+          {
+            "content": "少年喜提金手指，神秘钢笔带来开挂人生",
+            "comic_type": ["热血", "玄幻", "校园"],
+            "comic_id": 4139,
+            "comic_name": "校园护花高手",
+            "total_view_num": 9802230,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "188话 一击制敌"
+          },
+          {
+            "content": "都市重生一世，逆天改命在即",
+            "comic_type": ["玄幻", "都市", "修真"],
+            "comic_id": 4265,
+            "comic_name": "都市之逆天仙尊",
+            "total_view_num": 16762693,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "155话"
+          },
+          {
+            "content": "霸道女总的逆后宫攻略",
+            "comic_type": ["恋爱", "穿越", "后宫"],
+            "comic_id": 4047,
+            "comic_name": "女帝的后宫",
+            "total_view_num": 12671136,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "192话 我也要！"
           },
           {
             "content": "恋爱游戏大神要攻略全天下最优秀的男人",
@@ -2438,65 +1929,37 @@
             "last_comic_chapter_name": "18话 考验"
           },
           {
-            "content": "屌丝大学生镇压群雄，纵览绝色美女",
-            "comic_type": ["热血", "修真", "都市"],
-            "comic_id": 3290,
-            "comic_name": "绝世飞刀",
-            "total_view_num": 21503044,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "274话 失败的惩罚"
-          }
-        ]
-      },
-      {
-        "book_id": 2122776,
-        "title": "「燃」热血 友情 奋斗",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "坠入仙界三千年，破空回归守护你！",
-            "comic_type": ["热血", "玄幻", "都市"],
-            "comic_id": 3790,
-            "comic_name": "仙帝归来",
-            "total_view_num": 18814015,
+            "content": "正统戏精与衣冠禽兽的花式浪漫",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 2957,
+            "comic_name": "哦，我的宠妃大人",
+            "total_view_num": 23208564,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "165话 撤场子了"
+            "last_comic_chapter_name": "262话 要命的婚礼"
           },
           {
-            "content": "三百年修真渡劫失败，强势重生都市少年",
-            "comic_type": ["热血", "玄幻", "都市"],
-            "comic_id": 4037,
-            "comic_name": "重生弃少归来",
-            "total_view_num": 14243981,
+            "content": "情爱只是为了利益而存在的",
+            "comic_type": ["古风", "穿越", "恋爱"],
+            "comic_id": 4394,
+            "comic_name": "步步毒谋:血凰归来",
+            "total_view_num": 4836118,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "151话 斩草除根"
+            "last_comic_chapter_name": "一季最终话"
           },
           {
-            "content": "少年喜提金手指，神秘钢笔带来开挂人生",
-            "comic_type": ["热血", "玄幻", "校园"],
-            "comic_id": 4139,
-            "comic_name": "校园护花高手",
-            "total_view_num": 9802230,
-            "pingfen": 96,
+            "content": "一朝蒙冤被害，从此浴血重生",
+            "comic_type": ["恋爱", "古风", "穿越"],
+            "comic_id": 4001,
+            "comic_name": "毒医嫡女",
+            "total_view_num": 12736785,
+            "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "186话 狙击手"
+            "last_comic_chapter_name": "169话 宠妻无度"
           },
           {
             "content": "眼一闭一睁，本仙帝又来人间重走一回！",
@@ -2510,163 +1973,1514 @@
             "last_comic_chapter_name": "24话"
           },
           {
-            "content": "斩诸天神主，灭千古君皇，此生我将为王",
-            "comic_type": ["热血", "都市", "修真"],
-            "comic_id": 4080,
-            "comic_name": "万古神王",
-            "total_view_num": 22260476,
+            "content": "重生千金，逆袭复仇。",
+            "comic_type": ["恋爱", "都市", "穿越"],
+            "comic_id": 4295,
+            "comic_name": "玫瑰陷阱",
+            "total_view_num": 1976508,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "216话 碾压全场"
+            "last_comic_chapter_name": "31话"
           },
           {
-            "content": "看逆袭屌丝开启自己的开挂人生！",
-            "comic_type": ["热血", "修真", "都市"],
-            "comic_id": 3967,
-            "comic_name": "系统仙尊在都市",
-            "total_view_num": 8963030,
+            "content": "前世恩怨今生偿，力压各大佬逆袭归来！",
+            "comic_type": ["玄幻", "都市", "后宫"],
+            "comic_id": 3841,
+            "comic_name": "都市之修真归来",
+            "total_view_num": 9131432,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "最终话 封印一生"
+            "last_comic_chapter_name": "122话 比力气"
           },
           {
-            "content": "史上最强单兵力量开启不平凡的一生！",
-            "comic_type": ["都市", "恋爱", "热血"],
-            "comic_id": 4051,
-            "comic_name": "终极兵王混都市",
-            "total_view_num": 10369724,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "153话 你聋了吗？"
-          },
-          {
-            "content": "从偷心的飞贼邂逅开始",
-            "comic_type": ["热血", "玄幻", "都市"],
-            "comic_id": 38,
-            "comic_name": "偷星九月天",
-            "total_view_num": 1012366549,
+            "content": "强者生存，弱者淘汰",
+            "comic_type": ["热血", "武侠", "连载"],
+            "comic_id": 1766,
+            "comic_name": "绝世武神",
+            "total_view_num": 49815373,
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "番外2"
+            "last_comic_chapter_name": "129话3 落霞宗"
           },
           {
-            "content": "去往失落的国度寻找身世",
-            "comic_type": ["热血", "搞笑", "都市"],
-            "comic_id": 4407,
-            "comic_name": "明日神都",
-            "total_view_num": 1282500,
+            "content": "末世天才毒医洗尽铅华，谁与争锋",
+            "comic_type": ["恋爱", "穿越", "玄幻"],
+            "comic_id": 4568,
+            "comic_name": "逆天毒医：龙尊求放过",
+            "total_view_num": 1040141,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 一切都结束了"
+          },
+          {
+            "content": "你当我病怏怏的，而我灵魂可不呢",
+            "comic_type": ["玄幻", "古风", "穿越"],
+            "comic_id": 3413,
+            "comic_name": "嚣张狂妃",
+            "total_view_num": 10477465,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "155话"
+          },
+          {
+            "content": "至尊道医纵横都市",
+            "comic_type": ["玄幻", "都市", "后宫"],
+            "comic_id": 3777,
+            "comic_name": "都市至尊",
+            "total_view_num": 8545521,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "127话 假扮大师兄"
+          }
+        ]
+      },
+      {
+        "book_id": 7000002,
+        "title": "古风爱情故事",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "和死敌亲密上了",
+            "comic_type": ["恋爱", "古风", "战争"],
+            "comic_id": 136,
+            "comic_name": "倾国妖宠",
+            "total_view_num": 152239046,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 故人2"
+          },
+          {
+            "content": "妖女VS帝君，宿命轮回的爱恨纠葛！",
+            "comic_type": ["恋爱", "古风", "玄幻"],
+            "comic_id": 4566,
+            "comic_name": "绝恋之乱世妖女",
+            "total_view_num": 110578,
+            "pingfen": 93,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "10话 离开"
+          },
+          {
+            "content": "颜容半毁从后变妃，重生归来惊才艳绝",
+            "comic_type": ["恋爱", "古风", "漫改"],
+            "comic_id": 4399,
+            "comic_name": "凤凰错:专宠弃妃",
+            "total_view_num": 6689072,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "153话 暴雨梨花针"
+          },
+          {
+            "content": "重生成宦官！？废王爷还亲亲抱抱！？",
+            "comic_type": ["恋爱", "古风", "悬疑"],
+            "comic_id": 3829,
+            "comic_name": "凰妃九千岁",
+            "total_view_num": 6856543,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "101话 叶羽"
+          },
+          {
+            "content": "杀手穿越成皇后",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 1886,
+            "comic_name": "皇后娘娘的五毛特效",
+            "total_view_num": 34083733,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "特别篇中奖公布"
+          },
+          {
+            "content": "渣男白莲齐上阵，那又如何？",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4049,
+            "comic_name": "医妃倾城：王妃要休夫",
+            "total_view_num": 4564524,
             "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "一季完结公告 "
-          },
-          {
-            "content": "末世里有食物就可以为所欲为了？",
-            "comic_type": ["热血", "恋爱", "动作"],
-            "comic_id": 4534,
-            "comic_name": "末世女友：我家后院通末世",
-            "total_view_num": 4800312,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "90话 蛮族入侵"
-          },
-          {
-            "content": "这个人人可以做主的世界，命运由你掌控",
-            "comic_type": ["玄幻", "都市", "热血"],
-            "comic_id": 4198,
-            "comic_name": "剑仁",
-            "total_view_num": 5794414,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "127话 仙界"
-          },
-          {
-            "content": "机缘巧合成为阎王，守护天下苍生",
-            "comic_type": ["搞笑", "热血", "都市"],
-            "comic_id": 2184,
-            "comic_name": "地府我开的",
-            "total_view_num": 23333187,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "606话 给我乖乖躺下吧"
-          },
-          {
-            "content": "快来这里和校花一起冒险！",
-            "comic_type": ["热血", "都市", "搞笑"],
-            "comic_id": 4002,
-            "comic_name": "校花的最强特种兵",
-            "total_view_num": 6850704,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "125话"
-          },
-          {
-            "content": "且看傲世狂花，王府嫡女霸气复仇。",
-            "comic_type": ["恋爱", "古风", "热血"],
-            "comic_id": 3956,
-            "comic_name": "嫡女诸侯",
-            "total_view_num": 5940436,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "2季96话"
-          },
-          {
-            "content": "逆天而为只为站在世界之巅",
-            "comic_type": ["玄幻", "热血", "恋爱"],
-            "comic_id": 2822,
-            "comic_name": "万界神主",
-            "total_view_num": 15278930,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "254话 躺赢"
-          },
-          {
-            "content": "系统在手，天下我有",
-            "comic_type": ["动作", "热血", "都市"],
-            "comic_id": 3672,
-            "comic_name": "最强神级系统",
-            "total_view_num": 4437305,
-            "pingfen": 92,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "2季28话 封身体"
-          },
-          {
-            "content": "左拥右抱都市生活",
-            "comic_type": ["热血", "恋爱", "都市"],
-            "comic_id": 2763,
-            "comic_name": "护花高手在都市",
-            "total_view_num": 10349791,
-            "pingfen": 95,
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "最终话"
           },
           {
-            "content": "天选之人揭开世界神秘一角",
-            "comic_type": ["热血", "玄幻", "校园"],
-            "comic_id": 3386,
-            "comic_name": "兼职神仙",
-            "total_view_num": 7008164,
+            "content": "三个女人和皇帝的纠葛",
+            "comic_type": ["恋爱", "古风", "后宫"],
+            "comic_id": 146,
+            "comic_name": "妃夕妍雪",
+            "total_view_num": 957822885,
             "pingfen": 95,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "260话 "
+            "last_comic_chapter_name": "最终话2 岁月静好"
+          },
+          {
+            "content": "逗比女汉子穿越的日子",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 2865,
+            "comic_name": "王爷你好帅",
+            "total_view_num": 9851259,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "249话 我不值得你信任吗？"
+          },
+          {
+            "content": "一朝穿越，变成了花痴王妃！",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4524,
+            "comic_name": "凤还朝，妖孽王爷请让道",
+            "total_view_num": 2024047,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话 同床共枕"
+          },
+          {
+            "content": "一朝穿越成皇帝的独生女，爹不疼娘不爱",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 3796,
+            "comic_name": "君上的小公主",
+            "total_view_num": 12753745,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "2季第34话"
+          },
+          {
+            "content": "一代影后意外穿越，还跟皇帝换了身体",
+            "comic_type": ["恋爱", "穿越", "古风"],
+            "comic_id": 4588,
+            "comic_name": "本宫要做皇帝",
+            "total_view_num": 1026924,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "15话 丽嫔找茬"
+          },
+          {
+            "content": "重生小村姑种田复仇收获美满爱情",
+            "comic_type": ["恋爱", "生活", "古风"],
+            "comic_id": 3428,
+            "comic_name": "暴力俏丫头",
+            "total_view_num": 3422003,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 重生一世，为你而来（大结局）"
+          },
+          {
+            "content": "我穿越成了婴儿了？！",
+            "comic_type": ["恋爱", "古风", "穿越"],
+            "comic_id": 3662,
+            "comic_name": "农女殊色",
+            "total_view_num": 8784239,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "244话"
+          },
+          {
+            "content": "小小妃子险象环生的宫斗之路",
+            "comic_type": ["古风", "后宫", "恋爱"],
+            "comic_id": 2459,
+            "comic_name": "读档皇后",
+            "total_view_num": 16428215,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "231话"
+          },
+          {
+            "content": "小狐狸勾引冷王爷",
+            "comic_type": ["玄幻", "古风", "恋爱"],
+            "comic_id": 2048,
+            "comic_name": "宠狐成妃",
+            "total_view_num": 13585209,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 破晓"
+          },
+          {
+            "content": "看重生女主如何雪耻报仇！",
+            "comic_type": ["恋爱", "生活", "古风"],
+            "comic_id": 2768,
+            "comic_name": "狂女重生：纨绔七皇妃",
+            "total_view_num": 16979060,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "291话 储秀宫失火"
+          },
+          {
+            "content": "什么，我竟然穿越成个炉鼎？！",
+            "comic_type": ["穿越", "古风", "恋爱"],
+            "comic_id": 3525,
+            "comic_name": "穿越后捡到魔尊大人",
+            "total_view_num": 7811572,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "169话 来龙去脉"
+          },
+          {
+            "content": "阴阳师穿越异界，保护王爷义不容辞！",
+            "comic_type": ["穿越", "古风", "恋爱"],
+            "comic_id": 4293,
+            "comic_name": "盛宠阴阳妃",
+            "total_view_num": 3375030,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "104话 一个交代"
           }
         ]
       },
       {
-        "book_id": 6000012,
+        "book_id": 7000021,
+        "title": "扑倒吸血鬼们",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "我们的相遇不是意外是命中注定",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 2262,
+            "comic_name": "吸血鬼男神",
+            "total_view_num": 30263825,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "281话 圣女血脉的作用"
+          },
+          {
+            "content": "少女娱记的魔鬼恋人，你的血好甜~",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 2062,
+            "comic_name": "明星是血族",
+            "total_view_num": 17220446,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "257话 等我回来"
+          },
+          {
+            "content": "霸道吸血鬼的移动血库",
+            "comic_type": ["玄幻", "恋爱", "生活"],
+            "comic_id": 3037,
+            "comic_name": "我的吸血鬼总裁",
+            "total_view_num": 2616884,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "45话 渐渐浮出的心意"
+          },
+          {
+            "content": "和小鹿陷入爱情的狮子们",
+            "comic_type": ["恋爱", "玄幻", "都市"],
+            "comic_id": 4520,
+            "comic_name": "我的吸血哥哥和狼人男友",
+            "total_view_num": 1055027,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "54话 "
+          },
+          {
+            "content": "求放过，吸血鬼前男友",
+            "comic_type": ["恋爱", "霸总", "完结"],
+            "comic_id": 2794,
+            "comic_name": "血族前男友：甜美的咬痕",
+            "total_view_num": 5434434,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "120话"
+          },
+          {
+            "content": "我竟然成为当红偶像的奴隶了？！",
+            "comic_type": ["恋爱", "都市", "生活"],
+            "comic_id": 4057,
+            "comic_name": "我与吸血鬼偶像的日子",
+            "total_view_num": 1042833,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话"
+          },
+          {
+            "content": "人类少女与吸血鬼的爱",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 1345,
+            "comic_name": "撞上血族王爵",
+            "total_view_num": 22352455,
+            "pingfen": 92,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "14话 "
+          },
+          {
+            "content": "血族兄妹的学霸攻略记",
+            "comic_type": ["搞笑", "恋爱", "萝莉"],
+            "comic_id": 122,
+            "comic_name": "血族维他命",
+            "total_view_num": 47051272,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 冰冷之吻"
+          },
+          {
+            "content": "爱情在学术面前什么都不是！",
+            "comic_type": ["悬疑", "恋爱", "完结"],
+            "comic_id": 2374,
+            "comic_name": "吸血鬼新娘",
+            "total_view_num": 1088674,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "我的朋友不是人",
+            "comic_type": ["恋爱", "生活", "都市"],
+            "comic_id": 1809,
+            "comic_name": "吸血鬼邻居",
+            "total_view_num": 5602569,
+            "pingfen": 93,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 来世再见"
+          },
+          {
+            "content": "护花使者是吸血鬼",
+            "comic_type": ["恋爱", "都市", "玄幻"],
+            "comic_id": 4034,
+            "comic_name": "吸血鬼男神想撩我",
+            "total_view_num": 741002,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "25话 联手"
+          },
+          {
+            "content": "血族王冠千年圣战",
+            "comic_type": ["热血", "科幻", "完结"],
+            "comic_id": 1285,
+            "comic_name": "血族王冠",
+            "total_view_num": 228349,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "番外4 "
+          }
+        ]
+      },
+      {
+        "book_id": 7000017,
+        "title": "BOSS大人别乱来",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "抓小三，小三竟然是高富帅美男！？",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3493,
+            "comic_name": "恶魔，别吻我",
+            "total_view_num": 10152103,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 一切仿若初见"
+          },
+          {
+            "content": "为了哥哥！只能勉为其难的嫁给他",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4288,
+            "comic_name": "陆少的暖婚新妻",
+            "total_view_num": 2905418,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "123话 "
+          },
+          {
+            "content": "本小姐重生后只想赚钱！",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3670,
+            "comic_name": "重生暖婚轻轻宠",
+            "total_view_num": 8295675,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "202话 夫人的事情大过天"
+          },
+          {
+            "content": "两个宠她爱她的男人，怎么选",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 3781,
+            "comic_name": "乱世帅府：听说司佑良爱我很多年",
+            "total_view_num": 6057988,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "停更通知"
+          },
+          {
+            "content": "在床单上“挑战”你",
+            "comic_type": ["霸总", "都市", "恋爱"],
+            "comic_id": 2052,
+            "comic_name": "惹上首席总裁",
+            "total_view_num": 32871330,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "2季220话 "
+          },
+          {
+            "content": "看弱娇漫画家小念如何驯服霸道老宫",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 2130,
+            "comic_name": "我的男人是个偏执狂",
+            "total_view_num": 39438015,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "344话 我稀罕那一个亿？！"
+          },
+          {
+            "content": "这个总裁不太帅",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 2066,
+            "comic_name": "天价豪门:夫人又跑了",
+            "total_view_num": 27530118,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "307话 可靠战友"
+          },
+          {
+            "content": "霸道总裁强势追妻，甜蜜恋情由此开启",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4281,
+            "comic_name": "陆少的心尖宠",
+            "total_view_num": 3536450,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话2"
+          },
+          {
+            "content": "亲情变成枷锁，失去一切后的爆发",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 3423,
+            "comic_name": "落难千金的逆袭",
+            "total_view_num": 14193063,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "289话 真是搞不懂她"
+          },
+          {
+            "content": "总裁，你得不到我就黑我？？？",
+            "comic_type": ["霸总", "恋爱", "都市"],
+            "comic_id": 1441,
+            "comic_name": "我被总裁黑上了！",
+            "total_view_num": 81059653,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "350话 "
+          },
+          {
+            "content": "为爱坐牢惨遭背叛却被他宠上了天",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 2175,
+            "comic_name": "万丈光芒不及你",
+            "total_view_num": 29248922,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "257话"
+          },
+          {
+            "content": "以哥哥的名义占有嫂子",
+            "comic_type": ["霸总", "都市", "恋爱"],
+            "comic_id": 2127,
+            "comic_name": "入骨暖婚（漫画版）",
+            "total_view_num": 17345995,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "332话 我来报仇了"
+          },
+          {
+            "content": "科技改变命运",
+            "comic_type": ["霸总", "恋爱", "都市"],
+            "comic_id": 1838,
+            "comic_name": "很纯很美好",
+            "total_view_num": 75187570,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "373话 "
+          },
+          {
+            "content": "正牌女友休前妻",
+            "comic_type": ["霸总", "都市", "恋爱"],
+            "comic_id": 1662,
+            "comic_name": "豪门天价前妻",
+            "total_view_num": 57333613,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "625话 争夺黑翼特权"
+          },
+          {
+            "content": "甩两百块就想跑，三番两次再捉回床",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 3711,
+            "comic_name": "霸道总裁求抱抱",
+            "total_view_num": 7076967,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "175话 谈判"
+          },
+          {
+            "content": "军长老公求放过",
+            "comic_type": ["霸总", "都市", "生活"],
+            "comic_id": 1839,
+            "comic_name": "蛮妻有毒，贴心大叔暖上天",
+            "total_view_num": 33305019,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "萌宝带你开启欢乐之旅~",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4252,
+            "comic_name": "天才双宝：傲娇前妻抱回家",
+            "total_view_num": 3079720,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话"
+          },
+          {
+            "content": "手撕渣男渣女在重生之后",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4140,
+            "comic_name": "重生丫头",
+            "total_view_num": 2278046,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 承诺"
+          }
+        ]
+      },
+      {
+        "book_id": 7000014,
+        "title": "美型总裁了解一下！",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "鬼医重生现代，携带灵玉空间！",
+            "comic_type": ["恋爱", "霸总", "校园"],
+            "comic_id": 4387,
+            "comic_name": "重生空间：豪门辣妻不好惹",
+            "total_view_num": 8041834,
+            "pingfen": 98,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "129话 让你身败名裂！"
+          },
+          {
+            "content": "与你相遇，是我做过最好的事",
+            "comic_type": ["玄幻", "恋爱", "霸总"],
+            "comic_id": 4285,
+            "comic_name": "怦然心动的秘密",
+            "total_view_num": 1064111,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 结局"
+          },
+          {
+            "content": "混世小魔女X冷酷总裁大哥哥",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3492,
+            "comic_name": "完美老公进化论",
+            "total_view_num": 11787022,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "番外6 凌风"
+          },
+          {
+            "content": "把握这次重生的机会，不再重蹈覆辙！",
+            "comic_type": ["恋爱", "校园", "霸总"],
+            "comic_id": 4129,
+            "comic_name": "重生巨星",
+            "total_view_num": 5926653,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "110话 胸口碎大石"
+          },
+          {
+            "content": "虐妻一时爽，追妻火葬场。",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4510,
+            "comic_name": "傲娇总裁:爱妻你别跑",
+            "total_view_num": 2918132,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "34话 风波再起"
+          },
+          {
+            "content": "这是一个灰姑娘遇坏脾气王子的故事",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 4122,
+            "comic_name": "对抗男神boss",
+            "total_view_num": 3479975,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "100话 "
+          },
+          {
+            "content": "嫁了个喜欢男人的GAY",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 1817,
+            "comic_name": "帝豪老公太狂热",
+            "total_view_num": 35471878,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "82话"
+          },
+          {
+            "content": "高冷机长是宠妻狂魔",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3723,
+            "comic_name": "机长大人暖暖爱",
+            "total_view_num": 6398323,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "123话"
+          },
+          {
+            "content": "被标记后就是他的人啦~~~",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 4412,
+            "comic_name": "星际帝国第一宠婚",
+            "total_view_num": 3668553,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "65话 为了你，我什么都做得出来！"
+          },
+          {
+            "content": "有你的瑾年才安好",
+            "comic_type": ["霸总", "恋爱", "生活"],
+            "comic_id": 898,
+            "comic_name": "国民老公带回家：偷吻55次",
+            "total_view_num": 30096167,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "总裁请签收，你的小哑妻",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 4554,
+            "comic_name": "站住！小哑妻",
+            "total_view_num": 1523613,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "一觉醒来多出了一个五岁儿子？",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 4282,
+            "comic_name": "萌宝来袭：妈咪我爹地呢？",
+            "total_view_num": 3284559,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "盲妻和总裁的替身爱情游戏",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3463,
+            "comic_name": "琴牵意惹小盲妻",
+            "total_view_num": 9198259,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "179话 情敌上门？！"
+          },
+          {
+            "content": "女人，过来取悦我！",
+            "comic_type": ["霸总", "恋爱", "都市"],
+            "comic_id": 1777,
+            "comic_name": "王爵的恋爱物语",
+            "total_view_num": 60814155,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "名门千金惨遭背叛，五年后携宝贝归来",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 4172,
+            "comic_name": "金牌甜妻",
+            "total_view_num": 9793921,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "267话 爷爷的要求"
+          },
+          {
+            "content": "有我在，从此没有人再能伤害你",
+            "comic_type": ["恋爱", "都市", "霸总"],
+            "comic_id": 3569,
+            "comic_name": "宠爱难逃:偏执顾少高冷妻",
+            "total_view_num": 8096069,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "机关算计步步逼婚，要在她心中画地为牢",
+            "comic_type": ["恋爱", "霸总", "都市"],
+            "comic_id": 3997,
+            "comic_name": "极品辣妈不好惹",
+            "total_view_num": 4587072,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "143话 警惕"
+          },
+          {
+            "content": "一朝跌入尘土又再开出花来",
+            "comic_type": ["霸总", "都市", "恋爱"],
+            "comic_id": 3368,
+            "comic_name": "拒嫁豪门：霍总你家迷妹又飘了",
+            "total_view_num": 7192714,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "停更通知 "
+          }
+        ]
+      },
+      {
+        "book_id": 7000001,
+        "title": "校园恋爱故事",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "纯情的校园故事就在同桌的那一天开始",
+            "comic_type": ["校园", "恋爱", "生活"],
+            "comic_id": 4119,
+            "comic_name": "她的微笑像颗糖",
+            "total_view_num": 3780226,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "1季最终话 神秘人出现"
+          },
+          {
+            "content": "我的妻子冷冷的",
+            "comic_type": ["校园", "都市", "恋爱"],
+            "comic_id": 3548,
+            "comic_name": "老婆大人有点冷",
+            "total_view_num": 6840471,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "123话"
+          },
+          {
+            "content": "变成妹子也要称霸校园",
+            "comic_type": ["恋爱", "校园", "萝莉"],
+            "comic_id": 116,
+            "comic_name": "王者名昭",
+            "total_view_num": 159964031,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话3 未来可期！"
+          },
+          {
+            "content": "校霸太子的霸王硬上弓！！！！",
+            "comic_type": ["恋爱", "校园", "搞笑"],
+            "comic_id": 860,
+            "comic_name": "至今花蕊有净尘",
+            "total_view_num": 36843636,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 你是我的幸运"
+          },
+          {
+            "content": "一言不合就推到？学霸哥哥你等等！",
+            "comic_type": ["恋爱", "校园", "生活"],
+            "comic_id": 2863,
+            "comic_name": "学霸哥哥转型中",
+            "total_view_num": 10656667,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "323话 绿茶的自我进阶"
+          },
+          {
+            "content": "穿越到玛丽苏小说怎么办？",
+            "comic_type": ["恋爱", "校园", "穿越"],
+            "comic_id": 4098,
+            "comic_name": "贵少的绯闻女友",
+            "total_view_num": 2887479,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "85话"
+          },
+          {
+            "content": "花样美男与我的爱情罗曼史",
+            "comic_type": ["校园", "恋爱", "生活"],
+            "comic_id": 3298,
+            "comic_name": "修罗少爷太嚣张",
+            "total_view_num": 2641837,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "炮灰女重生高富帅复仇恋爱",
+            "comic_type": ["恋爱", "校园", "生活"],
+            "comic_id": 2487,
+            "comic_name": "从0到1的重生",
+            "total_view_num": 7862248,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "死丫头，我们又见面了",
+            "comic_type": ["恋爱", "校园", "完结"],
+            "comic_id": 1457,
+            "comic_name": "恋爱插班生",
+            "total_view_num": 32020950,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "作品推荐2 纣王和小仙女的快递 预告"
+          },
+          {
+            "content": "恶魔少爷的倔强小奴隶",
+            "comic_type": ["恋爱", "生活", "校园"],
+            "comic_id": 3300,
+            "comic_name": "恶魔少爷太难缠",
+            "total_view_num": 2089969,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "撸猫！挑逗你的恋爱心弦",
+            "comic_type": ["校园", "恋爱", "玄幻"],
+            "comic_id": 2842,
+            "comic_name": "人气同桌是只猫",
+            "total_view_num": 5521783,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 我一定会找到你！"
+          },
+          {
+            "content": "校草恋上身份神秘的冷面千金",
+            "comic_type": ["校园", "恋爱", "都市"],
+            "comic_id": 4301,
+            "comic_name": "痴心校草冷千金",
+            "total_view_num": 988669,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "地狱的魔鬼与天使",
+            "comic_type": ["恋爱", "校园", "完结"],
+            "comic_id": 1755,
+            "comic_name": "地狱告白诗",
+            "total_view_num": 9438158,
+            "pingfen": 93,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "地狱告白诗漫动画上线 "
+          },
+          {
+            "content": "我同桌是国民偶像？！",
+            "comic_type": ["恋爱", "校园", "生活"],
+            "comic_id": 4158,
+            "comic_name": "继承者驾到：校草，闹够没！",
+            "total_view_num": 2493122,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "双面老师VS双面学生！谁会赢？",
+            "comic_type": ["恋爱", "校园", "生活"],
+            "comic_id": 2749,
+            "comic_name": "双面老师的夜间补习",
+            "total_view_num": 9504969,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "194话 "
+          },
+          {
+            "content": "未婚夫疑似取向不明，还不让我退婚？！",
+            "comic_type": ["搞笑", "恋爱", "校园"],
+            "comic_id": 4143,
+            "comic_name": "王牌校草美男团",
+            "total_view_num": 625009,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "14话 食物链顶端的男人"
+          },
+          {
+            "content": "如果让你在100天内爱上一个人，你愿意吗？",
+            "comic_type": ["生活", "恋爱", "校园"],
+            "comic_id": 3526,
+            "comic_name": "百日恋爱计划",
+            "total_view_num": 1872085,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 曲终人散"
+          },
+          {
+            "content": "青春微忧，懵懂的爱恋",
+            "comic_type": ["校园", "恋爱", "完结"],
+            "comic_id": 894,
+            "comic_name": "恋是樱草色",
+            "total_view_num": 28364029,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "75话 我喜欢你"
+          }
+        ]
+      },
+      {
+        "book_id": 7000009,
+        "title": "幸运遇见你",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "什么？！女神竟然投怀送抱？！",
+            "comic_type": ["恋爱", "生活", "校园"],
+            "comic_id": 3825,
+            "comic_name": "班长大人住我家",
+            "total_view_num": 11589463,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "147话 先婚后爱"
+          },
+          {
+            "content": "看无敌嘴炮少年一路恋爱开挂！",
+            "comic_type": ["搞笑", "校园", "恋爱"],
+            "comic_id": 3313,
+            "comic_name": "嘴炮至尊",
+            "total_view_num": 4248764,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "104话"
+          },
+          {
+            "content": "当拥有了控制自己运气的本领后",
+            "comic_type": ["热血", "恋爱", "校园"],
+            "comic_id": 3577,
+            "comic_name": "邪气凛然",
+            "total_view_num": 6026587,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "为了王子变成女神",
+            "comic_type": ["恋爱", "生活", "校园"],
+            "comic_id": 1652,
+            "comic_name": "反转吧，女神大人！",
+            "total_view_num": 4391303,
+            "pingfen": 92,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "霸道校草接招吧！",
+            "comic_type": ["校园", "恋爱", "搞笑"],
+            "comic_id": 3073,
+            "comic_name": "霸道校草的野丫头",
+            "total_view_num": 1888855,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 甜甜蜜蜜在一起"
+          },
+          {
+            "content": "撩妹！从爱情三十六计开始",
+            "comic_type": ["恋爱", "后宫", "校园"],
+            "comic_id": 3056,
+            "comic_name": "我在女子学院",
+            "total_view_num": 3131741,
+            "pingfen": 93,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话"
+          },
+          {
+            "content": "客官，需要占卜不？",
+            "comic_type": ["校园", "悬疑", "恋爱"],
+            "comic_id": 1950,
+            "comic_name": "抱紧我的小龙女",
+            "total_view_num": 3375879,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "作品推荐2 纣王和小仙女的快递 预告"
+          },
+          {
+            "content": "换个世界调教蛇精病小徒弟",
+            "comic_type": ["修真", "恋爱", "校园"],
+            "comic_id": 3050,
+            "comic_name": "不要打扰我飞升",
+            "total_view_num": 2560940,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 我们重新认识吧!"
+          },
+          {
+            "content": "不准走，你是本君的女人",
+            "comic_type": ["玄幻", "恋爱", "校园"],
+            "comic_id": 2970,
+            "comic_name": "阎罗宠妻太黏人",
+            "total_view_num": 390895,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "9话 黄粱一梦"
+          },
+          {
+            "content": "在这个世界上，我只喜欢你",
+            "comic_type": ["生活", "恋爱", "校园"],
+            "comic_id": 4117,
+            "comic_name": "世界唯有你喜欢",
+            "total_view_num": 703132,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 不变的是，世界唯有你喜欢"
+          },
+          {
+            "content": "学习超能力学长好拐带",
+            "comic_type": ["搞笑", "恋爱", "校园"],
+            "comic_id": 3,
+            "comic_name": "Super少女",
+            "total_view_num": 26192857,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "番外2"
+          },
+          {
+            "content": "龙凤胎的灵魂共用一个躯体",
+            "comic_type": ["玄幻", "恋爱", "校园"],
+            "comic_id": 3055,
+            "comic_name": "一体双魂",
+            "total_view_num": 202123,
+            "pingfen": 91,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "26话 "
+          },
+          {
+            "content": "精神分裂症患者X心理催眠师",
+            "comic_type": ["恋爱", "校园", "悬疑"],
+            "comic_id": 3785,
+            "comic_name": "攻占关系",
+            "total_view_num": 705216,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 私人催眠师"
+          },
+          {
+            "content": "倒霉少女与“天使大人”的不平等条约",
+            "comic_type": ["热血", "恋爱", "校园"],
+            "comic_id": 3953,
+            "comic_name": "天使大人别爱我",
+            "total_view_num": 415235,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "51话 幻境还是真实"
+          },
+          {
+            "content": "孤僻少女居然被学霸校草缠上了？！",
+            "comic_type": ["恋爱", "生活", "校园"],
+            "comic_id": 4019,
+            "comic_name": "你的眼泪很甜",
+            "total_view_num": 869992,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "26话 我想和你一起听"
+          },
+          {
+            "content": "散打女王碰上霸道总裁",
+            "comic_type": ["霸总", "校园", "恋爱"],
+            "comic_id": 1843,
+            "comic_name": "豪门争斗之散打女王",
+            "total_view_num": 3213709,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "跆拳道也能很牛逼",
+            "comic_type": ["恋爱", "体育", "校园"],
+            "comic_id": 1539,
+            "comic_name": "旋风少女",
+            "total_view_num": 10110695,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "34话"
+          },
+          {
+            "content": "从不失手的神秘组织",
+            "comic_type": ["恋爱", "科幻", "校园"],
+            "comic_id": 523,
+            "comic_name": "雪影特遣组",
+            "total_view_num": 24601788,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 后会有期"
+          }
+        ]
+      },
+      {
+        "book_id": 7000022,
+        "title": "神话故事讲不完",
+        "config": {
+          "isshowtitle": 1,
+          "order_type": 1,
+          "outerwidth": "2",
+          "display_type": "11",
+          "isshowchange": 1,
+          "interwidth": "0",
+          "isautoslide": 0,
+          "isshowdetail": "3",
+          "horizonratio": "16:8"
+        },
+        "comic_info": [
+          {
+            "content": "天才少年，一剑灭青云，一剑断万古",
+            "comic_type": ["玄幻", "修真", "热血"],
+            "comic_id": 4309,
+            "comic_name": "修罗剑尊",
+            "total_view_num": 12198443,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "161话 密聊"
+          },
+          {
+            "content": "踏遍诸天万界，战尽各族英杰",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 4083,
+            "comic_name": "神武天尊",
+            "total_view_num": 37517203,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "273话 大战揭幕"
+          },
+          {
+            "content": "万界仙王叶枫逆袭开挂反转人生！",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 4386,
+            "comic_name": "万界仙王",
+            "total_view_num": 4534840,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "115话 所有人就地诛杀！"
+          },
+          {
+            "content": "美人在怀，兄弟在侧，神兵在手！",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 2499,
+            "comic_name": "妖道至尊",
+            "total_view_num": 26276777,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "小乐家的输入法皮肤上"
+          },
+          {
+            "content": "战鼎显、神魔出，号令三界！",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 3694,
+            "comic_name": "战鼎",
+            "total_view_num": 11008725,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "230话 雨化巅峰落败"
+          },
+          {
+            "content": "重生再破十年轮回！！！！！",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 3969,
+            "comic_name": "逆转仙途",
+            "total_view_num": 12327760,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "179话 怜香惜玉"
+          },
+          {
+            "content": "踏上众生之巅，成就至尊之位！",
+            "comic_type": ["玄幻", "修真", "穿越"],
+            "comic_id": 3695,
+            "comic_name": "至尊神级系统",
+            "total_view_num": 26519856,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "340话"
+          },
+          {
+            "content": "废柴少年打天下",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 2286,
+            "comic_name": "武神天下",
+            "total_view_num": 11865973,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "112话"
+          },
+          {
+            "content": "废柴野鸡的妖孽人生",
+            "comic_type": ["玄幻", "都市", "修真"],
+            "comic_id": 2709,
+            "comic_name": "我本废柴",
+            "total_view_num": 19872547,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "一季最终话"
+          },
+          {
+            "content": "刮刮乐刮出女神，还穿越到了天庭？",
+            "comic_type": ["修真", "后宫", "玄幻"],
+            "comic_id": 4063,
+            "comic_name": "我是玉皇大帝",
+            "total_view_num": 5309110,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 该去接妲己回家了"
+          },
+          {
+            "content": "承包这片鱼塘成为世界首富吧！",
+            "comic_type": ["玄幻", "都市", "修真"],
+            "comic_id": 4358,
+            "comic_name": "神级渔夫",
+            "total_view_num": 8899826,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "117话"
+          },
+          {
+            "content": "与诸天争锋，我为狂魔，敢逆天！",
+            "comic_type": ["玄幻", "热血", "修真"],
+            "comic_id": 3699,
+            "comic_name": "太古狂神",
+            "total_view_num": 4398375,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "天地众生，皆可成龙？",
+            "comic_type": ["修真", "玄幻", "完结"],
+            "comic_id": 1306,
+            "comic_name": "龙符之王道天下",
+            "total_view_num": 80539118,
+            "pingfen": 95,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "联动宣传活动 "
+          },
+          {
+            "content": "妹控的家兄很变态",
+            "comic_type": ["恋爱", "玄幻", "修真"],
+            "comic_id": 1703,
+            "comic_name": "家兄又在作死",
+            "total_view_num": 24098038,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          },
+          {
+            "content": "王爷的修仙小娇妻",
+            "comic_type": ["修真", "恋爱", "玄幻"],
+            "comic_id": 1288,
+            "comic_name": "妃常无良",
+            "total_view_num": 60753829,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "97话 "
+          },
+          {
+            "content": "为护天下苍生踏上修炼之路",
+            "comic_type": ["玄幻", "修真", "古风"],
+            "comic_id": 4114,
+            "comic_name": "剑玲珑",
+            "total_view_num": 920545,
+            "pingfen": 91,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "109话"
+          },
+          {
+            "content": "废材大学生的祝由师成长之路",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 3793,
+            "comic_name": "神剑符皇",
+            "total_view_num": 1016222,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "作品推荐 "
+          },
+          {
+            "content": "仙帝竟然重生成放牛郎",
+            "comic_type": ["热血", "玄幻", "修真"],
+            "comic_id": 3129,
+            "comic_name": "逆天仙帝",
+            "total_view_num": 2121898,
+            "pingfen": 91,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "最终话 "
+          }
+        ]
+      },
+      {
+        "book_id": 7000012,
         "title": "医然动人",
         "config": {
           "isshowtitle": 1,
@@ -2681,26 +3495,59 @@
         },
         "comic_info": [
           {
-            "content": "末世天才毒医洗尽铅华，谁与争锋",
-            "comic_type": ["恋爱", "穿越", "玄幻"],
-            "comic_id": 4568,
-            "comic_name": "逆天毒医：龙尊求放过",
-            "total_view_num": 1040141,
-            "pingfen": 95,
+            "content": "兵王重返都市，美女纷至沓来",
+            "comic_type": ["热血", "动作", "都市"],
+            "comic_id": 4338,
+            "comic_name": "绝品医圣",
+            "total_view_num": 9611720,
+            "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "最终话 一切都结束了"
+            "last_comic_chapter_name": "156话 夏侯子旻"
           },
           {
-            "content": "渣男白莲齐上阵，那又如何？",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 4049,
-            "comic_name": "医妃倾城：王妃要休夫",
-            "total_view_num": 4564524,
-            "pingfen": 94,
+            "content": "武功能杀天下人，医术可救世间命",
+            "comic_type": ["恋爱", "都市", "动作"],
+            "comic_id": 3795,
+            "comic_name": "医武至尊",
+            "total_view_num": 20523016,
+            "pingfen": 96,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "最终话"
+            "last_comic_chapter_name": "296话 医院中的剑拔弩张"
+          },
+          {
+            "content": "神医救人阎王不收，兵王伤人神仙难治",
+            "comic_type": ["热血", "都市", "动作"],
+            "comic_id": 4251,
+            "comic_name": "医等狂兵",
+            "total_view_num": 7564048,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "148话 最硬的男人"
+          },
+          {
+            "content": "神医的都市传说，看他如何妙手回春！",
+            "comic_type": ["热血", "后宫", "都市"],
+            "comic_id": 3992,
+            "comic_name": "妙手狂医",
+            "total_view_num": 13347765,
+            "pingfen": 97,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "163话 内讧"
+          },
+          {
+            "content": "神奇的透视能力，让人生变得丰富多彩",
+            "comic_type": ["热血", "恋爱", "后宫"],
+            "comic_id": 4012,
+            "comic_name": "天才狂医",
+            "total_view_num": 8162261,
+            "pingfen": 96,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "150话 没有机会了"
           },
           {
             "content": "穿越到古代军营男扮女装怎么破",
@@ -2780,6 +3627,17 @@
             "last_comic_chapter_name": "22话"
           },
           {
+            "content": "废柴重生，修真撩妹",
+            "comic_type": ["都市", "恋爱", "玄幻"],
+            "comic_id": 2476,
+            "comic_name": "圣医重生计划",
+            "total_view_num": 10754282,
+            "pingfen": 94,
+            "url": "",
+            "img_url": "",
+            "last_comic_chapter_name": "联动宣传活动 "
+          },
+          {
             "content": "杀人？救人？来学医吧",
             "comic_type": ["搞笑", "热血", "都市"],
             "comic_id": 1056,
@@ -2833,354 +3691,12 @@
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "医学女博士穿越重生",
-            "comic_type": ["古风", "穿越", "恋爱"],
-            "comic_id": 2917,
-            "comic_name": "医妃当道",
-            "total_view_num": 2855841,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 差得远呢"
-          },
-          {
-            "content": "让功夫成为传奇",
-            "comic_type": ["玄幻", "恋爱", "都市"],
-            "comic_id": 4250,
-            "comic_name": "近身狂医",
-            "total_view_num": 1186384,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "64话"
-          },
-          {
-            "content": "那个让我无法自拔的男人",
-            "comic_type": ["恋爱", "生活", "都市"],
-            "comic_id": 3383,
-            "comic_name": "医宠成婚：总裁快吃药",
-            "total_view_num": 3545882,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "56话"
-          },
-          {
-            "content": "神医小农民，人生巅峰路",
-            "comic_type": ["热血", "生活", "搞笑"],
-            "comic_id": 4088,
-            "comic_name": "神医小农民",
-            "total_view_num": 919595,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 "
           }
         ]
       },
       {
-        "book_id": 6000015,
-        "title": "武之巅峰 剑之极境",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "我非英雄，也盖世无双",
-            "comic_type": ["玄幻", "热血", "武侠"],
-            "comic_id": 1535,
-            "comic_name": "圣祖",
-            "total_view_num": 25252628,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 埋葬绝凰院"
-          },
-          {
-            "content": "重生是为了逆转前世",
-            "comic_type": ["热血", "玄幻", "武侠"],
-            "comic_id": 1779,
-            "comic_name": "傲世九重天",
-            "total_view_num": 28249360,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "88话4 TKB48"
-          },
-          {
-            "content": "朕的后宫被你承包了",
-            "comic_type": ["武侠", "古风", "恋爱"],
-            "comic_id": 1446,
-            "comic_name": "朕的皇后是武林盟主",
-            "total_view_num": 37922021,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "作品推荐2"
-          },
-          {
-            "content": "且看双魂少年如何逆天改命！",
-            "comic_type": ["恋爱", "武侠", "修真"],
-            "comic_id": 3248,
-            "comic_name": "我把天道修歪了",
-            "total_view_num": 5248922,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "89话 你的守护，我会一辈子都记得"
-          },
-          {
-            "content": "一人主宰，成王败寇",
-            "comic_type": ["热血", "武侠", "动作"],
-            "comic_id": 1596,
-            "comic_name": "仙侠世界",
-            "total_view_num": 38289247,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "二季最终话 "
-          },
-          {
-            "content": "在武功和念术的世界，成为一名相忘师",
-            "comic_type": ["古风", "武侠", "修真"],
-            "comic_id": 3991,
-            "comic_name": "相忘师",
-            "total_view_num": 586734,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更公告"
-          },
-          {
-            "content": "废柴少主逆袭乱世妖颜",
-            "comic_type": ["恋爱", "玄幻", "武侠"],
-            "comic_id": 3220,
-            "comic_name": "妖颜惑仲",
-            "total_view_num": 840405,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "23话 "
-          },
-          {
-            "content": "手握三尺青锋，乱世江湖里求个天下太平",
-            "comic_type": ["热血", "玄幻", "武侠"],
-            "comic_id": 4442,
-            "comic_name": "太平客栈",
-            "total_view_num": 409440,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "10话"
-          },
-          {
-            "content": "在下陆修派弟子，卓遥",
-            "comic_type": ["古风", "修真", "武侠"],
-            "comic_id": 1879,
-            "comic_name": "破界之路",
-            "total_view_num": 3092801,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "外科高材生穿越武侠界",
-            "comic_type": ["热血", "穿越", "武侠"],
-            "comic_id": 2953,
-            "comic_name": "外科剑仙",
-            "total_view_num": 2871933,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 江湖路远，再见"
-          },
-          {
-            "content": "真正的天才是如何炼成",
-            "comic_type": ["修真", "玄幻", "武侠"],
-            "comic_id": 3600,
-            "comic_name": "武神",
-            "total_view_num": 363235,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 "
-          },
-          {
-            "content": "穿越来到战国时代",
-            "comic_type": ["玄幻", "穿越", "武侠"],
-            "comic_id": 1844,
-            "comic_name": "不可思议的战国",
-            "total_view_num": 2698412,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "24话 "
-          },
-          {
-            "content": "武侠奇才叱咤武林",
-            "comic_type": ["动作", "武侠", "完结"],
-            "comic_id": 1273,
-            "comic_name": "重生之仗剑天下",
-            "total_view_num": 6622275,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "31话 "
-          },
-          {
-            "content": "架空异界，武道百家",
-            "comic_type": ["搞笑", "古风", "武侠"],
-            "comic_id": 3713,
-            "comic_name": "异界娱乐大亨",
-            "total_view_num": 383269,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更通知 "
-          },
-          {
-            "content": "女孩太能打该怎样恋爱",
-            "comic_type": ["恋爱", "古风", "武侠"],
-            "comic_id": 4151,
-            "comic_name": "青鸾引",
-            "total_view_num": 268066,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "14话"
-          },
-          {
-            "content": "魔王与色女师父的男色之旅",
-            "comic_type": ["恋爱", "古风", "武侠"],
-            "comic_id": 3177,
-            "comic_name": "师父，你好假惺惺",
-            "total_view_num": 1186539,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 "
-          },
-          {
-            "content": "逃不掉的绝世杀手",
-            "comic_type": ["热血", "穿越", "武侠"],
-            "comic_id": 1537,
-            "comic_name": "梦三国",
-            "total_view_num": 7658790,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "80话 天不亡我"
-          },
-          {
-            "content": "少女，请好好攻略吧！",
-            "comic_type": ["穿越", "古风", "武侠"],
-            "comic_id": 2292,
-            "comic_name": "攻略百分百",
-            "total_view_num": 2480793,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 苏娇娇"
-          }
-        ]
-      },
-      {
-        "book_id": 6000018,
-        "title": "这里的皇后不一样",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "杀手穿越成皇后",
-            "comic_type": ["恋爱", "穿越", "古风"],
-            "comic_id": 1886,
-            "comic_name": "皇后娘娘的五毛特效",
-            "total_view_num": 34083733,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "特别篇中奖公布"
-          },
-          {
-            "content": "手残穿越被逼成为一代帝后",
-            "comic_type": ["搞笑", "古风", "游戏"],
-            "comic_id": 3380,
-            "comic_name": "系统逼我做皇后",
-            "total_view_num": 10859515,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "248话 太后登场"
-          },
-          {
-            "content": "成为毒后之后我应该怎么拯救人设",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 3106,
-            "comic_name": "我穿越成了恶毒皇后",
-            "total_view_num": 9600661,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "停更通知"
-          },
-          {
-            "content": "王牌女特工穿越回古代",
-            "comic_type": ["古风", "恋爱", "穿越"],
-            "comic_id": 2301,
-            "comic_name": "皇后在上",
-            "total_view_num": 4273510,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "59话 不是朕，是她"
-          },
-          {
-            "content": "穿越弃妃得宠记，警花吊打白莲花",
-            "comic_type": ["热血", "恋爱", "穿越"],
-            "comic_id": 2425,
-            "comic_name": "爱上无敌俏皇后",
-            "total_view_num": 10972803,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "160话 你不想回去吗"
-          },
-          {
-            "content": "穿越成女帝，皇后却是蛇妖？",
-            "comic_type": ["古风", "恋爱", "穿越"],
-            "comic_id": 3271,
-            "comic_name": "女尊天下：娶个龙王做皇后",
-            "total_view_num": 1906903,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "53话 妖帝的承诺"
-          }
-        ]
-      },
-      {
-        "book_id": 6000003,
-        "title": "悬疑佳作",
+        "book_id": 7000013,
+        "title": "通向神秘之路",
         "config": {
           "isshowtitle": 1,
           "order_type": 1,
@@ -3202,18 +3718,7 @@
             "pingfen": 97,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "298话 改造人"
-          },
-          {
-            "content": "重生成宦官！？废王爷还亲亲抱抱！？",
-            "comic_type": ["恋爱", "古风", "悬疑"],
-            "comic_id": 3829,
-            "comic_name": "凰妃九千岁",
-            "total_view_num": 6856543,
-            "pingfen": 97,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "101话 叶羽"
+            "last_comic_chapter_name": "299话 血肉怪物"
           },
           {
             "content": "愿望的实现从破坏愿望开始",
@@ -3304,17 +3809,6 @@
             "last_comic_chapter_name": "54话"
           },
           {
-            "content": "要成为大众的焦点，女主要如何立足",
-            "comic_type": ["悬疑", "都市", "完结"],
-            "comic_id": 3571,
-            "comic_name": "时代妖孽",
-            "total_view_num": 1457599,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 身在戏中不自知"
-          },
-          {
             "content": "闪亮登场的主角对外打丧尸，对内斗人渣",
             "comic_type": ["悬疑", "动作", "都市"],
             "comic_id": 4406,
@@ -3326,37 +3820,26 @@
             "last_comic_chapter_name": "19话"
           },
           {
-            "content": "精神分裂症患者X心理催眠师",
-            "comic_type": ["恋爱", "校园", "悬疑"],
-            "comic_id": 3785,
-            "comic_name": "攻占关系",
-            "total_view_num": 705216,
-            "pingfen": 96,
+            "content": "要成为大众的焦点，女主要如何立足",
+            "comic_type": ["悬疑", "都市", "完结"],
+            "comic_id": 3571,
+            "comic_name": "时代妖孽",
+            "total_view_num": 1457599,
+            "pingfen": 94,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "最终话 私人催眠师"
+            "last_comic_chapter_name": "最终话 身在戏中不自知"
           },
           {
-            "content": "世界秘密究竟是什么",
-            "comic_type": ["热血", "动作", "悬疑"],
-            "comic_id": 1371,
-            "comic_name": "山海异兽录",
-            "total_view_num": 9730761,
+            "content": "禁忌如果全都成真了",
+            "comic_type": ["悬疑", "恐怖", "玄幻"],
+            "comic_id": 1429,
+            "comic_name": "禁忌的幻之书",
+            "total_view_num": 9513881,
             "pingfen": 93,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "作品推荐2 纣王和小仙女的快递 预告"
-          },
-          {
-            "content": "高智商犯罪的爱情故事",
-            "comic_type": ["都市", "悬疑", "恋爱"],
-            "comic_id": 2043,
-            "comic_name": "美人为馅",
-            "total_view_num": 993188,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "44话"
+            "last_comic_chapter_name": "作品推荐2"
           },
           {
             "content": "大一的孩子面对选择，他会怎么做！",
@@ -3381,242 +3864,37 @@
             "last_comic_chapter_name": "38话 玉兰花开"
           },
           {
-            "content": "客官，需要占卜不？",
-            "comic_type": ["校园", "悬疑", "恋爱"],
-            "comic_id": 1950,
-            "comic_name": "抱紧我的小龙女",
-            "total_view_num": 3375879,
-            "pingfen": 94,
+            "content": "世界秘密究竟是什么",
+            "comic_type": ["热血", "动作", "悬疑"],
+            "comic_id": 1371,
+            "comic_name": "山海异兽录",
+            "total_view_num": 9730761,
+            "pingfen": 93,
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "作品推荐2 纣王和小仙女的快递 预告"
-          }
-        ]
-      },
-      {
-        "book_id": 2111867,
-        "title": "机甲与科学的碰撞",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "0",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "穿越过去改变未来",
-            "comic_type": ["恋爱", "古风", "穿越"],
-            "comic_id": 4241,
-            "comic_name": "王妃逃命记",
-            "total_view_num": 829790,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "40话"
           },
           {
-            "content": "从不失手的神秘组织",
-            "comic_type": ["恋爱", "科幻", "校园"],
-            "comic_id": 523,
-            "comic_name": "雪影特遣组",
-            "total_view_num": 24601788,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 后会有期"
-          },
-          {
-            "content": "我的教练是熊猫",
-            "comic_type": ["热血", "科幻", "完结"],
-            "comic_id": 582,
-            "comic_name": "机甲熊猫punk",
-            "total_view_num": 7997822,
+            "content": "高智商犯罪的爱情故事",
+            "comic_type": ["都市", "悬疑", "恋爱"],
+            "comic_id": 2043,
+            "comic_name": "美人为馅",
+            "total_view_num": 993188,
             "pingfen": 93,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "50话"
+            "last_comic_chapter_name": "44话"
           },
           {
-            "content": "打僵尸必须爆头",
-            "comic_type": ["热血", "科幻", "悬疑"],
-            "comic_id": 1088,
-            "comic_name": "青之弹道线",
-            "total_view_num": 2171886,
-            "pingfen": 94,
+            "content": "末日危机，丧尸蔓延",
+            "comic_type": ["都市", "悬疑", "动作"],
+            "comic_id": 2569,
+            "comic_name": "末日狂途",
+            "total_view_num": 973633,
+            "pingfen": 92,
             "url": "",
             "img_url": "",
-            "last_comic_chapter_name": "27话 "
-          },
-          {
-            "content": "内有少女，请勿开箱",
-            "comic_type": ["热血", "科幻", "完结"],
-            "comic_id": 186,
-            "comic_name": "混沌少女",
-            "total_view_num": 23174414,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "58话"
-          },
-          {
-            "content": "拜托了，亲爱的艾芙",
-            "comic_type": ["热血", "玄幻", "完结"],
-            "comic_id": 134,
-            "comic_name": "拜托了☆愚者",
-            "total_view_num": 6908234,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "番外1 终结后的重生"
-          },
-          {
-            "content": "人类与最强战斗兵器",
-            "comic_type": ["动作", "科幻", "完结"],
-            "comic_id": 3886,
-            "comic_name": "圣伶机甲",
-            "total_view_num": 90169,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "17话"
-          },
-          {
-            "content": "为了五险一金而努力",
-            "comic_type": ["玄幻", "搞笑", "完结"],
-            "comic_id": 2367,
-            "comic_name": "勇者职场传说：我的社畜心得",
-            "total_view_num": 307755,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          }
-        ]
-      },
-      {
-        "book_id": 6000020,
-        "title": "山海异兽召唤录",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "身处异世界，身边还都是软萌兽娘",
-            "comic_type": ["搞笑", "动作", "都市"],
-            "comic_id": 3963,
-            "comic_name": "今天开始驭兽娘",
-            "total_view_num": 1837979,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "34话"
-          },
-          {
-            "content": "来一场激情四射的音乐",
-            "comic_type": ["生活", "搞笑", "都市"],
-            "comic_id": 1530,
-            "comic_name": "兽耳Band",
-            "total_view_num": 2451905,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "妖与人的探案之旅",
-            "comic_type": ["悬疑", "生活", "完结"],
-            "comic_id": 1905,
-            "comic_name": "妖兽啊！神探",
-            "total_view_num": 1106070,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "休更公告 "
-          },
-          {
-            "content": "黑暗中伸出的爪牙，应该相信谁？",
-            "comic_type": ["都市", "悬疑", "连载"],
-            "comic_id": 4159,
-            "comic_name": "罪兽之绊",
-            "total_view_num": 484483,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "76话 罪兽76"
-          },
-          {
-            "content": "零战斗力的小白如何逆转超能校园",
-            "comic_type": ["热血", "校园", "动作"],
-            "comic_id": 4513,
-            "comic_name": "困兽学院",
-            "total_view_num": 79911,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "21话"
-          },
-          {
-            "content": "医学院校草与病人故事",
-            "comic_type": ["科幻", "生活", "完结"],
-            "comic_id": 618,
-            "comic_name": "绝美兽医师",
-            "total_view_num": 3078122,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "10话 信"
-          }
-        ]
-      },
-      {
-        "book_id": 6000013,
-        "title": "通向神秘之路",
-        "config": {
-          "isshowtitle": 1,
-          "order_type": 1,
-          "outerwidth": "2",
-          "display_type": "11",
-          "isshowchange": 1,
-          "interwidth": "0",
-          "isautoslide": 0,
-          "isshowdetail": "3",
-          "horizonratio": "16:8"
-        },
-        "comic_info": [
-          {
-            "content": "禁忌如果全都成真了",
-            "comic_type": ["悬疑", "恐怖", "玄幻"],
-            "comic_id": 1429,
-            "comic_name": "禁忌的幻之书",
-            "total_view_num": 9513881,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "作品推荐2"
-          },
-          {
-            "content": "上刀山下火海，你说你不敢入虫岭？",
-            "comic_type": ["悬疑", "恐怖", "都市"],
-            "comic_id": 4502,
-            "comic_name": "虫岭怪谈",
-            "total_view_num": 520550,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "50话"
+            "last_comic_chapter_name": "最终话 被出卖了"
           },
           {
             "content": "解密全靠幸运值",
@@ -3628,175 +3906,10 @@
             "url": "",
             "img_url": "",
             "last_comic_chapter_name": "最终话2 Game"
-          },
-          {
-            "content": "屌丝获得透视能力",
-            "comic_type": ["科幻", "都市", "悬疑"],
-            "comic_id": 2820,
-            "comic_name": "超品透视",
-            "total_view_num": 3877964,
-            "pingfen": 96,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "10月19日通知 "
-          },
-          {
-            "content": "爱情欺诈师狂虐渣男",
-            "comic_type": ["恋爱", "都市", "悬疑"],
-            "comic_id": 3818,
-            "comic_name": "偷心游戏",
-            "total_view_num": 363523,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "13话 你毁了我我也毁了你"
-          },
-          {
-            "content": "是否感到有些似曾相识",
-            "comic_type": ["动作", "热血", "悬疑"],
-            "comic_id": 2076,
-            "comic_name": "平行少年",
-            "total_view_num": 260830,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 "
-          },
-          {
-            "content": "剧本是本死亡笔记么？",
-            "comic_type": ["悬疑", "玄幻", "动作"],
-            "comic_id": 148,
-            "comic_name": "剧本的诅咒",
-            "total_view_num": 30329751,
-            "pingfen": 92,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 水落石出"
-          },
-          {
-            "content": "超能力特工的日常",
-            "comic_type": ["悬疑", "热血", "都市"],
-            "comic_id": 596,
-            "comic_name": "神探肖羽",
-            "total_view_num": 46995900,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 ABC连环爆炸案(16)"
-          },
-          {
-            "content": "花之少女寻找哥哥的旅途",
-            "comic_type": ["生活", "玄幻", "悬疑"],
-            "comic_id": 2980,
-            "comic_name": "星灵溯",
-            "total_view_num": 417466,
-            "pingfen": 95,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "30话 附庸之花"
-          },
-          {
-            "content": "想来一场人间修罗之旅吗？",
-            "comic_type": ["生活", "悬疑", "都市"],
-            "comic_id": 3134,
-            "comic_name": "修罗岛",
-            "total_view_num": 1682857,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "200话 "
-          },
-          {
-            "content": "大神菜鸡古今联手破案",
-            "comic_type": ["悬疑", "都市", "搞笑"],
-            "comic_id": 3020,
-            "comic_name": "萝莉法医",
-            "total_view_num": 210193,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "12话 "
-          },
-          {
-            "content": "爱情在学术面前什么都不是！",
-            "comic_type": ["悬疑", "恋爱", "完结"],
-            "comic_id": 2374,
-            "comic_name": "吸血鬼新娘",
-            "total_view_num": 1088674,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 "
-          },
-          {
-            "content": "无限快穿恐怖世界",
-            "comic_type": ["悬疑", "穿越", "热血"],
-            "comic_id": 1520,
-            "comic_name": "归档No.108",
-            "total_view_num": 4400081,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "赢得游戏就能重选人生",
-            "comic_type": ["悬疑", "都市", "完结"],
-            "comic_id": 2760,
-            "comic_name": "超级游戏狼人杀",
-            "total_view_num": 966153,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话 大结局"
-          },
-          {
-            "content": "恐怖诡异的耽美故事",
-            "comic_type": ["恐怖", "悬疑", "恋爱"],
-            "comic_id": 1327,
-            "comic_name": "耽美诡谈",
-            "total_view_num": 75939673,
-            "pingfen": 94,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "最终话"
-          },
-          {
-            "content": "在一个小区里发生了一件件很悬疑的事件",
-            "comic_type": ["悬疑", "都市", "完结"],
-            "comic_id": 1624,
-            "comic_name": "诡水疑云",
-            "total_view_num": 18186206,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "222话"
-          },
-          {
-            "content": "一切从1942年说起",
-            "comic_type": ["历史", "战争", "悬疑"],
-            "comic_id": 1634,
-            "comic_name": "海狼U-37",
-            "total_view_num": 2826260,
-            "pingfen": 93,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "109话"
-          },
-          {
-            "content": "我就是名侦探！李大根",
-            "comic_type": ["搞笑", "悬疑", "完结"],
-            "comic_id": 3940,
-            "comic_name": "名侦探李大根",
-            "total_view_num": 15195,
-            "pingfen": 92,
-            "url": "",
-            "img_url": "",
-            "last_comic_chapter_name": "8话"
           }
         ]
       }
     ],
-    "jsonid": 942300
+    "jsonid": 946809
   }
 }

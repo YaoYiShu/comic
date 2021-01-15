@@ -21,8 +21,11 @@
             formatUrl(list.id) +
             '.png'
         "
-        v-lazy="loading"
-      />
+      >
+        <template v-slot:loading>
+          <div class="loading"></div>
+        </template>
+      </van-image>
       <span>- {{ list.name }} -</span>
     </a>
   </div>
@@ -79,6 +82,19 @@ export default {
       font-size: 12px;
       color: #999;
     }
+  }
+}
+.loading {
+  width: 98px;
+  height: 130px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 98px;
+    height: 130px;
+    background: url('../assets/images/loading.png') no-repeat;
+    background-size: 50%;
+    background-position: 50%;
   }
 }
 </style>

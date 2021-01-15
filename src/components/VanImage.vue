@@ -18,7 +18,7 @@
         item.comic_id
           ? 'https://image.zymkcdn.com/file/cover/000/00' +
             formatId(item.comic_id) +
-            '.jpg'
+            '.jpg-300x400'
           : loading
       "
     >

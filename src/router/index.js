@@ -14,9 +14,6 @@ const routes = [{
     path: '/',
     name: 'Home',
     component: Home,
-    meta: {
-      keepAlive: true // 需要被缓存
-    }
   },
   {
     path: '/about',
@@ -56,6 +53,10 @@ const routes = [{
     path: '/type',
     name: 'Type',
     component: () => import('../views/Type')
+  }, {
+    path: '/update',
+    name: 'Update',
+    component: () => import('../views/Update')
   }
 ]
 

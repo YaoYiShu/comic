@@ -1,18 +1,27 @@
 <template>
   <div id="app">
-    <div id="nav"></div>
-    <!-- <keep-alive> -->
     <router-view></router-view>
-    <!-- </keep-alive> -->
     <!-- 底部标签栏 -->
   </div>
 </template>
 <script>
 export default {
-  data() {
-    return {
-      active: 0
-    };
+  watch: {
+    $route(to) {
+      // console.log(to, from);
+      if (to.path == '/update') {
+        this.$root.active = 2;
+        if (!this.$root.isUpdate) {
+          this.$root.active = 1;
+        }
+      }
+      if (to.path == '/') {
+        this.$root.active = 0;
+        if (!this.$root.isHome) {
+          this.$root.active = 1;
+        }
+      }
+    }
   }
 };
 </script>

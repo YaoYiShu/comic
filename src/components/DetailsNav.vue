@@ -1,6 +1,6 @@
 <template>
   <div class="details-nav">
-    <van-button @click="$router.push('/')">
+    <van-button @click="$router.go(-1)">
       <span class="iconfont icon-xiangzuofanhui"></span>
     </van-button>
     <div class="right">

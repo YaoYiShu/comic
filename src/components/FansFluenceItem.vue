@@ -6,7 +6,11 @@
         <van-image
           round
           :src="'https://image.zymkcdn.com/file/head/' + fan.formatUid + '.jpg'"
-        ></van-image>
+        >
+          <template v-slot:loading>
+            <div class="loading"></div>
+          </template>
+        </van-image>
         <span class="uname">{{ fan.uname }}</span>
         <div class="tiny">
           <span class="num">{{ fan.amount }}</span>
@@ -121,6 +125,19 @@ export default {
   margin-left: auto;
   .num {
     color: #fc6454;
+  }
+}
+.loading {
+  width: 98px;
+  height: 130px;
+  &::before {
+    content: '';
+    display: inline-block;
+    width: 98px;
+    height: 130px;
+    background: url('../assets/images/loading.png') no-repeat;
+    background-size: 50%;
+    background-position: 50%;
   }
 }
 </style>

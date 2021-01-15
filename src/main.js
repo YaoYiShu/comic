@@ -8,7 +8,9 @@ import 'vant/lib/index.css';
 import 'lib-flexible/flexible'
 import './styles/listItemVant.css';
 import './assets/iconfont/iconfont.css'
+
 import {
+  Toast,
   Lazyload
 } from 'vant';
 import {
@@ -16,7 +18,7 @@ import {
 } from 'vue-jsonp'
 
 
-Vue.use(Vant);
+Vue.use(Vant, Toast);
 Vue.use(VueJsonp);
 Vue.use(Lazyload, {
   lazyComponent: true,
@@ -27,5 +29,12 @@ Vue.config.productionTip = false
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  data() {
+    return {
+      active: 0,
+      isHome: true,
+      isUpdate: true
+    }
+  }
 }).$mount('#app')

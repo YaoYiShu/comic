@@ -22,7 +22,11 @@ export default {
   },
   computed: {
     books() {
-      return this.$store.state.books;
+      if (localStorage.books) {
+        return JSON.parse(localStorage.books);
+      } else {
+        return this.$store.state.books;
+      }
     }
   }
 };

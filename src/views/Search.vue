@@ -9,8 +9,8 @@
         slot="center"
         @search="
           message ? handleMsg(message) : '';
-          message = '';
           inputing = false;
+          message = '';
         "
         @input="inputing = true"
         @cancel="message = ''"
@@ -26,6 +26,12 @@
           @click="
             inputing = false;
             message = item.keyword;
+            !isComicDetails
+              ? $router.push({
+                  path: '/comicDetails',
+                  query: { id: item.comic_id }
+                })
+              : '';
           "
         >
           <span class="icon"></span>
@@ -50,6 +56,14 @@
           v-for="(item, index) in hotTitle"
           :key="index"
           :color="color[set[index]]"
+          @click="
+            !isComicDetails
+              ? $router.push({
+                  path: '/comicDetails',
+                  query: { id: item.comic_id }
+                })
+              : ''
+          "
           >{{ item.comic_name }}</van-tag
         >
         <!-- </template> -->
@@ -67,7 +81,14 @@
           <li
             v-for="item in reverseRecordMsg"
             :key="item.id"
-            @click="message = item.message"
+            @click="
+              $router.push({
+                path: '/sort',
+                query: {
+                  key: item.message
+                }
+              })
+            "
           >
             <span class="icon"></span>
             <div class="record-content">
@@ -99,7 +120,8 @@ export default {
       set: [],
       recordMsg: [],
       allMatch: [],
-      inputing: false
+      inputing: false,
+      isComicDetails: false
     };
   },
   created() {
@@ -145,6 +167,11 @@ export default {
   methods: {
     // 输入message进行获取数据
     getMessage() {
+      this.$toast.loading({
+        message: '加载中...',
+        forbidClick: true
+      });
+      var that = this;
       if (this.message) {
         this.axios
           .get(
@@ -154,6 +181,7 @@ export default {
           .then(res => {
             console.log(res.data.data.page.comic_list);
             this.allMatch = res.data.data.page.comic_list;
+            that.$toast.clear();
           });
       }
     },
@@ -180,7 +208,6 @@ export default {
         this.hotTitle = res.data.list;
       });
     },
-
     // 保存记录为缓存
     saveRecord() {
       localStorage.zymkRecord = JSON.stringify(this.recordMsg);
@@ -198,6 +225,9 @@ export default {
       this.recordMsg = [];
       this.saveRecord();
     }
+    // toSortMsg() {
+    //   this.axios.get('').then();
+    // }
   }
 };
 </script>

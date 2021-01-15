@@ -1,7 +1,9 @@
 <template>
   <div class="sort">
-    <Nav :path="'/type'">
-      <h1 slot="center" v-if="$route.query.name">{{ $route.query.name }}</h1>
+    <Nav :path="-1">
+      <h1 slot="center" v-if="$route.query.name || $route.query.key">
+        {{ $route.query.name || $route.query.key }}
+      </h1>
       <div slot="right">
         <div
           class="button"
@@ -22,7 +24,7 @@
                 :key="index"
                 @click="
                   type = item.title;
-                  toggleType(index);
+                  $route.query.name ? toggleType(index) : fromSearchMsg(index);
                 "
               >
                 {{ item.title }}
@@ -32,16 +34,16 @@
         </van-overlay>
       </div>
     </Nav>
-    <!-- <VanImage></VanImage> -->
-
     <!-- 遮罩层 嵌入内容 人气、更新。。 -->
-
     <ul>
       <li v-for="(item, index) in book" :key="index">
         <VanImage :item="item" :index="index" :score="item.score"></VanImage>
         <h3>{{ item.comic_name }}</h3>
         <p>{{ item.comic_feature }}</p>
       </li>
+      <li class="app-empty-item"></li>
+      <li class="app-empty-item"></li>
+      <li class="app-empty-item"></li>
     </ul>
   </div>
 </template>
@@ -49,7 +51,6 @@
 <script>
 import Nav from '@/components/Nav';
 import VanImage from '@/components/VanImage';
-1;
 export default {
   components: {
     Nav,
@@ -59,14 +60,25 @@ export default {
     return {
       book: [],
       show: false,
-      type: '更新',
+      type: '',
       isUp: false,
+      sortType: [
+        { title: '人气', sort: 'click' },
+        { title: '评分', sort: 'score' },
+        { title: '更新', sort: 'date' }
+      ],
       lists: []
     };
   },
   created() {
-    this.getClick();
+    if (this.$route.query.key) {
+      this.fromSearchMsg(0);
+    }
+    if (this.$route.query.name) {
+      this.getClick();
+    }
   },
+
   methods: {
     getClick() {
       // this.$jsonp('https://api.zymk.cn/app_api/v5/getsortlist_new/', {
@@ -75,6 +87,10 @@ export default {
       //   // console.log(res.data.page.comic_list);
       //   this.book = res.data.page.comic_list;
       // });
+      this.$toast.loading({
+        message: '加载中...',
+        forbidClick: true
+      });
       var that = this;
       this.axios
         .get(
@@ -84,12 +100,38 @@ export default {
         )
         .then(res => {
           console.log(res.data.data.data);
-          this.lists = res.data.data.data;
-          this.book = this.lists[0].list;
+          that.lists = res.data.data.data;
+          that.book = that.lists[0].list;
+          that.type = that.lists[0].title;
+          that.$toast.clear();
         });
     },
+    // 切换 类型
     toggleType(index) {
       this.book = this.lists[index].list;
+    },
+    // 从搜索页获取key 再获取数据
+    fromSearchMsg(index) {
+      this.$toast.loading({
+        message: '加载中...',
+        forbidClick: true
+      });
+      this.lists = this.sortType;
+      var that = this;
+      this.axios
+        .get(
+          'https://getconfig-globalapi.zymk.cn/app_api/v5/getsortlist_new/?key=' +
+            that.$route.query.key +
+            '&type=&page=1&sort=' +
+            that.sortType[index].sort +
+            '&client-type=android&productname=zymk&platformname=android&client-channel=store_tencent&loglevel=3&client-version=5.9.0'
+        )
+        .then(res => {
+          console.log(res.data.data.page.comic_list);
+          this.book = res.data.data.page.comic_list;
+          that.type = that.sortType[index].title;
+          that.$toast.clear();
+        });
     }
   }
 };
@@ -116,6 +158,11 @@ export default {
       padding-bottom: 10px;
       h3 {
         height: 20px;
+        font-size: 14px;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
       }
       p {
         color: #999;
@@ -125,6 +172,11 @@ export default {
         -webkit-box-orient: vertical;
         -webkit-line-clamp: 1;
       }
+    }
+    .app-empty-item {
+      cursor: default;
+      height: 0;
+      margin-top: 0;
     }
   }
 }

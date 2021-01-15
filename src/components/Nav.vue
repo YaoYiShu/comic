@@ -27,26 +27,35 @@
 
     <!-- 点击搜索 -->
     <slot name="right">
-      <van-button square color="#fc6454" to="/search">
+      <van-button square color="#fc6454" to="/search" @click="handle()">
         <span class="iconfont icon-sousuo"></span>
       </van-button>
     </slot>
   </div>
 </template>
 <script>
+import { Toast } from 'vant';
 export default {
   props: ['path'],
   methods: {
     toWhere(res) {
       console.log(res);
-      if (res == -1) {
+      if (res == '/') {
+        this.$root.active = 0;
+        this.$router.go(0);
+      }
+      if (res == '/update') {
+        // this.$router.go(0);
+        this.$root.active = 2;
+        this.$router.go('/update');
+      }
+      if (res == '-1') {
         this.$router.go(-1);
       }
-      if (res == '/') {
-        this.$router.push(res);
-      }
-      if (res == '/type') {
-        this.$router.push(res);
+    },
+    handle() {
+      if (this.$route.path == '/search') {
+        Toast({ message: '大人，请输入漫画名或 漫画家 ~。~', position: 'top' });
       }
     }
   }

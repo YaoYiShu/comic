@@ -1,6 +1,6 @@
 <template>
   <div class="type">
-    <Nav :path="'/'" @toggleType="$emit('toggleType')">
+    <Nav :path="$route.path">
       <van-tabs
         @click="onClick"
         ref="tabs"
@@ -60,10 +60,6 @@ export default {
   data() {
     return {
       title: ['题材', '进度', '受众', '媒体'],
-      // theme: [],
-      // proress: [],
-      // audiences: [],
-      // media: [],
       comic_type: []
     };
   },
@@ -72,10 +68,16 @@ export default {
   },
   methods: {
     getType() {
+      this.$toast.loading({
+        message: '加载中...',
+        forbidClick: true
+      });
+      var that = this;
       this.axios.get('http://localhost:8080/type.json').then(res => {
         // console.log(res.data.data.comic_type);
         // console.log(res.data.data.comic_type[0].data);
         this.comic_type = res.data.data.comic_type;
+        that.$toast.clear();
       });
     },
     // 点击标签切换
@@ -107,10 +109,12 @@ export default {
 <style lang="less" scoped>
 .type {
   position: relative;
+  width: 100%;
   height: 100vh;
   background-color: #fff;
 }
 .my-swipe .van-swipe-item {
+  width: 100%;
   font-size: 20px;
   text-align: center;
 }

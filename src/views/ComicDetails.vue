@@ -161,6 +161,9 @@
                 :key="index"
                 ><i class="ellipsis">{{ list.chapter_name }}</i></span
               >
+              <span class="app-empty-item"></span>
+              <span class="app-empty-item"></span>
+              <span class="app-empty-item"></span>
             </div>
             <div class="button">
               <span @click.self="toggle()">查看全部</span>
@@ -370,7 +373,7 @@ export default {
     },
     toggle() {
       this.isToggle = !this.isToggle;
-      console.log(this.isToggle);
+      // console.log(this.isToggle);
       if (this.isToggle) {
         this.$refs.chapterlist.style.height = 'auto';
       } else {
@@ -808,5 +811,11 @@ ul.support {
     background-position: 50%;
     background-size: cover;
   }
+}
+.app-empty-item {
+  cursor: default;
+  height: 0;
+  margin-top: 0;
+  background-color: #fff !important;
 }
 </style>

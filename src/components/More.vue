@@ -1,6 +1,13 @@
 <template>
   <div class="more">
-    <div class="figure">
+    <div
+      class="figure"
+      :style="
+        'background-image:url(http://image.zymkcdn.com/file/zymk_images/book/' +
+          formatBannerId(book.book_id) +
+          '.jpg-noresize.webp)'
+      "
+    >
       <router-link to="/" class="back"
         ><span class="iconfont icon-xiangzuofanhui"></span
       ></router-link>
@@ -103,9 +110,12 @@ export default {
       let a = Array.from(new Set([...res, '连载', '少男', '其他']));
       return a;
     },
-    // randomColor() {
-    //   return Math.floor(Math.random() * this.color.length);
-    // },
+    formatBannerId(id) {
+      id = id.toString();
+      return (
+        '00' + id.substr(0, 1) + '/' + id.substr(1, 3) + '/' + id.substr(4)
+      );
+    },
     formatTitleHandle(value) {
       if (!value) return '';
       value = value.toString();
@@ -125,7 +135,8 @@ export default {
   .figure {
     display: flex;
     // background: aquamarine;
-    background: url('../assets/images/007.jpg') no-repeat;
+    // background: url('../assets/images/007.jpg') no-repeat;
+    background-repeat: no-repeat;
     background-size: cover;
     align-items: flex-end;
     height: 210px;
@@ -190,26 +201,6 @@ export default {
         margin-right: 10px;
         width: 60px;
         height: 80px;
-        // .icon-xing {
-        //   font-size: 12px;
-        //   position: absolute;
-        //   top: 0;
-        //   right: 0;
-        //   color: #fff;
-        //   padding: 0 3px 0 8px;
-        //   background-color: rgba(0, 0, 0, 0.5);
-        //   border-radius: 10px 0 0 10px;
-        //   &::before {
-        //     content: '';
-        //     display: inline-block;
-        //     width: 12px;
-        //     height: 12px;
-        //     background: url('../assets/images/xing.png') no-repeat;
-        //     background-size: 100%;
-        //     margin-right: 2px;
-        //     background-position: bottom center;
-        //   }
-        // }
       }
       .info {
         h4 {
