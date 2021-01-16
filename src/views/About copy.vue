@@ -4,7 +4,7 @@
       <template v-if="$route.path == '/about'">
         <div class="user-banner">
           <!-- 头像 -->
-          <div class="avator-box" @click.stop="$router.push('about/modify')">
+          <div class="avator-box" @click.stop="$router.push('/about/modify')">
             <div class="avator">
               <img
                 src="//image.zymkcdn.com/file/head/028/356/222.jpg-100x100"
@@ -125,8 +125,9 @@
         </div>
         <!-- 登录框 -->
         <div class="login" @click="$router.push('/login')">登录</div>
+
+        <router-view></router-view>
       </template>
-      <router-view></router-view>
     </div>
     <transition
       name="cutsom-classes-transition"
@@ -137,7 +138,7 @@
         <Type></Type>
       </section>
     </transition>
-    <transition name="van-slide-up" v-if="$route.path == '/about'">
+    <transition name="van-slide-up">
       <FooterBar :toggle="toggle" :path="'update'"></FooterBar>
     </transition>
   </div>
@@ -158,30 +159,10 @@ export default {
       title: ['订阅', '历史']
     };
   },
-  created() {
-    window.addEventListener('scroll', this.handleScroll, true);
-  },
   methods: {
     onChange(name) {
       // console.log(name);
       this.active = name;
-    },
-    handleScroll() {
-      this.scrollTop =
-        window.scrollY ||
-        window.pageYOffset ||
-        document.documentElement.scrollTop ||
-        document.body.scrollTop;
-
-      let scroll = this.scrollTop - this.i;
-      this.i = this.scrollTop;
-      if (scroll < 0) {
-        // console.log('up');
-        this.toggle = true;
-      } else if (scroll > 0) {
-        // console.log('down');
-        this.toggle = false;
-      }
     }
   }
 };
@@ -369,7 +350,7 @@ export default {
     color: #fff;
     text-align: center;
     line-height: 44px;
-    // margin-bottom: 70px;
+    margin-bottom: 70px;
   }
 }
 </style>

@@ -21,6 +21,9 @@ export default {
           this.$root.active = 1;
         }
       }
+      if (to.path == '/about') {
+        this.$root.active = 3;
+      }
     }
   }
 };

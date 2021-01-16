@@ -18,34 +18,38 @@ const routes = [{
   {
     path: '/about',
     name: 'About',
-    component: () => import( /* webpackChunkName: "about" */ '../views/About.vue')
+    component: () => import( /* webpackChunkName: "about" */ '../views/About.vue'),
+    children: [{
+      path: 'modify',
+      name: 'Modify',
+      component: () => import( /* webpackChunkName: "about" */ '../components/Modify.vue'),
+    }, {
+      path: 'pay',
+      name: "Pay",
+      component: () => import('../components/Pay')
+    }]
   },
   {
     path: '/search',
     name: 'Search',
     component: () => import('../views/Search')
-  },
-  {
+  }, {
     path: '/comicDetails',
     name: "ComicDetails",
     component: () => import('../views/ComicDetails')
-  },
-  {
+  }, {
     path: '/more',
     name: 'More',
     component: () => import('../components/More')
-  },
-  {
+  }, {
     path: '/influence',
     name: 'InFluence',
     component: () => import('../views/InFluence')
-  },
-  {
+  }, {
     path: '/read',
     name: 'Read',
     component: () => import("../views/Read")
-  },
-  {
+  }, {
     path: '/sort',
     name: 'Sort',
     component: () => import('../components/Sort')
@@ -57,6 +61,11 @@ const routes = [{
     path: '/update',
     name: 'Update',
     component: () => import('../views/Update')
+  },
+  {
+    path: '/login',
+    name: 'Login',
+    component: () => import('../views/Login')
   }
 ]
 

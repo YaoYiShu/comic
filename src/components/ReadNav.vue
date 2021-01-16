@@ -7,7 +7,7 @@
     <span
       >{{ chapter_name }} <i>1/{{ end_var }}</i></span
     >
-    <van-icon name="ellipsis" />
+    <van-icon name="ellipsis" @click.stop="$emit('toggleOmit')" />
   </div>
 </template>
 

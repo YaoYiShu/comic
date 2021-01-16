@@ -34,7 +34,8 @@ new Vue({
     return {
       active: 0,
       isHome: true,
-      isUpdate: true
+      isUpdate: true,
+      isAbout: true
     }
   }
 }).$mount('#app')

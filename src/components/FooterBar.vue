@@ -20,6 +20,7 @@
       @click.stop="
         $root.isUpdate = false;
         $root.isHome = false;
+        $root.isAbout = false;
         $root.active = 1;
       "
       >分类</van-tabbar-item
@@ -33,7 +34,14 @@
       "
       >更新</van-tabbar-item
     >
-    <van-tabbar-item icon="setting-o">我的</van-tabbar-item>
+    <van-tabbar-item
+      icon="setting-o"
+      @click.stop="
+        $router.push('/about');
+        $root.isAbout = true;
+      "
+      >我的</van-tabbar-item
+    >
   </van-tabbar>
 </template>
 
@@ -46,6 +54,9 @@ export default {
         this.$router.go(0);
       }
       if (res == 'update') {
+        this.$router.push('/');
+      }
+      if (res == 'about') {
         this.$router.push('/');
       }
     }

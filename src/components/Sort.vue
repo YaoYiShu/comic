@@ -36,14 +36,23 @@
     </Nav>
     <!-- 遮罩层 嵌入内容 人气、更新。。 -->
     <ul>
-      <li v-for="(item, index) in book" :key="index">
-        <VanImage :item="item" :index="index" :score="item.score"></VanImage>
-        <h3>{{ item.comic_name }}</h3>
-        <p>{{ item.comic_feature }}</p>
-      </li>
-      <li class="app-empty-item"></li>
-      <li class="app-empty-item"></li>
-      <li class="app-empty-item"></li>
+      <template v-if="book.length > 0">
+        <li v-for="(item, index) in book" :key="index">
+          <VanImage :item="item" :index="index" :score="item.score"></VanImage>
+          <h3>{{ item.comic_name }}</h3>
+          <p>{{ item.comic_feature }}</p>
+        </li>
+        <li class="app-empty-item"></li>
+        <li class="app-empty-item"></li>
+        <li class="app-empty-item"></li>
+      </template>
+      <template v-if="book.length == 0">
+        <div class="none">
+          <p><span class="iconfont icon-xiaoniao"></span></p>
+          <p>咦？好像没有大人要的内容</p>
+          <p>没关系，小编已经记录啦！</p>
+        </div>
+      </template>
     </ul>
   </div>
 </template>
@@ -177,6 +186,20 @@ export default {
       cursor: default;
       height: 0;
       margin-top: 0;
+    }
+    .none {
+      // padding-top: 300px;
+      transform: translateY(180%);
+      flex-flow: column;
+      align-items: center;
+      font-size: 20px;
+      color: #ddd;
+      height: 100px;
+      width: 100%;
+      text-align: center;
+      span {
+        font-size: 64px;
+      }
     }
   }
 }

@@ -2,7 +2,7 @@
   <!--漫画详情-->
   <div class="comic-details">
     <!-- 先占位 -->
-    <details-nav></details-nav>
+    <details-nav :name="comicInfo.comic_name"></details-nav>
     <div class="thumb">
       <div class="info">
         <!-- 背景模糊 -->
@@ -87,14 +87,18 @@
           <div class="hd">
             <h2>剧情简介</h2>
           </div>
-          <div class="content" style="font-size:14px">{{ comicInfo.desc }}</div>
+          <div class="content" style="font-size:14px">
+            {{ comicInfo.desc }}
+          </div>
           <!-- 作者信息、作者公告 -->
           <div class="hd" v-if="comicInfo.author_info">
             <h2>作者信息</h2>
             <div class="content">
               <span class="avator"></span>
               <div class="author-info">
-                <div class="author-name">{{ comicInfo.author_info.Uname }}</div>
+                <div class="author-name">
+                  {{ comicInfo.author_info.Uname }}
+                </div>
                 <div class="author-fans">
                   粉丝<i style="color:#fc6454;font-style:normal">{{
                     comicInfo.author_info.Cfans
@@ -117,18 +121,18 @@
           <div class="autor-production">
             <div class="hd">
               <!-- comicInfo.author_info.relation_list -->
-              <template v-if="comicInfo.author_info.relation_list">
+              <!-- <template v-show="comicInfo.chapter_list">
                 <h2 class="book">
                   作者作品
                 </h2>
-              </template>
+              </template> -->
             </div>
-            <template v-if="comicInfo.author_info.relation_list">
+            <!-- <template v-show="comicInfo.chapter_list">
               <DetailsSwipe
                 :recommend="comicInfo.author_info.data"
                 :relation="comicInfo.author_info.relation_list"
               ></DetailsSwipe>
-            </template>
+            </template> -->
           </div>
         </div>
         <!-- 相关推荐 -->
@@ -150,6 +154,11 @@
                 >降序</span
               >
             </h2>
+            <!-- :style="
+                comicInfo.chapter_list.length >= 12
+                  ? 'height:120px'
+                  : 'height: auto'
+              " -->
             <div class="mk-chapterlist-box" ref="chapterlist">
               <span
                 @click.stop="
@@ -165,7 +174,10 @@
               <span class="app-empty-item"></span>
               <span class="app-empty-item"></span>
             </div>
-            <div class="button">
+            <div
+              class="button"
+              v-if="comicInfo.chapter_list.length >= 12 ? true : false"
+            >
               <span @click.self="toggle()">查看全部</span>
             </div>
           </div>
@@ -261,7 +273,6 @@ export default {
       : [];
     this.getComicInfo();
     // console.log('comicChapterRecord', this.comicChapterRecord);
-
     this.currentChapter = this.comicChapterRecord.filter(item => {
       return item.id === this.$route.query.id;
     });
@@ -379,6 +390,13 @@ export default {
       } else {
         this.$refs.chapterlist.style.height = '120px';
       }
+      /*
+      if (this.isToggle) {
+        this.$refs.chapterlist.style.height = 'auto';
+      } else {
+        this.$refs.chapterlist.style.height = '120px';
+      }
+      */
     },
     toInfluence(id, url) {
       // console.log(id, url);
@@ -514,6 +532,7 @@ export default {
 
 <style lang="less" scoped>
 .comic-details {
+  position: relative;
   // background-color: #f5f5f5;
   .thumb {
     position: relative;
@@ -674,8 +693,10 @@ export default {
 }
 .box {
   // 切换剪切
-  position: absolute;
+  // position: absolute;
+  width: 100%;
   .mk-chapterlist-box {
+    width: 100%;
     height: 120px;
     padding: 0 10px;
     display: flex;
@@ -814,7 +835,7 @@ ul.support {
 }
 .app-empty-item {
   cursor: default;
-  height: 0;
+  height: 0 !important;
   margin-top: 0;
   background-color: #fff !important;
 }

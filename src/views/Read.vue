@@ -6,23 +6,40 @@
     @touchstart.stop="gtouchstart()"
     @touchend.stop="gtouchend()"
   >
+    <div class="mk" style="opacity: 0;"></div>
     <transition name="van-slide-down">
       <ReadNav
         v-if="chapter[0]"
         v-show="toggle"
         :chapter_name="chapter[0].chapter_name"
         :end_var="chapter[0].end_var"
+        @toggleOmit="showOmit = !showOmit"
       ></ReadNav>
     </transition>
+    <div class="omit" v-show="showOmit && toggle">
+      <span class="triangle"></span>
+      <ul>
+        <li><span class="iconfont icon-home"></span>首页</li>
+        <li><span class="iconfont icon-share"></span>分享</li>
+        <li><span class="iconfont icon-feedback"></span>反馈</li>
+        <li><span class="iconfont icon-help"></span>帮助</li>
+      </ul>
+    </div>
 
     <!-- https://mhpic.xiaomingtaiji.net/comic/J/绝世武魂/第41话F0_298349/24.jpg-zymk.middle.webp -->
     <!-- $event.path[0].clientHeight -->
     <!-- @click.stop="test($event.path[2].children)" -->
-    <van-image
-      v-for="(list, index) in chapterHighUrl"
-      :src="'https://mhpic.xiaomingtaiji.net/comic/' + list"
-      :key="index"
-    />
+    <div ref="imgOffsetHight">
+      <van-image
+        v-for="(list, index) in chapterHighUrl"
+        :src="'https://mhpic.xiaomingtaiji.net/comic/' + list"
+        :key="index"
+      >
+        <template v-slot:loading>
+          <div class="loading"></div>
+        </template>
+      </van-image>
+    </div>
 
     <!-- 选项 -->
     <!-- this.chapter[0] -->
@@ -119,7 +136,8 @@ export default {
       value: 0,
       scrollTop: null,
       flag: false,
-      show: false
+      show: false,
+      showOmit: false
     };
   },
   mounted() {
@@ -175,13 +193,9 @@ export default {
     }
   },
   methods: {
-    // test(res) {
-    //   let arr = [];
-    //   Array.prototype.forEach.call(res, function(item) {
-    //     arr.push(item.scrollHeight);
-    //   });
-    //   console.log(arr);
-    // },
+    text() {
+      console.log(1);
+    },
     handleScroll() {
       this.scrollTop =
         window.scrollY ||
@@ -200,14 +214,17 @@ export default {
       }
     },
     autoPLay() {
+      console.log(this.$refs.imgOffsetHight.offsetHeight);
       this.timer2 ? clearTimeout(this.timer2) : null;
       console.log(this.flag);
       if (this.flag) {
-        this.timer = setInterval(() => {
-          this.scrollTop = this.scrollTop + 1;
-          // console.log(this.scrollTop);
-          window.scrollTo({ top: this.scrollTop, behavior: 'smooth' });
-        }, 50);
+        if (this.scrollTop < this.$refs.imgOffsetHight.offsetHeight) {
+          this.timer = setInterval(() => {
+            this.scrollTop = this.scrollTop + 1;
+            // console.log(this.scrollTop);
+            document.body.scrollTo({ top: this.scrollTop, behavior: 'smooth' });
+          }, 50);
+        }
       } else {
         clearInterval(this.timer);
       }
@@ -224,6 +241,7 @@ export default {
       this.timer2 = setTimeout(() => {
         // console.log('timer2', 1);
         this.toggle = false;
+        this.showOmit = false;
       }, 5000);
     },
     gtouchend() {
@@ -232,12 +250,14 @@ export default {
         this.timer = setInterval(() => {
           this.scrollTop = this.scrollTop + 1;
           // console.log(this.scrollTop);
-          window.scrollTo({ top: this.scrollTop, behavior: 'smooth' });
+          document.body.scrollTo({ top: this.scrollTop, behavior: 'smooth' });
         }, 50);
       }
     },
     onChange(value) {
       Toast(value);
+      let res = (value / 100) * this.$refs.imgOffsetHight.offsetHeight;
+      document.body.scrollTo({ top: res, behavior: 'smooth' });
     }
   }
 };
@@ -320,5 +340,44 @@ export default {
   text-align: center;
   background-color: #fc6454;
   border-radius: 50%;
+}
+.mk {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  z-index: -1;
+}
+.omit {
+  position: absolute;
+  z-index: 10;
+  width: 100px;
+  height: auto;
+  top: 64px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.8);
+  .triangle {
+    position: absolute;
+    top: -15px;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-bottom: 15px solid rgba(0, 0, 0, 0.8);
+    // background-color: rgba(0, 0, 0, 0.8);
+    display: inline-block;
+  }
+  li {
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    // text-align: center;
+    .iconfont {
+      font-size: 20px;
+      padding: 0 25px 0 10px;
+      transform: translateY(25%);
+    }
+  }
 }
 </style>

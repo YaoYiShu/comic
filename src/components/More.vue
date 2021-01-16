@@ -8,7 +8,14 @@
           '.jpg-noresize.webp)'
       "
     >
-      <router-link to="/" class="back"
+      <div class="box" :style="{ opacity: opacity }">
+        <router-link to="/" class="back "
+          ><span class="iconfont icon-xiangzuofanhui"></span
+        ></router-link>
+        <span class="title">{{ formatTitleHandle(book.title) }}</span>
+      </div>
+
+      <router-link to="/" class="back "
         ><span class="iconfont icon-xiangzuofanhui"></span
       ></router-link>
       <span class="figure-title" ref="title">{{
@@ -71,7 +78,8 @@ export default {
     return {
       book: [],
       color: ['#c78590', '#f3bd7e', '#6ec4e9', '#66c9bb', '#9b9bd5'],
-      set: []
+      set: [],
+      opacity: 0
     };
   },
   filters: {
@@ -88,6 +96,7 @@ export default {
   },
   created() {
     this.book = JSON.parse(localStorage.book);
+    window.addEventListener('scroll', this.handleScroll, true);
   },
   activated() {
     this.book = JSON.parse(localStorage.book);
@@ -124,6 +133,30 @@ export default {
       } else {
         return value;
       }
+    },
+    handleScroll() {
+      this.scrollTop =
+        window.scrollY ||
+        window.pageYOffset ||
+        document.documentElement.scrollTop ||
+        document.body.scrollTop;
+
+      let scroll = this.scrollTop - this.i;
+      this.i = this.scrollTop;
+      if (scroll < 0) {
+        // console.log('down');
+        // console.log(scroll);
+        if (this.opacity) {
+          this.opacity = this.opacity - 0.2;
+        }
+        this.opacity = 0;
+      } else if (scroll > 0) {
+        // console.log('up');
+        this.opacity = this.opacity + 0.2;
+        if (this.opacity >= 1) {
+          this.opacity = 1;
+        }
+      }
     }
   }
 };
@@ -133,6 +166,7 @@ export default {
 .more {
   width: 100%;
   .figure {
+    // position: relative;
     display: flex;
     // background: aquamarine;
     // background: url('../assets/images/007.jpg') no-repeat;
@@ -145,17 +179,22 @@ export default {
       -ms-flex-align: center;
       align-items: center;
       position: absolute;
-      top: 15px;
-      left: 15px;
+      top: 5px;
+      left: 10px;
       width: 30px;
       height: 30px;
       border-radius: 50%;
       color: #fff;
       background-color: rgba(0, 0, 0, 0.5);
-      z-index: 49;
+      z-index: 1;
       display: flex;
       align-items: center;
       justify-content: center;
+      &.scrollBack {
+        width: 100%;
+        height: 44px;
+        background-color: #fff;
+      }
       span {
         display: inline-block;
         width: 20px;
@@ -219,6 +258,32 @@ export default {
           }
         }
       }
+    }
+  }
+  .box {
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+    z-index: 2;
+    border-bottom: 1px solid #ddd;
+    .back {
+      background-color: transparent;
+    }
+    .title {
+      width: 100%;
+      font-size: 15px;
+      color: #fc6454;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    span.iconfont {
+      color: #fc6454;
     }
   }
 }

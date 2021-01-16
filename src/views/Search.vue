@@ -225,9 +225,6 @@ export default {
       this.recordMsg = [];
       this.saveRecord();
     }
-    // toSortMsg() {
-    //   this.axios.get('').then();
-    // }
   }
 };
 </script>
