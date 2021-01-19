@@ -1,6 +1,6 @@
 <template>
   <div class="influence-content">
-    <ul class="rank" v-if="ufansLists.length">
+    <ul class="rank" v-if="ufansLists.length > 0">
       <template v-if="ufansLists.length > 3">
         <li class="rank-2st">
           <van-image
@@ -186,7 +186,7 @@ export default {
 .influence-content {
   width: 100%;
   .rank {
-    height: 127px;
+    // height: 127px;
     display: flex;
     text-align: center;
     // border-bottom: 1px solid #ddd;

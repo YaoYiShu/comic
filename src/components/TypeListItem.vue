@@ -86,6 +86,7 @@ export default {
 }
 .loading {
   width: 98px;
+  border-radius: 50%;
   height: 130px;
   &::before {
     content: '';

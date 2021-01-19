@@ -1,11 +1,19 @@
 <template>
   <div class="read-nav">
-    <van-button @click="$router.go(-1)">
+    <van-button
+      @click="
+        $router.push({
+          path: '/ComicDetails',
+          query: { id: $route.query.id }
+        })
+      "
+    >
       <!-- xiangzuofanhui -->
       <span class="iconfont icon-xiangzuofanhui"></span>
     </van-button>
     <span
-      >{{ chapter_name }} <i>1/{{ end_var }}</i></span
+      >{{ chapter_name }}
+      <i>{{ start == 0 ? start + 1 : start }}/{{ end_var }}</i></span
     >
     <van-icon name="ellipsis" @click.stop="$emit('toggleOmit')" />
   </div>
@@ -13,7 +21,7 @@
 
 <script>
 export default {
-  props: ['chapter_name', 'end_var']
+  props: ['chapter_name', 'end_var', 'start']
 };
 </script>
 

@@ -2,7 +2,10 @@
   <!-- @scroll="scrollEvent()" -->
   <div
     class="read"
-    @click.stop="toggle = !toggle"
+    @click.stop="
+      toggle = !toggle;
+      showOmit = false;
+    "
     @touchstart.stop="gtouchstart()"
     @touchend.stop="gtouchend()"
   >
@@ -12,6 +15,7 @@
         v-if="chapter[0]"
         v-show="toggle"
         :chapter_name="chapter[0].chapter_name"
+        :start="start"
         :end_var="chapter[0].end_var"
         @toggleOmit="showOmit = !showOmit"
       ></ReadNav>
@@ -19,7 +23,14 @@
     <div class="omit" v-show="showOmit && toggle">
       <span class="triangle"></span>
       <ul>
-        <li><span class="iconfont icon-home"></span>首页</li>
+        <li
+          @click.stop="
+            $root.isHome = true;
+            $router.push('/');
+          "
+        >
+          <span class="iconfont icon-home"></span>首页
+        </li>
         <li><span class="iconfont icon-share"></span>分享</li>
         <li><span class="iconfont icon-feedback"></span>反馈</li>
         <li><span class="iconfont icon-help"></span>帮助</li>
@@ -60,16 +71,22 @@
           </div>
           <van-slider
             v-model="value"
+            min="1"
             active-color="#fc6454"
             inactive-color="#999"
             @change="onChange"
+            @click="estop($event)"
           >
             <template #button>
               <div class="custom-button"></div>
             </template>
           </van-slider>
-          <div class="right" v-if="this.chapter[0]">
-            <span>1/{{ this.chapter[0].end_var }}</span>
+          <div class="right" v-if="chapter[0]">
+            <span
+              >{{ start == 0 ? start + 1 : start }}/{{
+                chapter[0].end_var
+              }}</span
+            >
             <van-icon name="arrow" />
           </div>
         </div>
@@ -101,7 +118,7 @@
             <span>亮度</span>
           </van-tabbar-item>
           <van-tabbar-item
-            @click.stop="
+            @click="
               toggle = toggle;
               show = !show;
             "
@@ -112,18 +129,44 @@
         </div>
       </van-tabbar>
     </transition>
-
+    <!--  position="top" -->
+    <!-- 目录弹出层 -->
     <van-popup
+      class="menu"
       v-model="show"
       position="right"
-      :style="{ width: '30%', height: '100%' }"
-    />
+      :style="{ width: '35%', height: '100%' }"
+    >
+      <!-- :style="{ width: '35%', height: '100%' }" -->
+      <div class="top">
+        <p><span class="iconfont icon-quanji"></span>全集</p>
+        <p><span class="iconfont icon-zhengxu"></span>正序</p>
+      </div>
+      <ul class="lists">
+        <li
+          v-for="(list, index) in chapter_list"
+          :key="list.chapter_name"
+          :class="{ liActive: liActive == list.chapter_id }"
+          @click.stop="
+            liActive = chapter_list[index].chapter_id;
+            toggleChapter(list.chapter_id);
+          "
+        >
+          {{ list.chapter_name }}
+          {{ list.chapter_title }}
+        </li>
+      </ul>
+      <div class="bottom">
+        <p><span class="iconfont icon-plus"></span>添加</p>
+        <p><span class="iconfont icon-shuqian"></span>书签</p>
+      </div>
+    </van-popup>
   </div>
 </template>
 
 <script>
 import ReadNav from '@/components/ReadNav';
-import { Toast } from 'vant';
+// import { Toast } from 'vant';
 export default {
   components: {
     ReadNav
@@ -131,13 +174,19 @@ export default {
   data() {
     return {
       active: 0,
+      liActive: this.$route.query.chapter_id,
       toggle: true,
       i: 0,
-      value: 0,
+      value: 1,
       scrollTop: null,
       flag: false,
       show: false,
-      showOmit: false
+      showOmit: false,
+      start: 1,
+      chapter_id: this.$route.query.chapter_id,
+      comicChapterRecord: localStorage.comicChapterRecord
+        ? JSON.parse(localStorage.comicChapterRecord)
+        : []
     };
   },
   mounted() {
@@ -152,11 +201,45 @@ export default {
     this.$store.dispatch('getChapter_addr', this.$route.query.id);
   },
   computed: {
-    chapter() {
+    chapter: {
       // console.log(this.$route.query.chapter_id);
-      return this.$store.state.chapter.filter(item => {
-        return item.chapter_id == this.$route.query.chapter_id;
-      });
+      get() {
+        return this.$store.state.chapter.filter(item => {
+          return item.chapter_id == this.chapter_id;
+        });
+      },
+      set(newValue) {
+        console.log(newValue);
+        this.chapter_id = newValue[0].chapter_id;
+        // this.$route.query.chapter_id = newValue[0].chapter_id;
+        this.$router.push({
+          path: '/read',
+          query: {
+            id: this.$route.query.id,
+            chapter_id: newValue[0].chapter_id
+          }
+        });
+        this.comicChapterRecord = this.comicChapterRecord.filter(item => {
+          return item.id != this.$route.query.id;
+        });
+
+        this.comicChapterRecord.push({
+          id: this.$route.query.id,
+          chapter_id: newValue[0].chapter_id,
+          chapter_name: newValue[0].chapter_name
+        });
+        localStorage.comicChapterRecord = JSON.stringify(
+          this.comicChapterRecord
+        );
+
+        this.$router.go(0);
+      }
+    },
+    chapter_list() {
+      return this.$store.state.chapter;
+      // .map(item => {
+      //   return item.chapter_name;
+      // });
     },
     chapterHighUrl() {
       let chapterList = [];
@@ -214,9 +297,9 @@ export default {
       }
     },
     autoPLay() {
-      console.log(this.$refs.imgOffsetHight.offsetHeight);
+      // console.log(this.$refs.imgOffsetHight.offsetHeight);
       this.timer2 ? clearTimeout(this.timer2) : null;
-      console.log(this.flag);
+      // console.log(this.flag);
       if (this.flag) {
         if (this.scrollTop < this.$refs.imgOffsetHight.offsetHeight) {
           this.timer = setInterval(() => {
@@ -255,9 +338,18 @@ export default {
       }
     },
     onChange(value) {
-      Toast(value);
-      let res = (value / 100) * this.$refs.imgOffsetHight.offsetHeight;
-      document.body.scrollTo({ top: res, behavior: 'smooth' });
+      // Toast(value);
+      // console.log(value);
+      if (value > 0) {
+        this.start = parseInt((value / 100) * this.chapter[0].end_var);
+        let res = (value / 100) * this.$refs.imgOffsetHight.offsetHeight;
+        document.body.scrollTo({ top: res, behavior: 'smooth' });
+      }
+    },
+    toggleChapter(id) {
+      this.chapter = this.$store.state.chapter.filter(item => {
+        return item.chapter_id == id;
+      });
     }
   }
 };
@@ -377,6 +469,47 @@ export default {
       font-size: 20px;
       padding: 0 25px 0 10px;
       transform: translateY(25%);
+    }
+  }
+}
+.van-popup.menu {
+  background-color: transparent;
+  .top,
+  .bottom {
+    display: flex;
+    color: #fff;
+    // text-align: center;
+    p {
+      height: 30px;
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: rgba(0, 0, 0, 0.8);
+    }
+    .iconfont {
+      font-size: 18px;
+      margin-right: 5px;
+      &.icon-zhengxu,
+      &.icon-shuqian {
+        font-size: 16px;
+      }
+    }
+  }
+  .lists {
+    background-color: rgba(0, 0, 0, 0.4);
+    li {
+      text-indent: 1em;
+      height: 40px;
+      line-height: 40px;
+      overflow: hidden;
+      white-space: nowrap;
+      color: #f5f5f5;
+      text-overflow: ellipsis;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    .liActive {
+      background-color: #fc6454;
     }
   }
 }

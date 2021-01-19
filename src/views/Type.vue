@@ -73,7 +73,9 @@ export default {
         forbidClick: true
       });
       var that = this;
-      this.axios.get('http://localhost:8080/type.json').then(res => {
+      this.axios.get('/type.json').then(res => {
+        // https://main-globalapi.zymk.cn/app_api/v5/getconfig/?client-channel=store_360&loglevel=3&client-type=android&client-version=5.4.9
+        // http://localhost:8080/type.json
         // console.log(res.data.data.comic_type);
         // console.log(res.data.data.comic_type[0].data);
         this.comic_type = res.data.data.comic_type;

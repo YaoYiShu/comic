@@ -179,7 +179,7 @@ export default {
               this.message
           )
           .then(res => {
-            console.log(res.data.data.page.comic_list);
+            // console.log(res.data.data.page.comic_list);
             this.allMatch = res.data.data.page.comic_list;
             that.$toast.clear();
           });

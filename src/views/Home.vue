@@ -137,7 +137,7 @@ export default {
       height: 30px;
       border-radius: 50%;
       color: #fff;
-      background-color: rgba(0, 0, 0, 0.5);
+      background-color: rgba(0, 0, 0, 0.6);
       z-index: 49;
       display: flex;
       align-items: center;
@@ -148,14 +148,13 @@ export default {
     }
     .my-swipe {
       .van-swipe-item {
-        background-color: rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.4);
         width: 100%;
         color: #fff;
         font-size: 20px;
         height: 52vw;
         text-align: center;
         box-sizing: border-box;
-        // background-image: url('../assets/images/423.jpg');
         background-size: 100%;
         background-position: 0;
       }

@@ -39,7 +39,7 @@ export default {
   props: ['path'],
   methods: {
     toWhere(res) {
-      console.log(res);
+      // console.log(res);
       if (res == '/') {
         this.$root.active = 0;
         this.$router.go(0);

@@ -136,7 +136,7 @@ export default {
             '&client-type=android&productname=zymk&platformname=android&client-channel=store_tencent&loglevel=3&client-version=5.9.0'
         )
         .then(res => {
-          console.log(res.data.data.page.comic_list);
+          // console.log(res.data.data.page.comic_list);
           this.book = res.data.data.page.comic_list;
           that.type = that.sortType[index].title;
           that.$toast.clear();

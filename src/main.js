@@ -22,7 +22,6 @@ Vue.use(Vant, Toast);
 Vue.use(VueJsonp);
 Vue.use(Lazyload, {
   lazyComponent: true,
-  loading: 'http://localhost:8080/loading.png'
 });
 Vue.config.productionTip = false
 

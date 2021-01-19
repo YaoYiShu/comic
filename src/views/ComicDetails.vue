@@ -2,7 +2,7 @@
   <!--漫画详情-->
   <div class="comic-details">
     <!-- 先占位 -->
-    <details-nav :name="comicInfo.comic_name"></details-nav>
+    <details-nav :name="comicInfo.comic_name" :path="path"></details-nav>
     <div class="thumb">
       <div class="info">
         <!-- 背景模糊 -->
@@ -264,7 +264,8 @@ export default {
       isUp: false,
       comicChapterRecord: localStorage.comicChapterRecord
         ? JSON.parse(localStorage.comicChapterRecord)
-        : []
+        : [],
+      path: ''
     };
   },
   created() {
@@ -329,9 +330,11 @@ export default {
     onClick(name) {
       // console.log(name);
       this.$refs.swiper.swipeTo(name);
+      document.body.scrollTo({ top: 0, behavior: 'smooth' });
     },
     // 滑动时更改点击tab
     onChange(index) {
+      // document.body.scrollTo({ top: 0, behavior: 'smooth' });
       this.$refs.tabs.scrollTo(index);
       if (index === 1) {
         this.$refs.catalogue.style.position = 'relative';
@@ -515,17 +518,29 @@ export default {
         }
       });
 
-      this.comicChapterRecord = this.comicChapterRecord.filter(item => {
-        return item.id != this.$route.query.id;
-      });
+      // this.comicChapterRecord = this.comicChapterRecord.filter(item => {
+      //   return item.id != this.$route.query.id;
+      // });
 
-      this.comicChapterRecord.push({
-        id: this.$route.query.id,
-        chapter_id: this.id,
-        chapter_name: this.chapter[0].chapter_name
-      });
-      this.savaLocal();
+      let flag = this.comicChapterRecord.find(
+        item => item.id == this.$route.query.id
+      );
+
+      if (!flag) {
+        this.comicChapterRecord.push({
+          id: this.$route.query.id,
+          chapter_id: this.id,
+          chapter_name: this.chapter[0].chapter_name
+        });
+        this.savaLocal();
+      }
     }
+  },
+  beforeRouteEnter(to, from, next) {
+    // console.log(to, from);
+    next(vm => {
+      vm.path = from.path;
+    });
   }
 };
 </script>

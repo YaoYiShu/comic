@@ -6,6 +6,41 @@
   "description": "",
   "glyphs": [
     {
+      "icon_id": "2495543",
+      "name": "全集",
+      "font_class": "quanji",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "5324518",
+      "name": "正序",
+      "font_class": "zhengxu",
+      "unicode": "e609",
+      "unicode_decimal": 58889
+    },
+    {
+      "icon_id": "11930167",
+      "name": "添加",
+      "font_class": "plus",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "14005418",
+      "name": "书签",
+      "font_class": "shuqian",
+      "unicode": "e60d",
+      "unicode_decimal": 58893
+    },
+    {
+      "icon_id": "19044212",
+      "name": "反序",
+      "font_class": "fanxu",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
       "icon_id": "8773189",
       "name": "反馈",
       "font_class": "feedback",

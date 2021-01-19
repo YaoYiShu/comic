@@ -1,7 +1,7 @@
 <template>
   <div class="details-nav">
     <div class="box" :style="{ opacity: opacity }">
-      <van-button @click="$router.go(-1)">
+      <van-button @click.stop="toWhere(path)">
         <span class="iconfont icon-xiangzuofanhui"></span>
       </van-button>
       <h3>{{ name }}</h3>
@@ -11,7 +11,7 @@
       </div>
     </div>
 
-    <van-button @click="$router.go(-1)">
+    <van-button @click="toWhere(path)">
       <span class="iconfont icon-xiangzuofanhui"></span>
     </van-button>
     <div class="right">
@@ -23,7 +23,7 @@
 
 <script>
 export default {
-  props: ['name'],
+  props: ['name', 'path'],
   created() {
     window.addEventListener('scroll', this.handleScroll, true);
   },
@@ -49,6 +49,13 @@ export default {
 
       if (scrollTop == 0) {
         this.opacity = 0;
+      }
+    },
+    toWhere(path) {
+      if (path == '/read') {
+        this.$router.push('/');
+      } else {
+        this.$router.go(-1);
       }
     }
   }
