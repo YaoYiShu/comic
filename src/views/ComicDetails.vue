@@ -2,17 +2,17 @@
   <!--漫画详情-->
   <div class="comic-details">
     <!-- 先占位 -->
-    <details-nav :name="comicInfo.comic_name" :path="path"></details-nav>
+    <details-nav
+      :name="comicInfo.comic_name"
+      :path="path"
+      :comicInfo="comicInfo"
+    ></details-nav>
     <div class="thumb">
       <div class="info">
         <!-- 背景模糊 -->
         <div
           class="mark"
-          :style="
-            'background-image:url(https://image.zymkcdn.com/file/cover/000/00' +
-              formatId($route.query.id) +
-              '.jpg)'
-          "
+          :style="{ backgroundImage: 'url(' + bgImg + ')' }"
         ></div>
       </div>
       <!-- 图像缩略图 -->
@@ -29,7 +29,7 @@
       <h1>{{ comicInfo.comic_name }}</h1>
       <!-- 作者 -->
       <span>{{ comicInfo.author_name }}</span>
-      <p>
+      <p v-if="color.length > 0">
         <!-- 标签 -->
         <!-- :color="color[index % color.length]" -->
         <van-tag
@@ -176,7 +176,11 @@
             </div>
             <div
               class="button"
-              v-if="comicInfo.chapter_list.length >= 12 ? true : false"
+              v-if="
+                comicInfo.chapter_list && comicInfo.chapter_list.length >= 12
+                  ? true
+                  : false
+              "
             >
               <span @click.self="toggle()">查看全部</span>
             </div>
@@ -255,6 +259,7 @@ export default {
   data() {
     return {
       currentChapter: [],
+      defImg: 'https://m.zymk.cn/static/images/default/loading.png',
       comicInfo: [],
       isComicDetails: true,
       color: ['#c78590', '#f3bd7e', '#6ec4e9', '#66c9bb', '#9b9bd5'],
@@ -282,12 +287,28 @@ export default {
   computed: {
     ucomicInfo() {
       return this.comicInfo.chapter_list.slice().reverse();
+    },
+    bgImg() {
+      // console.log(this.formatId(this.$route.query.id));
+      if (this.$route.query.id) {
+        return (
+          'https://image.zymkcdn.com/file/cover/000/00' +
+          this.formatId(this.$route.query.id) +
+          '.jpg'
+        );
+      } else {
+        return this.defImg;
+      }
     }
   },
   mounted() {
     this.getComicInfo();
-    this.$refs.tabs.scrollTo(1);
-    this.$refs.swiper.swipeTo(1);
+    // this.$refs.tabs.scrollTo(1);
+    // this.$refs.swiper.swipeTo(1);
+    if (this.$refs.swiper && this.$refs.tabs) {
+      this.$refs.tabs.scrollTo(1);
+      this.$refs.swiper.swipeTo(1);
+    }
   },
   activated() {
     this.getComicInfo();
@@ -370,7 +391,7 @@ export default {
     },
     formatId(id) {
       if (id) {
-        // id = id.toString();
+        id = id.toString();
         if (id.length == 4) {
           return id.substr(0, 1) + '/' + id.substr(1, id.length);
         } else if (id.length == 1) {
@@ -624,6 +645,8 @@ export default {
         -webkit-transform: translateZ(0);
         transform: translateZ(0);
         opacity: 0.5 !important;
+        background-position: 50%;
+        background-size: cover;
       }
     }
   }

@@ -145,7 +145,7 @@
       <ul class="lists">
         <li
           v-for="(list, index) in chapter_list"
-          :key="list.chapter_name"
+          :key="index"
           :class="{ liActive: liActive == list.chapter_id }"
           @click.stop="
             liActive = chapter_list[index].chapter_id;

@@ -97,19 +97,12 @@ export default {
       currentIndex: 1
     };
   },
-  created() {
-    // this.getFansList();
-    // console.log(this.$route.query.id);
-  },
   mounted() {
     this.$store.dispatch('getFansList', {
       id: this.$route.query.id,
       num: 10,
       currentIndex: this.currentIndex
     });
-  },
-  activated() {
-    // this.getFansList();
   },
   computed: {
     ufansLists() {
@@ -123,27 +116,6 @@ export default {
     }
   },
   methods: {
-    // getFansList() {
-    //   this.axios
-    //     .get(
-    //       'https://api.zymk.cn/app_api/v5/gift_effectslist/?comic_id=' +
-    //         this.$route.query.id +
-    //         '&rows=10&page=' +
-    //         this.currentIndex +
-    //         ''
-    //     )
-    //     .then(res => {
-    //       console.log(res.data.data);
-    //       this.fansLists = res.data.data.map(item => {
-    //         return {
-    //           formatUid: this.formatUid(item.uid),
-    //           uname: item.uname,
-    //           amount: item.amount
-    //         };
-    //       });
-    //       // console.log(this.fansLists);
-    //     });
-    // },
     formatUid(id) {
       // console.log('formatUid', id);
       if (id) {

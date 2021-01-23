@@ -24,7 +24,6 @@ export default {
     };
   },
   mounted() {
-    console.log(this.$route.query.id);
     this.$store.dispatch('getFansList', {
       id: this.$route.query.id,
       num: 40,

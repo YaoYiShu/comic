@@ -8,3 +8,7 @@
 //     proxy: null
 //   },
 // };
+
+module.exports = {
+  publicPath: ''
+}

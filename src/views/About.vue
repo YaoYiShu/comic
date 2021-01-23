@@ -7,7 +7,7 @@
           <div class="avator-box" @click.stop="$router.push('about/modify')">
             <div class="avator">
               <img
-                src="//image.zymkcdn.com/file/head/028/356/222.jpg-100x100"
+                src="http://image.zymkcdn.com/file/head/028/356/222.jpg-100x100"
                 alt=""
               />
             </div>
@@ -68,7 +68,9 @@
                 <span>{{ item }}</span>
               </li>
             </ul>
-            <div class="more">更多</div>
+            <div class="more">
+              {{ collectRecords.length }}<van-icon name="arrow" />
+            </div>
           </div>
           <van-swipe
             class="my-swipe"
@@ -80,8 +82,35 @@
           >
             <van-swipe-item>
               <div class="history">
-                <span class="iconfont icon-xiaoniao"></span>
-                <span>暂无数据</span>
+                <template v-if="collectRecords.length == 0">
+                  <span class="iconfont icon-xiaoniao"></span>
+                  <span>暂无数据</span>
+                </template>
+                <ul v-if="collectRecords.length > 0">
+                  <li
+                    v-for="(item, index) in collectRecords.slice(0, 3)"
+                    :key="item.comic_id"
+                  >
+                    <VanImage
+                      :item="item"
+                      :index="index"
+                      :score="item.score"
+                    ></VanImage>
+                    <h3>{{ item.comic_name }}</h3>
+                  </li>
+                  <li
+                    v-if="collectRecords.length == 2"
+                    class="app-empty-item"
+                  ></li>
+                  <li
+                    class="app-empty-item"
+                    v-if="collectRecords.length == 1"
+                  ></li>
+                  <li
+                    class="app-empty-item"
+                    v-if="collectRecords.length == 1"
+                  ></li>
+                </ul>
               </div>
             </van-swipe-item>
             <van-swipe-item>
@@ -146,20 +175,26 @@
 <script>
 import FooterBar from '@/components/FooterBar';
 import Type from '../views/Type';
+import VanImage from '@/components/VanImage';
 export default {
   components: {
     FooterBar,
-    Type
+    Type,
+    VanImage
   },
   data() {
     return {
       active: 0,
       toggle: true,
-      title: ['订阅', '历史']
+      title: ['订阅', '历史'],
+      collectRecords: []
     };
   },
   created() {
     window.addEventListener('scroll', this.handleScroll, true);
+    this.collectRecords = localStorage.collectRecords
+      ? JSON.parse(localStorage.collectRecords)
+      : [];
   },
   methods: {
     onChange(name) {
@@ -313,6 +348,11 @@ export default {
         width: 80px;
         padding-right: 15px;
         line-height: 44px;
+        text-align: right;
+        font-size: 14px;
+        .van-icon {
+          transform: translateY(15%);
+        }
       }
     }
     .van-swipe {
@@ -320,11 +360,12 @@ export default {
       background-color: #f5f5f5;
       .van-swipe-item {
         background-color: #fff;
-        height: 202px;
+        min-height: 180px;
         .history {
           font-size: 12px;
+          min-height: 180px;
+          // transform: translateY(50%);
           width: 100%;
-          height: 100%;
           display: flex;
           flex-flow: column;
           justify-content: center;
@@ -370,6 +411,35 @@ export default {
     text-align: center;
     line-height: 44px;
     // margin-bottom: 70px;
+  }
+  .history {
+    ul {
+      padding: 10px 10px;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      text-align: center;
+      li {
+        flex: 1 1 calc(100% / 3 - 20px);
+        // background-color: aqua;
+        &:nth-of-type(2n + 2) {
+          margin: 0 10px;
+        }
+        h3 {
+          height: 18px;
+          font-size: 12px;
+          text-overflow: ellipsis;
+          display: -webkit-box;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+      }
+      .app-empty-item {
+        cursor: default;
+        height: 0;
+        margin: 0;
+      }
+    }
   }
 }
 </style>

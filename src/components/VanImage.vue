@@ -15,11 +15,9 @@
     <van-image
       :class="{ more: ismore }"
       :src="
-        item.comic_id
-          ? 'https://image.zymkcdn.com/file/cover/000/00' +
-            formatId(item.comic_id) +
-            '.jpg-300x400'
-          : loading
+        'https://image.zymkcdn.com/file/cover/000/00' +
+          formatId(item.comic_id) +
+          '.jpg-300x400'
       "
     >
       <!-- loading-icon="../assets/images/error.png" -->
@@ -33,9 +31,9 @@
       <span class="icon-xing" v-if="book">{{
         book.comic_info[index].pingfen | pingfen
       }}</span>
-      <span v-if="!ismore && !isComicDetails" class="chapter"
+      <!-- <span v-if="!ismore && !isComicDetails" class="chapter"
         >{{ item.last_comic_chapter_name }}
-      </span>
+      </span> -->
       <span v-if="!ismore && item.last_chapter" class="chapter">{{
         item.last_comic_chapter_name || item.last_chapter.name
       }}</span>

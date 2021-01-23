@@ -50,7 +50,7 @@ export default new Vuex.Store({
     slideListAsync(context) {
       axios
         .get(
-          '/data.json'
+          'https://api.kele8.cn/agent/http://47.96.158.147/json/suggest/comic_json_v8_68_1'
         )
         .then(res => {
           // this.slideList = res.data.data.slide_list;

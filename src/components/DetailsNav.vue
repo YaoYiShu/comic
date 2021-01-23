@@ -6,7 +6,13 @@
       </van-button>
       <h3>{{ name }}</h3>
       <div class="box-right">
-        <van-icon :name="!like ? 'like-o' : 'like'" @click="like = !like" />
+        <van-icon
+          :name="!like ? 'like-o' : 'like'"
+          @click="
+            like = !like;
+            hangle();
+          "
+        />
         <van-icon name="comment-o" />
       </div>
     </div>
@@ -15,24 +21,48 @@
       <span class="iconfont icon-xiangzuofanhui"></span>
     </van-button>
     <div class="right">
-      <van-icon :name="!like ? 'like-o' : 'like'" @click="like = !like" />
+      <van-icon
+        :name="!like ? 'like-o' : 'like'"
+        @click="
+          like = !like;
+          hangle();
+        "
+      />
       <van-icon name="comment-o" />
     </div>
   </div>
 </template>
 
 <script>
+import { Toast } from 'vant';
 export default {
-  props: ['name', 'path'],
+  props: ['name', 'path', 'comicInfo'],
   created() {
     window.addEventListener('scroll', this.handleScroll, true);
+    // console.log(typeof JSON.parse(localStorage.collectRecords));
+
+    // let flag = JSON.parse(localStorage.collectRecords).find(
+    //   item => item.comic_id == this.$route.query.id
+    // );
+    // console.log(flag);
+    this.collectRecords = localStorage.collectRecords
+      ? JSON.parse(localStorage.collectRecords)
+      : [];
   },
   data() {
     return {
-      like: false,
-      opacity: 0
+      like: localStorage.collectRecords
+        ? Boolean(
+            JSON.parse(localStorage.collectRecords).find(
+              item => item.comic_id == this.$route.query.id
+            )
+          )
+        : false,
+      opacity: 0,
+      collectRecords: []
     };
   },
+
   methods: {
     handleScroll() {
       let scrollTop =
@@ -57,6 +87,21 @@ export default {
       } else {
         this.$router.go(-1);
       }
+    },
+    hangle() {
+      if (this.like) {
+        Toast.success('收藏成功');
+        this.collectRecords.push(this.comicInfo);
+      } else {
+        Toast.fail('已取消收藏');
+        this.collectRecords = this.collectRecords.filter(item => {
+          return item.comic_id != this.$route.query.id;
+        });
+      }
+      this.saveLocal();
+    },
+    saveLocal() {
+      localStorage.collectRecords = JSON.stringify(this.collectRecords);
     }
   }
 };

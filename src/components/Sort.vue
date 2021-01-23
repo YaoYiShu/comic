@@ -108,7 +108,7 @@ export default {
             '&topnum=30&client-type=android&productname=zymk&platformname=android&client-channel=store_tencent&loglevel=3&client-version=5.9.0'
         )
         .then(res => {
-          console.log(res.data.data.data);
+          // console.log(res.data.data.data);
           that.lists = res.data.data.data;
           that.book = that.lists[0].list;
           that.type = that.lists[0].title;
